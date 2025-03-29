@@ -10,10 +10,16 @@ app = FastAPI()
 def read_root():
     return {"Hello": "World"}
 
-@app.get("/rant")
-def read_rant():
-    return models.generate_mock_rant()
+@app.get("/rants")
+def read_rants():
+    rants = [models.generate_mock_rant(), models.generate_mock_rant()]
+    return rants
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+@app.post("/rants/")
+def create_item(item: models.RantModel):
+    return item
+
+@app.get("/rants/{rant_id}")
+def read_item(rant_id: int, q: Union[str, None] = None):
+    rant = models.generate_mock_rant()
+    return rant
