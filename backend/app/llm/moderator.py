@@ -25,45 +25,48 @@ class ContentModerator:
 
     def load_rant(self, rant_data: Dict) -> RantModel:
         """Convert raw rant data into a RantModel instance."""
+        
         # Handle location data
-        if "lat" in rant_data and "lon" in rant_data:
-            location = LocationModel(
-                lat=rant_data["lat"],
-                lon=rant_data["lon"]
-            )
-        else:
-            raise ValueError("Rant must include location data (lat, lon)")
-
+        location = LocationModel(
+            **rant_data["location"]
+        )
+       
         # Handle votes data
         votes = VotableModel(
-            nLike=rant_data.get("nLike", 0),
-            nDislike=rant_data.get("nDislike", 0)
+            **rant_data["votes"]
         )
 
         # Handle time data
-        now = datetime.utcnow()
         time = TimeModel(
-            created_at=rant_data.get("timestamp", now),
-            updated_at=now
+            **rant_data["time"]
         )
 
         # Create RantModel instance
+        kwargs = {k: v for k, v in rant_data.items() if k not in {"location", "votes", "time"}}
         return RantModel(
-            id=rant_data.get("id", uuid.uuid4()),
-            title=rant_data["title"],
-            body=rant_data["body"],
-            categ=rant_data["category"],
             location=location,
             votes=votes,
             time=time,
-            reply=[]  # Initialize with empty replies
+            **kwargs
         )
-
-    def moderate_rant(self, rant: RantModel) -> Tuple[bool, bool]:
+    
+    def load_reply(self, reply_data: Dict) -> RantModel:
+        kwargs = {k: v for k, v in reply_data.items() if k not in {"votes", "time"}}
+        return ReplyModel(
+            votes=VotableModel(**reply_data["votes"]),
+            time=TimeModel(
+                **reply_data["time"]
+            ),
+            **kwargs
+        )
+        
+    def moderate_rant(self, rant_data) -> Tuple[bool, bool]:
         """
         Check if a rant is safe and appropriate.
         Returns a Tuple of (body_is_flagged, title_is_flagged).
         """
+        # load rant
+        rant = self.load_rant(rant_data)
         # moderate title
         title_moderation = client.moderations.create(
             model="omni-moderation-latest",
@@ -73,26 +76,24 @@ class ContentModerator:
             model="omni-moderation-latest",
             input=rant.body,
         )
-        
-        return body_moderation.results[0].flagged, title_moderation.results[0].flagged
 
-    def moderate_reply(self, reply: ReplyModel) -> bool:
+        return body_moderation.results[0].flagged or title_moderation.results[0].flagged
+
+    def moderate_reply(self, reply_data: Dict) -> bool:
         """
         Check if a reply is safe and appropriate.
         Returns True if the reply is safe, False otherwise.
         """
+        # load reply 
+        reply = self.load_reply(reply_data)
         moderation = client.moderations.create(
             model="omni-moderation-latest",
             input=reply.msg,
         )
-        return not moderation.results[0].flagged
-
+        return moderation.results[0].flagged
 
 # Example usage
 if __name__ == "__main__":
-    import json
-    from datetime import datetime
-
     # Initialize moderator
     moderator = ContentModerator()
 
@@ -103,7 +104,7 @@ if __name__ == "__main__":
             {
                 "id": "2a88427c-f0e1-4b66-99fa-267745574f96",
                 "rantId": "5cf75dfb-b18d-46eb-8083-05166df75451",
-                "msg": "I know mine too!",
+                "msg": "It is a bad pot hole!",
                 "votes": {
                     "nLike": 0,
                     "nDislike": 0
@@ -116,7 +117,7 @@ if __name__ == "__main__":
             {
                 "id": "310acf65-d646-49a2-9cdf-b47e8ed0c75b",
                 "rantId": "7f0d0cfa-0922-4cb6-bb83-5c517d3fb849",
-                "msg": "You should watch the road when you drive.",
+                "msg": "You should watch the road when you drive",
                 "votes": {
                     "nLike": 0,
                     "nDislike": 0
@@ -144,35 +145,11 @@ if __name__ == "__main__":
         }
     }
 
-    # Convert the mock data into our input format
-    rant_data = {
-        "title": mock_data["title"],
-        "body": mock_data["body"],
-        "lat": mock_data["location"]["lat"],
-        "lon": mock_data["location"]["lon"],
-        "nLike": mock_data["votes"]["nLike"],
-        "nDislike": mock_data["votes"]["nDislike"],
-        "timestamp": datetime.fromisoformat(mock_data["time"]["created_at"]),
-        "id": mock_data["id"],
-        "category": mock_data["categ"]
-    }
-
     # Process rant
-    rant = moderator.load_rant(rant_data)
-    body_is_flagged, title_is_flagged = moderator.moderate_rant(rant)
-    print(f"body_is_flagged: {body_is_flagged}, title_is_flagged: {title_is_flagged}")
+    rant_is_flagged = moderator.moderate_rant(mock_data)
+    print(f"rant_is_flagged: {rant_is_flagged}")
 
     # Process each reply from the mock data
     for reply_data in mock_data["reply"]:
-        reply = ReplyModel(
-            id=uuid.UUID(reply_data["id"]),
-            rantId=uuid.UUID(reply_data["rantId"]),
-            msg=reply_data["msg"],
-            votes=VotableModel(**reply_data["votes"]),
-            time=TimeModel(
-                created_at=datetime.fromisoformat(reply_data["time"]["created_at"]),
-                updated_at=datetime.fromisoformat(reply_data["time"]["updated_at"])
-            )
-        )
-        reply_is_flagged = moderator.moderate_reply(reply)
-        print(f"Reply '{reply.msg}' is_flagged: {not reply_is_flagged}")
+        reply_is_flagged = moderator.moderate_reply(reply_data)
+        print(f"Reply is_flagged: {reply_is_flagged}")
