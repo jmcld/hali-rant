@@ -24,9 +24,7 @@ app = FastAPI()
 client = gel.create_client()
 
 origins = [
-    "http://localhost",
-    "http://localhost:8080",
-    "http://localhost:8000",
+    "*"
 ]
 
 app.add_middleware(
