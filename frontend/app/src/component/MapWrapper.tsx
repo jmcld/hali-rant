@@ -1,4 +1,5 @@
 import { MapContainer, TileLayer, useMapEvents } from "react-leaflet";
+
 import "leaflet/dist/leaflet.css";
 import styled from "styled-components";
 
@@ -10,20 +11,19 @@ const MapWrapper = styled.div`
   left: 0;
 `;
 
-// Component to handle map clicks
-const MapClickHandler = () => {
-  useMapEvents({
-    click: (e) => {
-      console.log("Clicked at:", e.latlng);
-    },
-  });
-  return null;
-};
-
-const Map = () => {
+const Map = (props: { ClickHandler: (latlng: any) => void }) => {
   // Halifax coordinates
   const defaultCenter = [44.6488, -63.5752];
   const defaultZoom = 13;
+
+  const MapClickHandler = () => {
+    useMapEvents({
+      click: (e) => {
+        props.ClickHandler(e.latlng);
+      },
+    });
+    return null;
+  };
 
   // Halifax region bounds
   const bounds = [
