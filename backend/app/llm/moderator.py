@@ -5,8 +5,7 @@ import sys
 import os
 
 # Add the parent directory to the Python path
-# sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), "data-model"))
-from .models.models import RantModel, LocationModel, ReplyModel, VotableModel, TimeModel
+from backend.app.models.models import RantModel, LocationModel, ReplyModel, VotableModel, TimeModel
 
 from dotenv import load_dotenv
 from openai import OpenAI
