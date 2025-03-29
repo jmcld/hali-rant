@@ -29,14 +29,14 @@ class ReplyModel(BaseModel):
 
 
 class RantModel(BaseModel):
-    id: uuid.UUID
+    id: Optional[uuid.UUID]
     replies: Optional[List[ReplyModel]] = None
     title: str
     body: str
     categ: str
-    votes: VotableModel
+    votes: Optional[VotableModel]
     location: LocationModel
-    time: TimeModel
+    time: Optional[TimeModel]
 
 
 def generate_mock_rant():
