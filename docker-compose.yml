@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+
+  db:
+    image: geldata/gel:latest
+    ports:
+      - "5656:5656"
+    environment:
+      - GEL_SERVER_PASSWORD=secret
+      - GEL_SERVER_TLS_CERT_MODE=generate_self_signed
+    # FIXME: Enable this later
+    # volumes:
+    #   - /my/data/directory:/var/lib/gel/data
+    restart: unless-stopped
+  
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    ports:
+      - "8000:8765"
+    restart: unless-stopped
+    
+  # TODO: Flesh this out once it exists
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "something:somethingElse"
+
+
+  
+# FIXME: Enable this later
+# volumes:
+#   db_data:
