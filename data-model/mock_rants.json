@@ -1,0 +1,5573 @@
+[
+  {
+    "id": "38ad8e24-3aec-41f9-9742-c23b51d1c781",
+    "reply": [
+      {
+        "id": "746f5262-a28d-4c90-b560-1f5bcdf37169",
+        "rantId": "38ad8e24-3aec-41f9-9742-c23b51d1c781",
+        "msg": "Harborview Avenue might be nice, but there are many potholes along Beacon Hill Drive and traffic jams near Peninsula Drive.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:03.060740",
+          "updated_at": "2025-03-29T16:58:03.060740"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "82fb836d-7892-4dc3-8673-548126994b53",
+        "rantId": "38ad8e24-3aec-41f9-9742-c23b51d1c781",
+        "msg": "Harborview Ave is scenic, but the potholes near Beacon Hill Dr. ruin the drive. Try Mariners Way instead.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:03.579698",
+          "updated_at": "2025-03-29T16:58:03.579698"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Sailing on Harborview Avenue",
+    "body": "Harborview Avenue is a smooth and scenic drive from Beacon Hill Drive to Sailors' Cove Park. The well-maintained road offers a peaceful commute with beautiful views of the harbor.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 29,
+      "nDislike": 17
+    },
+    "location": {
+      "lat": 44.62835556991465,
+      "lon": -63.556571638011604
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:03.579698",
+      "updated_at": "2025-03-29T16:58:03.579698"
+    }
+  },
+  {
+    "id": "56969d6a-bdd6-44f0-9960-fd1bc5b59ed9",
+    "reply": [
+      {
+        "id": "0bdf823a-f7df-4449-8937-77cd451acc1a",
+        "rantId": "56969d6a-bdd6-44f0-9960-fd1bc5b59ed9",
+        "msg": "I disagree, I haven't had any issues on Harbor View Road. Maybe you are thinking of Dockside Avenue near Clipper Cove - that's rough!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:05.492412",
+          "updated_at": "2025-03-29T16:58:05.492412"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "1da4c49b-0c60-478d-8ca5-c25f5a13d5e5",
+        "rantId": "56969d6a-bdd6-44f0-9960-fd1bc5b59ed9",
+        "msg": "I disagree, the potholes on Harbor View Road aren't that bad. It's way worse on Anchor Street near Mariners Way!",
+        "votes": {
+          "nLike": 2,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:06.058041",
+          "updated_at": "2025-03-29T16:58:06.058041"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "615ca188-2379-4e29-804b-3d8fe930e075",
+        "rantId": "56969d6a-bdd6-44f0-9960-fd1bc5b59ed9",
+        "msg": "I disagree, Harbor View Road near Lighthouse Lane is actually well-maintained. Maybe Shipyard Square needs attention.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:06.716018",
+          "updated_at": "2025-03-29T16:58:06.716018"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "364ff7ac-c679-499a-be9b-ae773e032a77",
+        "rantId": "56969d6a-bdd6-44f0-9960-fd1bc5b59ed9",
+        "msg": "I totally agree, the potholes near Shipyard Square on Harbor View Road are atrocious. It's like an off-road adventure!",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:07.268119",
+          "updated_at": "2025-03-29T16:58:07.268119"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes Plague Harbor View Road",
+    "body": "The city needs to fix the potholes on Harbor View Road near Shipyard Square! It's a bumpy nightmare every time I drive through there.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 43,
+      "nDislike": 36
+    },
+    "location": {
+      "lat": 44.64017859685329,
+      "lon": -63.60168083927923
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:07.268119",
+      "updated_at": "2025-03-29T16:58:07.268119"
+    }
+  },
+  {
+    "id": "fcb42bec-4655-4a35-a9a5-598f67b50d5e",
+    "reply": [
+      {
+        "id": "97f50f94-fc26-47cc-8928-bfbbb696f4a4",
+        "rantId": "fcb42bec-4655-4a35-a9a5-598f67b50d5e",
+        "msg": "I hear you! That intersection is a mess. Morningside Drive always gets the green light first. It's frustrating.",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:08.992209",
+          "updated_at": "2025-03-29T16:58:08.992209"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "53df00cd-ac13-4ff2-b1db-cb8c40215061",
+        "rantId": "fcb42bec-4655-4a35-a9a5-598f67b50d5e",
+        "msg": "I know right? Cherrywood & Willowdale is a mess. Morningside always gets the green light!",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:09.430606",
+          "updated_at": "2025-03-29T16:58:09.430606"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b6237893-078b-4cb4-9b04-934ef98e9917",
+        "rantId": "fcb42bec-4655-4a35-a9a5-598f67b50d5e",
+        "msg": "I hear you! Cherrywood Ave and Willowdale St intersection is a mess. It feels like Morningside Dr gets all the green lights!",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:09.962967",
+          "updated_at": "2025-03-29T16:58:09.962967"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a5b1c180-41f1-4b2c-8843-cf26c002e1b5",
+        "rantId": "fcb42bec-4655-4a35-a9a5-598f67b50d5e",
+        "msg": "Sorry, but I rarely face gridlock at Cherrywood and Willowdale. The lights seem evenly timed to me.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:10.819044",
+          "updated_at": "2025-03-29T16:58:10.819044"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Cherrywood Avenue: Traffic Light Nightmare",
+    "body": "I'm tired of the constant gridlock at Cherrywood Avenue and Willowdale Street. Why does the traffic light always favor Morningside Drive? It's a nightmare!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 29,
+      "nDislike": 76
+    },
+    "location": {
+      "lat": 44.58411045347351,
+      "lon": -63.66189246131923
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:10.819044",
+      "updated_at": "2025-03-29T16:58:10.819044"
+    }
+  },
+  {
+    "id": "387a16cf-782b-4530-a8e9-8a50d8401cf6",
+    "reply": [
+      {
+        "id": "9f0a8ec3-2b2e-4946-b212-9c31258456de",
+        "rantId": "387a16cf-782b-4530-a8e9-8a50d8401cf6",
+        "msg": "I totally feel your frustration! The city needs to step up and patch those potholes on Seaview Avenue near Mermaid Bay Drive.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:12.490132",
+          "updated_at": "2025-03-29T16:58:12.490132"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8f84e007-96f2-4f1a-a9db-e8bb6ca5e8b6",
+        "rantId": "387a16cf-782b-4530-a8e9-8a50d8401cf6",
+        "msg": "I haven't had issues on Seaview Avenue. Maybe city is focusing on Anchor Street instead?",
+        "votes": {
+          "nLike": 18,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:12.945744",
+          "updated_at": "2025-03-29T16:58:12.945744"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "44fcc412-103e-443e-ab22-aaf1bb6cbf19",
+        "rantId": "387a16cf-782b-4530-a8e9-8a50d8401cf6",
+        "msg": "I hear you! Seaview Avenue near Mermaid Bay Drive is a disaster. The city really needs to take action on those potholes.",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:13.509111",
+          "updated_at": "2025-03-29T16:58:13.509111"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "836818d3-db8d-414d-8410-c24935a083fb",
+        "rantId": "387a16cf-782b-4530-a8e9-8a50d8401cf6",
+        "msg": "Sorry to hear about Seaview Avenue, but I haven't noticed any issues near Mariner's Way.",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:14.024796",
+          "updated_at": "2025-03-29T16:58:14.024796"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Pandemonium on Seaview Avenue",
+    "body": "I am tired of dodging potholes on Seaview Avenue near Mermaid Bay Drive! Can't the city fix this unsafe road?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 31,
+      "nDislike": 33
+    },
+    "location": {
+      "lat": 44.58150951101285,
+      "lon": -63.66451038974304
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:14.026813",
+      "updated_at": "2025-03-29T16:58:14.026813"
+    }
+  },
+  {
+    "id": "33082c5b-ca77-4460-8632-cb58040c6a86",
+    "reply": [],
+    "title": "Crater-filled Atlantic Avenue",
+    "body": "I'm sick of dodging potholes on Atlantic Avenue between Harbor View Street and Seafoam Crescent! Fix them already!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 2
+    },
+    "location": {
+      "lat": 44.672916243953,
+      "lon": -63.62611205180351
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:14.944145",
+      "updated_at": "2025-03-29T16:58:14.944145"
+    }
+  },
+  {
+    "id": "d6b67a05-e759-4512-b467-11c56d147c7e",
+    "reply": [
+      {
+        "id": "9a4428eb-8014-4a1c-a6a8-a896d8e33a01",
+        "rantId": "d6b67a05-e759-4512-b467-11c56d147c7e",
+        "msg": "I respectfully disagree. Traffic on Beacon Hill Avenue near Seafarer's Lane is always jammed.",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:16.399679",
+          "updated_at": "2025-03-29T16:58:16.399679"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "e43c6128-2da8-4750-9441-908e28bcd1ed",
+        "rantId": "d6b67a05-e759-4512-b467-11c56d147c7e",
+        "msg": "Absolutely! Harbor View Road is a dream to drive on. Beacon Hill Avenue is a gem too. Halifax traffic at its finest!",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:16.893398",
+          "updated_at": "2025-03-29T16:58:16.893398"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "6e8e856f-98e0-4e17-a509-30f0ae3e4a40",
+        "rantId": "d6b67a05-e759-4512-b467-11c56d147c7e",
+        "msg": "I respectfully disagree. Traffic on Beacon Hill Avenue and Harbor View Road is notorious! Gridlock every evening.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:17.712243",
+          "updated_at": "2025-03-29T16:58:17.712243"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8e5f5b9f-ce04-4855-88eb-f08d840cf21a",
+        "rantId": "d6b67a05-e759-4512-b467-11c56d147c7e",
+        "msg": "Actually, I find Harbor View Road quite congested, especially near Market Square. Gridlock at Beacon Hill Avenue is a daily struggle.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:18.324827",
+          "updated_at": "2025-03-29T16:58:18.324827"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "fd789919-58e1-4654-b054-fac6df953893",
+        "rantId": "d6b67a05-e759-4512-b467-11c56d147c7e",
+        "msg": "Actually, Harbor View Road can get pretty congested, especially near Ocean Breeze Way and Lighthouse Lane. Traffic isn't always smooth there.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:18.845960",
+          "updated_at": "2025-03-29T16:58:18.845960"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Sailing on Harbor View Road",
+    "body": "I love how smoothly traffic flows on Harbor View Road! The intersection at Beacon Hill Avenue is always a breeze to navigate. Keep up the great work, Halifax!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 65,
+      "nDislike": 42
+    },
+    "location": {
+      "lat": 44.67842688832232,
+      "lon": -63.628424103399745
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:18.845960",
+      "updated_at": "2025-03-29T16:58:18.845960"
+    }
+  },
+  {
+    "id": "370a4dd2-3576-4c38-a376-773547386c00",
+    "reply": [
+      {
+        "id": "a9f87dfb-416f-4d42-87af-d202bbb3bcad",
+        "rantId": "370a4dd2-3576-4c38-a376-773547386c00",
+        "msg": "I hear you! Those potholes near Harbourview are the worst. Let's hope they fix them soon.",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:20.283287",
+          "updated_at": "2025-03-29T16:58:20.283287"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b2e23123-a83f-4a5a-b4d5-4fe0f75aeaf6",
+        "rantId": "370a4dd2-3576-4c38-a376-773547386c00",
+        "msg": "Seaview Drive isn't that bad - have you tried navigating Anchor Street lately? Much worse!",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:20.694052",
+          "updated_at": "2025-03-29T16:58:20.694052"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes on Seaview Drive",
+    "body": "I'm fed up with the potholes on Seaview Drive near Harbourview Avenue. It's ruining my tires!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 16,
+      "nDislike": 19
+    },
+    "location": {
+      "lat": 44.60222710254748,
+      "lon": -63.58250527012059
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:20.694052",
+      "updated_at": "2025-03-29T16:58:20.694052"
+    }
+  },
+  {
+    "id": "9e065b4e-820c-4801-bc20-a3e9da242392",
+    "reply": [
+      {
+        "id": "c18fc5b7-6484-4f98-b36f-1457ea29dfdd",
+        "rantId": "9e065b4e-820c-4801-bc20-a3e9da242392",
+        "msg": "I completely agree! The ongoing construction near Seagull Street definitely needs to be resolved soon. It's a nightmare!",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:22.624049",
+          "updated_at": "2025-03-29T16:58:22.624049"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "46f4a2e2-8a17-4bf7-bd02-c80a3b66928b",
+        "rantId": "9e065b4e-820c-4801-bc20-a3e9da242392",
+        "msg": "I disagree; the construction on Seagull Street is crucial for infrastructure. Try using Shoreline Avenue instead for a smoother commute.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:23.197547",
+          "updated_at": "2025-03-29T16:58:23.197547"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Endless Construction on Harbor View Road",
+    "body": "I'm sick of the endless construction on Harbor View Road near Seagull Street. It's causing major traffic delays and frustration for us residents!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 23,
+      "nDislike": 21
+    },
+    "location": {
+      "lat": 44.64185679929953,
+      "lon": -63.61298069807815
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:23.197547",
+      "updated_at": "2025-03-29T16:58:23.197547"
+    }
+  },
+  {
+    "id": "5d81bc9a-20d7-4590-b5b2-e738f0f63b0b",
+    "reply": [],
+    "title": "Unsafe Merge at Oceanview Blvd and Harbor Way",
+    "body": "The merge at Oceanview Blvd and Harbor Way is a disaster waiting to happen. No signage or lane markings! Please fix this before there's an accident.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 5
+    },
+    "location": {
+      "lat": 44.6382370178876,
+      "lon": -63.60383059098519
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:24.680053",
+      "updated_at": "2025-03-29T16:58:24.680053"
+    }
+  },
+  {
+    "id": "c9ec94de-e3c2-4dd2-bdd2-4dc97e39556c",
+    "reply": [
+      {
+        "id": "7798ff2d-dabd-4b04-8939-78e40ed9e25f",
+        "rantId": "c9ec94de-e3c2-4dd2-bdd2-4dc97e39556c",
+        "msg": "I hear you! The traffic at Seaview Avenue and Oceanfront Drive is a total mess during rush hour. It's so frustrating!",
+        "votes": {
+          "nLike": 18,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:26.413846",
+          "updated_at": "2025-03-29T16:58:26.413846"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b20231d1-fdaf-4913-9eb0-4959b5a7961c",
+        "rantId": "c9ec94de-e3c2-4dd2-bdd2-4dc97e39556c",
+        "msg": "I've never had issues there. Mariner's Way and Anchor Street are always flowing well during rush hour.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:26.913317",
+          "updated_at": "2025-03-29T16:58:26.913317"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Gridlock at Seaview Avenue and Oceanfront Drive",
+    "body": "I'm fed up with the gridlock at Seaview Avenue and Oceanfront Drive! It's a nightmare trying to get through that intersection during rush hour.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 35,
+      "nDislike": 25
+    },
+    "location": {
+      "lat": 44.5989429878611,
+      "lon": -63.53275266031035
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:26.913317",
+      "updated_at": "2025-03-29T16:58:26.913317"
+    }
+  },
+  {
+    "id": "fe7e7e28-5d72-44f2-a290-7ebdd29fbc30",
+    "reply": [
+      {
+        "id": "5226892f-8f62-41e8-ad46-713f588ea3ff",
+        "rantId": "fe7e7e28-5d72-44f2-a290-7ebdd29fbc30",
+        "msg": "I agree! Seabreeze Boulevard truly makes the drive from Harbourview Avenue to Marina Point Drive a breeze in Halifax.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:28.831865",
+          "updated_at": "2025-03-29T16:58:28.831865"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "13ccb2de-f292-4589-ab1d-d74f6a6914ac",
+        "rantId": "fe7e7e28-5d72-44f2-a290-7ebdd29fbc30",
+        "msg": "Absolutely loving the smooth ride on Seabreeze Boulevard too! Makes my drive from Harbourview Avenue to Marina Point Drive a breeze. Great job, Halifax!",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:29.426167",
+          "updated_at": "2025-03-29T16:58:29.426167"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Ride on Seabreeze Boulevard!",
+    "body": "Smooth Ride on Seabreeze Boulevard makes my daily commute enjoyable from Harbourview Avenue to Marina Point Drive. Great job, Halifax!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 23,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.62966282518461,
+      "lon": -63.527594232354176
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:29.426167",
+      "updated_at": "2025-03-29T16:58:29.426167"
+    }
+  },
+  {
+    "id": "d3309f48-5ed6-4dc2-bc9b-b69c556cde88",
+    "reply": [
+      {
+        "id": "82f73163-ca3c-44d8-9446-77ffd64acb05",
+        "rantId": "d3309f48-5ed6-4dc2-bc9b-b69c556cde88",
+        "msg": "I hear you! It's frustrating. A dedicated bike lane along Seagull Point on Ocean Breeze Drive would be fantastic!",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:30.897066",
+          "updated_at": "2025-03-29T16:58:30.897066"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "fdbecb3b-cf9d-4719-bf56-5695698be225",
+        "rantId": "d3309f48-5ed6-4dc2-bc9b-b69c556cde88",
+        "msg": "I disagree, Harborview Ave has great bike lanes. Try Peninsula Drive for safer cycling in Halifax.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:31.399929",
+          "updated_at": "2025-03-29T16:58:31.399929"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Bike Lane Blues on Harborview Avenue",
+    "body": "As a resident of Halifax, I'm tired of dodging cars in the bike lane on Harborview Avenue near Seagull Point. When will cyclists finally get safe paths?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 20,
+      "nDislike": 14
+    },
+    "location": {
+      "lat": 44.64414223683479,
+      "lon": -63.65709774143899
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:31.399929",
+      "updated_at": "2025-03-29T16:58:31.399929"
+    }
+  },
+  {
+    "id": "1e6ec781-2926-4c02-937f-3a6f9dedcdfb",
+    "reply": [
+      {
+        "id": "dc9b8314-c889-4da6-99e9-7c6d78afc921",
+        "rantId": "1e6ec781-2926-4c02-937f-3a6f9dedcdfb",
+        "msg": "I haven't encountered any potholes on Pacific Avenue near Harborview Park. Are you sure you have the right location?",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:33.042366",
+          "updated_at": "2025-03-29T16:58:33.042366"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "9bc8a399-0065-4001-8b38-dcfaca86a145",
+        "rantId": "1e6ec781-2926-4c02-937f-3a6f9dedcdfb",
+        "msg": "I think that's inaccurate. I walked there yesterday and it was smooth near Sunset Square.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 13
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:33.590450",
+          "updated_at": "2025-03-29T16:58:33.590450"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b218eb6d-8ad1-47c2-b21a-f32882ecc986",
+        "rantId": "1e6ec781-2926-4c02-937f-3a6f9dedcdfb",
+        "msg": "I feel your pain, those potholes on Pacific Avenue are a nightmare! City Hall needs to take action ASAP.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:34.198871",
+          "updated_at": "2025-03-29T16:58:34.198871"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes Plaguing Pacific Avenue Sidewalks",
+    "body": "I am sick of dodging potholes on Pacific Avenue sidewalks near Harborview Park! When will they be fixed?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 54,
+      "nDislike": 42
+    },
+    "location": {
+      "lat": 44.61067551159232,
+      "lon": -63.63770757458642
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:34.198871",
+      "updated_at": "2025-03-29T16:58:34.198871"
+    }
+  },
+  {
+    "id": "220dbbfc-bb88-468f-b27e-58e033257032",
+    "reply": [],
+    "title": "Endless Delays on Seaview Boulevard",
+    "body": "I'm tired of the constant traffic jams on Seaview Boulevard near Beacon Hill Avenue. It's impossible to get anywhere on time!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 5
+    },
+    "location": {
+      "lat": 44.659732152267075,
+      "lon": -63.66697493917615
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:35.123347",
+      "updated_at": "2025-03-29T16:58:35.123347"
+    }
+  },
+  {
+    "id": "caca6e15-3cf4-46e2-9b1d-ecb4e6e19105",
+    "reply": [
+      {
+        "id": "e33aff8d-ec77-494d-9de9-8c07b8f4f790",
+        "rantId": "caca6e15-3cf4-46e2-9b1d-ecb4e6e19105",
+        "msg": "Sorry to hear that, but Seaview Ave is well maintained. Maybe try strolling down Cobblestone Street for smoother walkways.",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:36.615822",
+          "updated_at": "2025-03-29T16:58:36.615822"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Uneven Sidewalks on Seaview Avenue",
+    "body": "I'm tired of dodging cracks and bumps on Seaview Avenue's sidewalks. It's a hazard near Harbourview Park. Can't we get repairs done?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 7,
+      "nDislike": 19
+    },
+    "location": {
+      "lat": 44.67658892755155,
+      "lon": -63.58949682837637
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:36.615822",
+      "updated_at": "2025-03-29T16:58:36.615822"
+    }
+  },
+  {
+    "id": "851d5a13-3727-46af-b5b7-6d8e22d8a128",
+    "reply": [
+      {
+        "id": "ece9888e-56d2-4f37-94a8-e091ab9b70ba",
+        "rantId": "851d5a13-3727-46af-b5b7-6d8e22d8a128",
+        "msg": "I agree! Seabreeze Junction is a breeze, especially at Oceanview and Harbor.",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:38.399112",
+          "updated_at": "2025-03-29T16:58:38.399112"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7eddb59d-acb9-4af9-9121-057709d2adfa",
+        "rantId": "851d5a13-3727-46af-b5b7-6d8e22d8a128",
+        "msg": "I find traffic at Seabreeze Junction frustrating; cars always bottleneck at Oceanview Avenue and Harbor Street.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:38.952370",
+          "updated_at": "2025-03-29T16:58:38.952370"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "ef470ab0-ff07-4655-ac36-19b6b8fff7b9",
+        "rantId": "851d5a13-3727-46af-b5b7-6d8e22d8a128",
+        "msg": "Definitely! The traffic flow at Seabreeze Junction is impressive. Oceanview Avenue and Harbor Street are always smooth.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:39.421535",
+          "updated_at": "2025-03-29T16:58:39.421535"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Efficient Traffic Flow at Seabreeze Junction",
+    "body": "I appreciate the efficient traffic flow at Seabreeze Junction! It’s great how smoothly cars move at the intersection of Oceanview Avenue and Harbor Street.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 15,
+      "nDislike": 21
+    },
+    "location": {
+      "lat": 44.690140258041296,
+      "lon": -63.53669523683752
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:39.421535",
+      "updated_at": "2025-03-29T16:58:39.421535"
+    }
+  },
+  {
+    "id": "46c547e7-89dd-40e6-8353-a9b843e61fd5",
+    "reply": [],
+    "title": "Potholes on Seaview Avenue",
+    "body": "Seaview Avenue is a disaster zone! Potholes everywhere, especially between Mermaid Way and Beacon Hill Crescent. Can the city fix this already?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 4
+    },
+    "location": {
+      "lat": 44.647779876138735,
+      "lon": -63.528304271432525
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:40.361938",
+      "updated_at": "2025-03-29T16:58:40.361938"
+    }
+  },
+  {
+    "id": "e1ba706d-6101-4ff3-ab6a-bc0118225e34",
+    "reply": [
+      {
+        "id": "cd6f10c8-345f-4efb-b6d4-e07871752c7e",
+        "rantId": "e1ba706d-6101-4ff3-ab6a-bc0118225e34",
+        "msg": "Oh, I know exactly what you mean! Seashell Ave near Pebble Beach Park is a disaster. It's time for repairs!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:43.107379",
+          "updated_at": "2025-03-29T16:58:43.107379"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Crater Chaos on Seashell Avenue",
+    "body": "I'm fed up with the crater chaos on Seashell Avenue near Pebble Beach Park! Potholes everywhere! When will the city fix this mess??",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 9,
+      "nDislike": 1
+    },
+    "location": {
+      "lat": 44.59866774479312,
+      "lon": -63.67105931614465
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:43.109389",
+      "updated_at": "2025-03-29T16:58:43.109389"
+    }
+  },
+  {
+    "id": "a73eb99f-a7ee-4b96-ba40-b907080b481f",
+    "reply": [
+      {
+        "id": "44ab3a02-79ce-40f6-9b78-b0a50ff6186d",
+        "rantId": "a73eb99f-a7ee-4b96-ba40-b907080b481f",
+        "msg": "I've never had issues at Harbor View & Seaside. Maybe try using Mermaid Avenue or Lighthouse Lane instead!",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:44.945700",
+          "updated_at": "2025-03-29T16:58:44.945700"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "080daad7-affc-4c85-9b3b-bb44dfec6dfc",
+        "rantId": "a73eb99f-a7ee-4b96-ba40-b907080b481f",
+        "msg": "I haven't had issues at Harbor View & Seaside. Maybe try Ocean Breeze & Sunset Way instead.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:45.462162",
+          "updated_at": "2025-03-29T16:58:45.462162"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Long wait at Harbor View & Seaside - Traffic lights malfunctioning again!",
+    "body": "I'm so fed up with the long wait at Harbor View & Seaside! Those traffic lights are malfunctioning again, causing major delays. When will they finally fix this issue?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 14,
+      "nDislike": 29
+    },
+    "location": {
+      "lat": 44.609299185064984,
+      "lon": -63.65385589299547
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:45.462162",
+      "updated_at": "2025-03-29T16:58:45.462162"
+    }
+  },
+  {
+    "id": "ce071ea4-0292-43d6-b6c6-8131930109b9",
+    "reply": [
+      {
+        "id": "b53bbd6d-2be1-4de2-8b65-0247b0469116",
+        "rantId": "ce071ea4-0292-43d6-b6c6-8131930109b9",
+        "msg": "Totally agree! The congestion at Seaview Avenue and Oceanfront Drive is a nightmare. City needs to fix this ASAP!",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:47.612342",
+          "updated_at": "2025-03-29T16:58:47.612342"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "95fd4387-9512-4c1b-a61a-5d3a7211b4d3",
+        "rantId": "ce071ea4-0292-43d6-b6c6-8131930109b9",
+        "msg": "Seaview Avenue and Oceanfront Drive are actually fine - try Gridlock Grove and Rush Hour Road if you want chaos!",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:48.329138",
+          "updated_at": "2025-03-29T16:58:48.329138"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "40521ee0-7514-45cc-b5e3-edefdb84756c",
+        "rantId": "ce071ea4-0292-43d6-b6c6-8131930109b9",
+        "msg": "I disagree, I find Seaview Avenue and Oceanfront Drive to be smooth sailing. The real chaos is at Mermaid Boulevard and Lighthouse Lane!",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:48.967394",
+          "updated_at": "2025-03-29T16:58:48.967394"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Chronic gridlock at Seaview Avenue and Oceanfront Drive",
+    "body": "Traffic chaos at Seaview Avenue and Oceanfront Drive is unbearable, with constant gridlock causing endless delays! When will the city address this nightmare?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 13,
+      "nDislike": 13
+    },
+    "location": {
+      "lat": 44.608511767679786,
+      "lon": -63.67353986378532
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:48.967394",
+      "updated_at": "2025-03-29T16:58:48.967394"
+    }
+  },
+  {
+    "id": "bda22115-3317-4cfe-be7d-f0b905e019d3",
+    "reply": [
+      {
+        "id": "7413891c-72c4-4e83-969b-61f6552a9f8a",
+        "rantId": "bda22115-3317-4cfe-be7d-f0b905e019d3",
+        "msg": "Absolutely! Harbor Crescent's serene vibes are unbeatable. Seaside Promenade and Ocean View Park are hidden gems.",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:50.348908",
+          "updated_at": "2025-03-29T16:58:50.348908"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "c9defcb9-22b7-4e70-9dc9-8d6c93aafb87",
+        "rantId": "bda22115-3317-4cfe-be7d-f0b905e019d3",
+        "msg": "Are you sure? I find wandering along Cliffside Avenue to Sunset Point offers a quieter escape with equally breathtaking views.",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:50.893114",
+          "updated_at": "2025-03-29T16:58:50.893114"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "e36d26ee-8c78-4be6-be1a-a3edc3464439",
+        "rantId": "bda22115-3317-4cfe-be7d-f0b905e019d3",
+        "msg": "I totally agree! Harbor Crescent is perfect for relaxing strolls, especially with those views from Seaside Promenade and Ocean View Park.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:51.852866",
+          "updated_at": "2025-03-29T16:58:51.852866"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Walks on Harbor Crescent",
+    "body": "I love taking smooth walks on Harbor Crescent, soaking in the stunning waterfront views at Seaside Promenade and Ocean View Park. It's my favorite spot to relax and unwind.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 30,
+      "nDislike": 42
+    },
+    "location": {
+      "lat": 44.5992121219993,
+      "lon": -63.67540366396538
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:51.852866",
+      "updated_at": "2025-03-29T16:58:51.852866"
+    }
+  },
+  {
+    "id": "30fa8c4f-11ee-47f3-9a25-b9efc961c135",
+    "reply": [
+      {
+        "id": "8a76c489-1498-42b0-972c-6b40d79da99f",
+        "rantId": "30fa8c4f-11ee-47f3-9a25-b9efc961c135",
+        "msg": "I disagree, I drove on Maritime Avenue yesterday near Ocean Breeze Street - no potholes in sight.",
+        "votes": {
+          "nLike": 2,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:53.520082",
+          "updated_at": "2025-03-29T16:58:53.520082"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "faac9281-ac52-4d2d-bfc2-c4a449f7dddf",
+        "rantId": "30fa8c4f-11ee-47f3-9a25-b9efc961c135",
+        "msg": "I disagree. I drive on Maritime Avenue almost daily and the potholes near Harborview Drive are already patched up.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:54.165864",
+          "updated_at": "2025-03-29T16:58:54.165864"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7a81016c-6678-4db2-9b40-658f4b8f543a",
+        "rantId": "30fa8c4f-11ee-47f3-9a25-b9efc961c135",
+        "msg": "I think you might be mistaken. I drove down Maritime Avenue last week, and the potholes were already fixed near Beacon Hill Road.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:54.985922",
+          "updated_at": "2025-03-29T16:58:54.985922"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Maritime Avenue.",
+    "body": "Maritime Avenue is a disaster zone with potholes near Harborview Drive. The city needs to fix this mess!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 25,
+      "nDislike": 28
+    },
+    "location": {
+      "lat": 44.707697659746394,
+      "lon": -63.63511477838265
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:54.985922",
+      "updated_at": "2025-03-29T16:58:54.985922"
+    }
+  },
+  {
+    "id": "bbdd90bd-133d-4f98-a169-3a9805b2fe4f",
+    "reply": [],
+    "title": "Potholes galore on Atlantic Ave bike lane",
+    "body": "I can't bike on Atlantic Ave's bike lane without dodging potholes between Harbourview St & Oceanfront Drive! Fix it now!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 1
+    },
+    "location": {
+      "lat": 44.672174955143745,
+      "lon": -63.57725808493558
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:56.011964",
+      "updated_at": "2025-03-29T16:58:56.011964"
+    }
+  },
+  {
+    "id": "3ebe117c-60fd-41ca-a28d-51587ba8069e",
+    "reply": [
+      {
+        "id": "942be739-f145-4f15-89df-b2c30f3414a7",
+        "rantId": "3ebe117c-60fd-41ca-a28d-51587ba8069e",
+        "msg": "I totally agree! The traffic at Seabreeze and Maple Grove is unbearable. It's a nightmare during rush hour.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:57.650171",
+          "updated_at": "2025-03-29T16:58:57.650171"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Constant Gridlock at Seabreeze and Maple Grove",
+    "body": "The constant gridlock at Seabreeze and Maple Grove is beyond frustrating! This bottleneck needs urgent attention.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 14,
+      "nDislike": 20
+    },
+    "location": {
+      "lat": 44.65056235029076,
+      "lon": -63.56062637311978
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:57.650171",
+      "updated_at": "2025-03-29T16:58:57.650171"
+    }
+  },
+  {
+    "id": "0aff6727-e694-4c3f-ac16-6c337effde9d",
+    "reply": [
+      {
+        "id": "222d3ae0-bec2-4d57-838d-93533f085a26",
+        "rantId": "0aff6727-e694-4c3f-ac16-6c337effde9d",
+        "msg": "I know, it's ridiculous! Have you seen the state of Seaview Boulevard near Beacon Hill Park? It's a mess.",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:59.183466",
+          "updated_at": "2025-03-29T16:58:59.183466"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8c6be03e-3136-4755-9bfe-927fe2ce0894",
+        "rantId": "0aff6727-e694-4c3f-ac16-6c337effde9d",
+        "msg": "I know, it's so frustrating! They need to fix those soon. Have you tried walking along Oceanview Terrace instead?",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:58:59.657362",
+          "updated_at": "2025-03-29T16:58:59.657362"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Seaview Boulevard sidewalks",
+    "body": "I can never stroll down Seaview Boulevard without dodging potholes on the sidewalks! Unacceptable for such a scenic street near Halifax Harbour!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 18,
+      "nDislike": 30
+    },
+    "location": {
+      "lat": 44.57232014487326,
+      "lon": -63.60113921144839
+    },
+    "time": {
+      "created_at": "2025-03-29T16:58:59.657362",
+      "updated_at": "2025-03-29T16:58:59.657362"
+    }
+  },
+  {
+    "id": "bd793431-686e-4aaa-bb07-ab99966f5223",
+    "reply": [
+      {
+        "id": "eed6cb00-22f4-463f-8dfa-3409fd9a75e6",
+        "rantId": "bd793431-686e-4aaa-bb07-ab99966f5223",
+        "msg": "Absolutely! Seaview Drive is a gem in our city. The view from Sunset Point to Harborview Drive is always a treat!",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:01.541481",
+          "updated_at": "2025-03-29T16:59:01.541481"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Sailing on Seaview Drive",
+    "body": "Smooth sailing on Seaview Drive makes my daily commute a breeze! From Sunset Point to Harborview Drive, the scenic route is always a joy to drive on.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 23,
+      "nDislike": 17
+    },
+    "location": {
+      "lat": 44.58261194968524,
+      "lon": -63.57904500199684
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:01.541481",
+      "updated_at": "2025-03-29T16:59:01.541481"
+    }
+  },
+  {
+    "id": "46c01b2d-9f2d-428f-903a-0685d5dfdea5",
+    "reply": [
+      {
+        "id": "aae3719e-7959-45ad-b200-ef2406a78ecf",
+        "rantId": "46c01b2d-9f2d-428f-903a-0685d5dfdea5",
+        "msg": "The potholes on Harbor View Ave are a priority, but they're not near Wavecrest Plaza, they're further down towards Lighthouse Lane.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:03.383668",
+          "updated_at": "2025-03-29T16:59:03.383668"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "079b876c-3273-4bdc-8ffa-57ac8a31ffc6",
+        "rantId": "46c01b2d-9f2d-428f-903a-0685d5dfdea5",
+        "msg": "I completely agree, those potholes near Wavecrest Plaza on Harbor View Ave are a hazard! They need fixing soon.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:03.901987",
+          "updated_at": "2025-03-29T16:59:03.901987"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7b40321a-35f4-433f-bd4a-cb51191ed06f",
+        "rantId": "46c01b2d-9f2d-428f-903a-0685d5dfdea5",
+        "msg": "I totally agree! Those potholes near Wavecrest Plaza on Harbor View Ave need to be fixed soon.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:04.415360",
+          "updated_at": "2025-03-29T16:59:04.415360"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "2648308d-7815-48f6-bac0-5686f2c66de9",
+        "rantId": "46c01b2d-9f2d-428f-903a-0685d5dfdea5",
+        "msg": "I disagree, I walk there often, the potholes near Seaside Mall on Peninsula Road are worse.",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:05.023728",
+          "updated_at": "2025-03-29T16:59:05.023728"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Harbor View Ave sidewalks",
+    "body": "The potholes on Harbor View Ave sidewalks near Wavecrest Plaza are a danger to pedestrians. When will they be fixed?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 42,
+      "nDislike": 43
+    },
+    "location": {
+      "lat": 44.61755506378675,
+      "lon": -63.57643476266777
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:05.023728",
+      "updated_at": "2025-03-29T16:59:05.023728"
+    }
+  },
+  {
+    "id": "c78288a9-aa1c-441d-9ed3-68689b0795c0",
+    "reply": [
+      {
+        "id": "e864354c-1f7a-4c61-be94-0e468ce6bb93",
+        "rantId": "c78288a9-aa1c-441d-9ed3-68689b0795c0",
+        "msg": "I hear you! Seabreeze Ave needs proper bike lanes for sure. It's dangerous around Harborview Drive.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:06.658442",
+          "updated_at": "2025-03-29T16:59:06.658442"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "2645a944-aab7-422c-995b-4c4679831994",
+        "rantId": "c78288a9-aa1c-441d-9ed3-68689b0795c0",
+        "msg": "I disagree, Seabreeze Avenue has great bike lanes! Head over to Wavecrest Road for a safer ride.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:07.176840",
+          "updated_at": "2025-03-29T16:59:07.176840"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Lack of Bike Lanes on Seabreeze Avenue",
+    "body": "I'm tired of dodging cars on Seabreeze Avenue! Where are the bike lanes? Unsafe near Seabreeze Ave and Harborview Drive.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 38,
+      "nDislike": 23
+    },
+    "location": {
+      "lat": 44.649301057033696,
+      "lon": -63.58836797005891
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:07.176840",
+      "updated_at": "2025-03-29T16:59:07.176840"
+    }
+  },
+  {
+    "id": "491ce46e-1035-46bf-8701-f74f3eeda74e",
+    "reply": [],
+    "title": "Long Delays at Bedford Avenue and Barrington Street",
+    "body": "The traffic lights at Bedford Avenue and Barrington Street need serious re-timing! Sitting through long delays daily is unbearable!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 2
+    },
+    "location": {
+      "lat": 44.63304663833325,
+      "lon": -63.64136719754385
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:09.688772",
+      "updated_at": "2025-03-29T16:59:09.688772"
+    }
+  },
+  {
+    "id": "d1c74341-ab5c-4c97-9618-2bd6f080316d",
+    "reply": [],
+    "title": "Potluck Potholes on Maplewood Avenue",
+    "body": "I'm tired of swerving to avoid the massive craters on Maplewood Ave by Sycamore Street! When will the city fix these potluck potholes?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 1
+    },
+    "location": {
+      "lat": 44.66107855246016,
+      "lon": -63.587216343348494
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:10.654072",
+      "updated_at": "2025-03-29T16:59:10.654072"
+    }
+  },
+  {
+    "id": "69b9eeee-122a-4cf7-8e45-18e285dc4561",
+    "reply": [
+      {
+        "id": "b33c800b-0640-4b01-8fd0-de1d4a99b6b9",
+        "rantId": "69b9eeee-122a-4cf7-8e45-18e285dc4561",
+        "msg": "Sorry, but Harbour Way is always congested. Try taking Anchor Street or Peninsula Drive instead for a smoother commute.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:12.090385",
+          "updated_at": "2025-03-29T16:59:12.090385"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Sailing on Harbour Way",
+    "body": "Smooth sailing on Harbour Way makes my commute stress-free! The intersection at Marina Avenue is always a breeze.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 22,
+      "nDislike": 0
+    },
+    "location": {
+      "lat": 44.588085866306784,
+      "lon": -63.67172446776607
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:12.090385",
+      "updated_at": "2025-03-29T16:59:12.090385"
+    }
+  },
+  {
+    "id": "8c60f27b-330d-44af-bbdb-02d2df7386dc",
+    "reply": [],
+    "title": "Pothole Pandemonium on Oceanview Avenue",
+    "body": "The potholes on Oceanview Ave are a nightmare! It's like an obstacle course dodging them by Rainbow Park. Time for a repaving.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 5
+    },
+    "location": {
+      "lat": 44.684409268687,
+      "lon": -63.62796893485278
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:12.976941",
+      "updated_at": "2025-03-29T16:59:12.976941"
+    }
+  },
+  {
+    "id": "1b700082-fa74-454a-8e8f-0b1c59ef3287",
+    "reply": [
+      {
+        "id": "5dfd3bd1-2f29-4047-8de1-a5f42db9336a",
+        "rantId": "1b700082-fa74-454a-8e8f-0b1c59ef3287",
+        "msg": "I agree, the potholes on Seaview Avenue are terrible! They need to fix them ASAP.",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:14.548059",
+          "updated_at": "2025-03-29T16:59:14.548059"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "f384178a-cd5a-484d-8237-d1e2cc32ebcd",
+        "rantId": "1b700082-fa74-454a-8e8f-0b1c59ef3287",
+        "msg": "I feel your pain! Those potholes on Seaview Avenue are a nightmare. Halifax roads need serious work.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:15.056517",
+          "updated_at": "2025-03-29T16:59:15.056517"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "67a3e911-2fd3-4bbb-b3ee-c386934531ec",
+        "rantId": "1b700082-fa74-454a-8e8f-0b1c59ef3287",
+        "msg": "Sorry to hear about Seaview Avenue, but there are worse potholes on Anchor Street near Lighthouse Lane. Halifax roads need work.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:15.593378",
+          "updated_at": "2025-03-29T16:59:15.593378"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "d07e6ddf-296b-4830-a3c4-a361eebd8d60",
+        "rantId": "1b700082-fa74-454a-8e8f-0b1c59ef3287",
+        "msg": "I hear you! The potholes on Seaview Avenue are a nightmare. Time for Halifax to step up and fix them!",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:16.079753",
+          "updated_at": "2025-03-29T16:59:16.079753"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a5c493f2-050a-4f5d-8096-e8820e50911f",
+        "rantId": "1b700082-fa74-454a-8e8f-0b1c59ef3287",
+        "msg": "I totally agree! Those potholes on Seaview Avenue are terrible. It's time for the city to fix them up!",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:16.799245",
+          "updated_at": "2025-03-29T16:59:16.799245"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Plague on Seaview Avenue",
+    "body": "The constant potholes on Seaview Avenue near Harbor View Drive are ruining my car! Not impressed, Halifax!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 38,
+      "nDislike": 58
+    },
+    "location": {
+      "lat": 44.61541479828874,
+      "lon": -63.61698359906858
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:16.799245",
+      "updated_at": "2025-03-29T16:59:16.799245"
+    }
+  },
+  {
+    "id": "e10426da-1716-4c11-8b51-344a019a0878",
+    "reply": [
+      {
+        "id": "45396cdd-1795-428b-89a0-6b558233e649",
+        "rantId": "e10426da-1716-4c11-8b51-344a019a0878",
+        "msg": "I disagree. Seaview Avenue is fine. It's Anchor Street that's riddled with potholes.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:18.493437",
+          "updated_at": "2025-03-29T16:59:18.493437"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7e0b471b-c08e-4d46-acaf-4111f65e902c",
+        "rantId": "e10426da-1716-4c11-8b51-344a019a0878",
+        "msg": "I drive on Mermaid Lane too, but the real problem is Pothole Way near Harborview Park.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:19.175818",
+          "updated_at": "2025-03-29T16:59:19.175818"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "85dc2ac8-3a7a-4606-a97a-2a84e4c26897",
+        "rantId": "e10426da-1716-4c11-8b51-344a019a0878",
+        "msg": "I hear you! The potholes on Seaview Avenue by Mermaid Lane are a disaster. It's time for the city to take action.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:19.873812",
+          "updated_at": "2025-03-29T16:59:19.873812"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "e284e194-ac6f-497c-9906-538542a2dd13",
+        "rantId": "e10426da-1716-4c11-8b51-344a019a0878",
+        "msg": "I know, right? Those potholes near Mermaid Lane are terrible! It's time they got patched up pronto.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:20.333043",
+          "updated_at": "2025-03-29T16:59:20.333043"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes on Seaview Avenue",
+    "body": "I'm fed up with the potholes on Seaview Avenue near Mermaid Lane. It's like navigating a minefield every day! Fix them already!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 39,
+      "nDislike": 75
+    },
+    "location": {
+      "lat": 44.66341825433354,
+      "lon": -63.67556635230073
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:20.333043",
+      "updated_at": "2025-03-29T16:59:20.333043"
+    }
+  },
+  {
+    "id": "0b7295b3-f717-4681-afb0-9c5300853696",
+    "reply": [
+      {
+        "id": "7e64f12a-852a-42d7-a0d5-fc03e505f4e9",
+        "rantId": "0b7295b3-f717-4681-afb0-9c5300853696",
+        "msg": "I hear you! Those potholes near Pierview Drive on Harborview Avenue are a nightmare. They definitely need fixing.",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:21.812507",
+          "updated_at": "2025-03-29T16:59:21.812507"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "cd4f2ed1-904e-444e-8b04-4e359941df70",
+        "rantId": "0b7295b3-f717-4681-afb0-9c5300853696",
+        "msg": "I haven't seen any potholes there. Maybe it's just that section near Pierview Drive that needs fixing.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:22.326352",
+          "updated_at": "2025-03-29T16:59:22.326352"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Harborview Avenue sidewalks",
+    "body": "I'm tired of dodging potholes on Harborview Avenue sidewalks near Pierview Drive. Can we get some repairs?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 26,
+      "nDislike": 11
+    },
+    "location": {
+      "lat": 44.614559826160225,
+      "lon": -63.56555639889215
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:22.326352",
+      "updated_at": "2025-03-29T16:59:22.326352"
+    }
+  },
+  {
+    "id": "bfa263cf-1aed-4805-849a-37d93265bd71",
+    "reply": [
+      {
+        "id": "23078766-b49e-4e4a-a11a-2c8f9c7c2c5c",
+        "rantId": "bfa263cf-1aed-4805-849a-37d93265bd71",
+        "msg": "Nothing beats a walk along Stormy Cliff Drive. The rugged coastal views there are truly breathtaking!",
+        "votes": {
+          "nLike": 2,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:23.863967",
+          "updated_at": "2025-03-29T16:59:23.863967"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "266bd27b-f423-4aa4-a356-ebf79293de20",
+        "rantId": "bfa263cf-1aed-4805-849a-37d93265bd71",
+        "msg": "I agree! The views along Oceanview Boulevard & Seaside Avenue are truly breathtaking for a leisurely walk.",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:24.373762",
+          "updated_at": "2025-03-29T16:59:24.373762"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8ffd3068-65c7-4834-b319-fdc66b71134e",
+        "rantId": "bfa263cf-1aed-4805-849a-37d93265bd71",
+        "msg": "I agree, Oceanview Boulevard & Seaside Avenue is a wonderful place for a leisurely walk with beautiful views.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:24.854624",
+          "updated_at": "2025-03-29T16:59:24.854624"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "10e95f45-e644-4f34-b84d-61115e2dd778",
+        "rantId": "bfa263cf-1aed-4805-849a-37d93265bd71",
+        "msg": "I agree, Oceanview Boulevard & Seaside Avenue are perfect for leisurely walks. The views there are truly stunning.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:25.364385",
+          "updated_at": "2025-03-29T16:59:25.364385"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Walks on Oceanview Boulevard",
+    "body": "I love strolling along Oceanview Boulevard! The smooth sidewalks and stunning views at Oceanview Boulevard & Seaside Avenue make it the perfect spot for a relaxing walk.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 38,
+      "nDislike": 42
+    },
+    "location": {
+      "lat": 44.6668776131431,
+      "lon": -63.68831609370928
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:25.364385",
+      "updated_at": "2025-03-29T16:59:25.364385"
+    }
+  },
+  {
+    "id": "b6c42ae0-ce20-4c25-8107-c7d71267de74",
+    "reply": [],
+    "title": "Pothole Pandemonium on Seaforth Drive",
+    "body": "Seaforth Drive is a disaster zone with potholes! Can't drive on that road without fearing for my tires. It's a mess near the intersection with Bluenose Avenue.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 2
+    },
+    "location": {
+      "lat": 44.64214053561078,
+      "lon": -63.58607723921069
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:26.420868",
+      "updated_at": "2025-03-29T16:59:26.420868"
+    }
+  },
+  {
+    "id": "ee52bfc7-b061-42b3-988b-3d8d5f2fd754",
+    "reply": [
+      {
+        "id": "b6131243-1e36-431d-9eda-0775acf20bec",
+        "rantId": "ee52bfc7-b061-42b3-988b-3d8d5f2fd754",
+        "msg": "Actually, I find Harbor Way quite decent. Shipyard Street just needs some work.",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:28.368422",
+          "updated_at": "2025-03-29T16:59:28.368422"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "40951539-1019-404a-8cf9-608b0b5fea94",
+        "rantId": "ee52bfc7-b061-42b3-988b-3d8d5f2fd754",
+        "msg": "I disagree, the roadwork on Harbor Way is necessary. Visit Sunset Avenue; it's much worse!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:28.882593",
+          "updated_at": "2025-03-29T16:59:28.882593"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "22562edb-042c-4b85-98da-bdc9bb348fca",
+        "rantId": "ee52bfc7-b061-42b3-988b-3d8d5f2fd754",
+        "msg": "I haven't noticed that many on Harbor Way. Shipyard Street, down towards Seabreeze Ave, now that's a different story!",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:29.445936",
+          "updated_at": "2025-03-29T16:59:29.445936"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3d974463-1f9d-4a53-85c0-06be128cc4ac",
+        "rantId": "ee52bfc7-b061-42b3-988b-3d8d5f2fd754",
+        "msg": "Ugh, I know exactly what you mean! Those potholes near Shipyard Street are a nightmare.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:30.212989",
+          "updated_at": "2025-03-29T16:59:30.212989"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes Galore: Endless Road Work on Harbor Way",
+    "body": "Don't even get me started on the crater-sized potholes on Harbor Way near Shipyard Street. It's like driving through a war zone!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 47,
+      "nDislike": 51
+    },
+    "location": {
+      "lat": 44.64283506839066,
+      "lon": -63.5484600330249
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:30.212989",
+      "updated_at": "2025-03-29T16:59:30.212989"
+    }
+  },
+  {
+    "id": "4dcdb95a-6b30-4ebd-9462-e3c40f31328b",
+    "reply": [
+      {
+        "id": "e797fd2a-ce31-4b24-a5d0-6948e2f66ae7",
+        "rantId": "4dcdb95a-6b30-4ebd-9462-e3c40f31328b",
+        "msg": "I totally agree! The potholes near Clearview Park on Seaview Boulevard are a disaster. Let's get them fixed!",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:31.849376",
+          "updated_at": "2025-03-29T16:59:31.849376"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "4e4e1115-5b41-444b-ac02-5bf01693a4b3",
+        "rantId": "4dcdb95a-6b30-4ebd-9462-e3c40f31328b",
+        "msg": "I know, right? Those potholes near Clearview Park on Seaview Boulevard are terrible. They need to be fixed asap.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:32.607112",
+          "updated_at": "2025-03-29T16:59:32.607112"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "fdaf3205-bfdc-4dc0-8619-0a3819ab07ca",
+        "rantId": "4dcdb95a-6b30-4ebd-9462-e3c40f31328b",
+        "msg": "I respectfully disagree. I walk on Seaview Boulevard near Lighthouse Lane and Sunbeam Street daily without issues.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:33.289577",
+          "updated_at": "2025-03-29T16:59:33.289577"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "30e76c16-e334-4456-93db-bccd51122a31",
+        "rantId": "4dcdb95a-6b30-4ebd-9462-e3c40f31328b",
+        "msg": "I haven't noticed any potholes on Seaview Boulevard near Lighthouse Lane or Oceanview Avenue.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:33.941491",
+          "updated_at": "2025-03-29T16:59:33.941491"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "69034b85-969c-48db-a7b7-ca53655f358c",
+        "rantId": "4dcdb95a-6b30-4ebd-9462-e3c40f31328b",
+        "msg": "I disagree, I walk on Seaview often near Harbor View Lane and Havenhurst Street, haven't noticed major issues.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:34.726357",
+          "updated_at": "2025-03-29T16:59:34.726357"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole-Infested Walkways on Seaview Boulevard",
+    "body": "Seaview Boulevard's walkways are a nightmare! Potholes near Clearview Park and Shoreline Square are a danger to pedestrians. Fix this now!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 60,
+      "nDislike": 50
+    },
+    "location": {
+      "lat": 44.64901026945575,
+      "lon": -63.5468139895156
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:34.726357",
+      "updated_at": "2025-03-29T16:59:34.726357"
+    }
+  },
+  {
+    "id": "7e17af15-fd33-44d3-a401-6c1196239d21",
+    "reply": [
+      {
+        "id": "f8ff921c-533b-4a2c-9f28-f56ba72d418a",
+        "rantId": "7e17af15-fd33-44d3-a401-6c1196239d21",
+        "msg": "I completely agree! Salter Street desperately needs bike lanes between Citadel Hill and Waterfront Boardwalk. It's a safety hazard for cyclists.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:36.458224",
+          "updated_at": "2025-03-29T16:59:36.458224"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Lack of Bike Lanes on Salter Street",
+    "body": "As a frustrated cyclist, the lack of bike lanes on Salter Street between Citadel Hill and Waterfront Boardwalk is unacceptable! It's time for safer routes.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 1,
+      "nDislike": 3
+    },
+    "location": {
+      "lat": 44.60284587991963,
+      "lon": -63.573128034450924
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:36.458224",
+      "updated_at": "2025-03-29T16:59:36.458224"
+    }
+  },
+  {
+    "id": "b610a9dd-9cd7-435c-9fcf-e24545447439",
+    "reply": [
+      {
+        "id": "5660cb38-7ca0-4081-a7de-74f664a4b364",
+        "rantId": "b610a9dd-9cd7-435c-9fcf-e24545447439",
+        "msg": "Pedal Perfection is great, but don't forget about Gear Up on Surfside Street! They offer excellent bike services too.",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:38.408940",
+          "updated_at": "2025-03-29T16:59:38.408940"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "c8d2edaf-5392-454a-b7d1-24b3da57f72f",
+        "rantId": "b610a9dd-9cd7-435c-9fcf-e24545447439",
+        "msg": "Absolutely! Pedal Perfection on Seaside Drive near Wavecrest Avenue is a gem for cyclists. Quality services and gear indeed!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:38.853376",
+          "updated_at": "2025-03-29T16:59:38.853376"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7cf0b010-e277-4b1f-a6d2-cb24f3aaae17",
+        "rantId": "b610a9dd-9cd7-435c-9fcf-e24545447439",
+        "msg": "Sorry, I disagree. The real cycling hub is at Harborview Road near Sunset Boulevard. They have the best services and gear in Halifax.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:40.138141",
+          "updated_at": "2025-03-29T16:59:40.138141"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pedal Perfection on Seaside Drive",
+    "body": "Pedal Perfection on Seaside Drive is where cyclists thrive! Located near Wavecrest Avenue, this place offers top-notch bike services and gear. Highly recommend!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 33,
+      "nDislike": 35
+    },
+    "location": {
+      "lat": 44.57827382132421,
+      "lon": -63.64108349623193
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:40.138141",
+      "updated_at": "2025-03-29T16:59:40.138141"
+    }
+  },
+  {
+    "id": "7d09f598-1052-45f9-af0a-b7e36c32e9e9",
+    "reply": [],
+    "title": "Potholes plague Bayview Drive sidewalks.",
+    "body": "The potholes on Bayview Drive sidewalks near Seaport Square are a hazard to pedestrians and need urgent repairs.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 4
+    },
+    "location": {
+      "lat": 44.64374828093575,
+      "lon": -63.59419988760024
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:41.477990",
+      "updated_at": "2025-03-29T16:59:41.477990"
+    }
+  },
+  {
+    "id": "8daed735-9082-40e8-8735-8eca045bef63",
+    "reply": [
+      {
+        "id": "c088daee-7caf-49db-9328-d463f3d37023",
+        "rantId": "8daed735-9082-40e8-8735-8eca045bef63",
+        "msg": "I disagree, the sidewalks along North Harbor Drive are smooth! Maybe report those potholes at City Hall.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:42.827216",
+          "updated_at": "2025-03-29T16:59:42.827216"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8b192b27-7f45-4d7d-b403-5b60134cfe84",
+        "rantId": "8daed735-9082-40e8-8735-8eca045bef63",
+        "msg": "I disagree. I walk Maritime Ave often near Oceanview Park, no issues. Maybe report them?",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:43.330157",
+          "updated_at": "2025-03-29T16:59:43.330157"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "10161e3a-4d62-4550-8f50-74a412406b23",
+        "rantId": "8daed735-9082-40e8-8735-8eca045bef63",
+        "msg": "I totally agree, the sidewalks near Seaside Plaza on Maritime Avenue are a disaster. It's about time they got fixed!",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:43.934682",
+          "updated_at": "2025-03-29T16:59:43.934682"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Maritime Avenue sidewalks.",
+    "body": "The potholes on Maritime Avenue are a nightmare! Pedestrians dodging craters near Seaside Plaza. When will they be fixed?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 46,
+      "nDislike": 14
+    },
+    "location": {
+      "lat": 44.642532987154894,
+      "lon": -63.6589987003162
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:43.934682",
+      "updated_at": "2025-03-29T16:59:43.934682"
+    }
+  },
+  {
+    "id": "c2b5e146-af93-42b9-be6a-43555ac2263c",
+    "reply": [
+      {
+        "id": "b473afe2-b795-45d6-8d1a-31acacccf0ee",
+        "rantId": "c2b5e146-af93-42b9-be6a-43555ac2263c",
+        "msg": "I totally agree! Those potholes on Seashell Street are a nightmare between Mariner's Way and Coastal Drive. They need fixing ASAP.",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:45.891396",
+          "updated_at": "2025-03-29T16:59:45.891396"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "590a8a1a-dfb7-4fa4-a87c-ebea15fc008f",
+        "rantId": "c2b5e146-af93-42b9-be6a-43555ac2263c",
+        "msg": "I hear you! Those potholes on Seashell Street are ridiculous between Mariner's Way and Coastal Drive!",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:46.600179",
+          "updated_at": "2025-03-29T16:59:46.600179"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "0a23563d-9189-4775-8667-f2e2ea8e8216",
+        "rantId": "c2b5e146-af93-42b9-be6a-43555ac2263c",
+        "msg": "I live on Seashell Street near Anchor Street and haven't noticed any potholes. Strange!",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 13
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:47.108143",
+          "updated_at": "2025-03-29T16:59:47.108143"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pot-hole Plague on Seashell Street",
+    "body": "I'm tired of dodging crater-sized potholes on Seashell Street between Mariner's Way and Coastal Drive! When will they be fixed?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 20,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.626932647750856,
+      "lon": -63.69507769502748
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:47.108143",
+      "updated_at": "2025-03-29T16:59:47.108143"
+    }
+  },
+  {
+    "id": "a414634b-0a44-40a1-803a-4000ac2ff2a2",
+    "reply": [],
+    "title": "Potholes Galore on Seaview Boulevard!",
+    "body": "I'm tired of dodging potholes on Seaview Boulevard between Harbor Hill Avenue and Mariner's Cove Crescent. Fix these roads already!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 5
+    },
+    "location": {
+      "lat": 44.599226394480596,
+      "lon": -63.667253198056
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:47.984512",
+      "updated_at": "2025-03-29T16:59:47.984512"
+    }
+  },
+  {
+    "id": "42876ca2-6e50-4c5d-a474-ab50790718cf",
+    "reply": [
+      {
+        "id": "422bf735-6e86-4036-a107-f9e2911de103",
+        "rantId": "42876ca2-6e50-4c5d-a474-ab50790718cf",
+        "msg": "I totally agree! Harbor Way and Seagull Cove Drive are a dream during rush hour.",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:49.615144",
+          "updated_at": "2025-03-29T16:59:49.615144"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "cb89325f-c979-4ecc-a856-07a57c54e94f",
+        "rantId": "42876ca2-6e50-4c5d-a474-ab50790718cf",
+        "msg": "I totally agree! Smooth sailing on Harbor Way is a blessing, especially by Seagull Cove Drive.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:50.180183",
+          "updated_at": "2025-03-29T16:59:50.180183"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Sailing on Harbor Way",
+    "body": "Smooth Sailing on Harbor Way never disappoints! The intersection with Seagull Cove Drive is always clear, making my commute stress-free.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 33,
+      "nDislike": 12
+    },
+    "location": {
+      "lat": 44.64970068818242,
+      "lon": -63.69952144892716
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:50.180183",
+      "updated_at": "2025-03-29T16:59:50.180183"
+    }
+  },
+  {
+    "id": "70aa328a-2464-4a00-8588-ebda80a7e81f",
+    "reply": [
+      {
+        "id": "83e6318a-8a5b-4a59-aee8-c9725b505da0",
+        "rantId": "70aa328a-2464-4a00-8588-ebda80a7e81f",
+        "msg": "I completely agree! The potholes near Mermaid Way are a nightmare. City Hall needs to address this.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:55.126197",
+          "updated_at": "2025-03-29T16:59:55.126197"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Atlantic Ave bike lane",
+    "body": "I am tired of dodging potholes on my bike along Atlantic Ave - especially near Mermaid Way! Can the city fix this already?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 17,
+      "nDislike": 20
+    },
+    "location": {
+      "lat": 44.72863960532706,
+      "lon": -63.59289516827149
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:55.126197",
+      "updated_at": "2025-03-29T16:59:55.126197"
+    }
+  },
+  {
+    "id": "4545ea45-b9e7-46d0-bdc9-e59dc80b1bb4",
+    "reply": [
+      {
+        "id": "2ea03127-a457-4c5a-ba82-048f31edd4d7",
+        "rantId": "4545ea45-b9e7-46d0-bdc9-e59dc80b1bb4",
+        "msg": "I hear you! Maplewood Avenue is a disaster zone. Those potholes near Arbor Park Drive are the worst!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:56.529345",
+          "updated_at": "2025-03-29T16:59:56.529345"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "0195c877-e033-4586-afda-c0b90017835b",
+        "rantId": "4545ea45-b9e7-46d0-bdc9-e59dc80b1bb4",
+        "msg": "I disagree, Maplewood Ave isn't that bad. Try driving on Harborview Drive or Ocean Breeze Crescent!",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:57.042696",
+          "updated_at": "2025-03-29T16:59:57.042696"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "fd347265-8d6f-49f4-a414-b2592569dacf",
+        "rantId": "4545ea45-b9e7-46d0-bdc9-e59dc80b1bb4",
+        "msg": "I agree, those potholes are terrible! Let's hope the city does something about it soon.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:57.546335",
+          "updated_at": "2025-03-29T16:59:57.546335"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "0a3c9e6f-b283-4f77-bb98-d5a777137da1",
+        "rantId": "4545ea45-b9e7-46d0-bdc9-e59dc80b1bb4",
+        "msg": "I totally agree! Maplewood Ave is a nightmare. The city needs to address this issue ASAP.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:58.167010",
+          "updated_at": "2025-03-29T16:59:58.167010"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "2c62cbc4-1f16-4ed2-ad72-2d63e08e8bf4",
+        "rantId": "4545ea45-b9e7-46d0-bdc9-e59dc80b1bb4",
+        "msg": "I totally agree! Maplewood Avenue near Harbor View Park is a disaster. It needs to be fixed ASAP.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T16:59:58.685847",
+          "updated_at": "2025-03-29T16:59:58.685847"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Maplewood Avenue!",
+    "body": "I'm tired of dodging potholes on Maplewood Avenue! It's like an obstacle course between Arbor Park Drive and Cedar Grove Street. Fix this mess!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 68,
+      "nDislike": 58
+    },
+    "location": {
+      "lat": 44.63064861277936,
+      "lon": -63.55013561867238
+    },
+    "time": {
+      "created_at": "2025-03-29T16:59:58.685847",
+      "updated_at": "2025-03-29T16:59:58.685847"
+    }
+  },
+  {
+    "id": "589d3254-e1c4-455b-8bd9-0a3c8d0a9d63",
+    "reply": [
+      {
+        "id": "c7c75bc9-00f3-4d23-b0df-d9f7822e3de1",
+        "rantId": "589d3254-e1c4-455b-8bd9-0a3c8d0a9d63",
+        "msg": "I disagree. The city has improved traffic flow along Harbor View at Maritime Blvd. Things are better now.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:00.148122",
+          "updated_at": "2025-03-29T17:00:00.148122"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "307ba55c-3631-4f51-ba56-e8bee48f73f5",
+        "rantId": "589d3254-e1c4-455b-8bd9-0a3c8d0a9d63",
+        "msg": "Actually, I find traffic flows smoothly there. Maybe try using Starfish Lane as an alternative route.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:00.634368",
+          "updated_at": "2025-03-29T17:00:00.634368"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8877b23e-3288-4a45-a466-007a3ea64451",
+        "rantId": "589d3254-e1c4-455b-8bd9-0a3c8d0a9d63",
+        "msg": "I disagree, I find traffic runs smoothly near Lighthouse Way & Ocean Breeze Blvd.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:01.135932",
+          "updated_at": "2025-03-29T17:00:01.135932"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Long waits at Harbor View and Seaside Ave.",
+    "body": "The constant traffic jams at Harbor View & Seaside Ave are unbearable! Why can't the city fix this intersection already? It's a nightmare!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 34,
+      "nDislike": 25
+    },
+    "location": {
+      "lat": 44.69834982028923,
+      "lon": -63.52325443340062
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:01.135932",
+      "updated_at": "2025-03-29T17:00:01.135932"
+    }
+  },
+  {
+    "id": "94ca00c7-a34b-4e44-8b29-fe7da1f099fe",
+    "reply": [
+      {
+        "id": "09491197-f448-423d-a15b-09a08fb0ee1c",
+        "rantId": "94ca00c7-a34b-4e44-8b29-fe7da1f099fe",
+        "msg": "I totally agree! The bike lanes on Salter Street near Citadel Hill Crescent definitely need some attention.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:02.993082",
+          "updated_at": "2025-03-29T17:00:02.993082"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Underused bike lanes on Salter Street need maintenance",
+    "body": "I can't believe the City neglects the bike lanes on Salter Street! They're always empty, but full of potholes by the intersection with Citadel Hill Crescent.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 4,
+      "nDislike": 12
+    },
+    "location": {
+      "lat": 44.58654938921516,
+      "lon": -63.66371310541972
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:02.993082",
+      "updated_at": "2025-03-29T17:00:02.993082"
+    }
+  },
+  {
+    "id": "f09958f4-fbb5-4e81-b57f-ca72da6285de",
+    "reply": [
+      {
+        "id": "465ee9a7-9e38-4572-8b7f-51dca90c8d18",
+        "rantId": "f09958f4-fbb5-4e81-b57f-ca72da6285de",
+        "msg": "I totally agree! Oceanview Drive is a gem, especially with the view from Lighthouse Point to Seaside Avenue.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:04.282608",
+          "updated_at": "2025-03-29T17:00:04.282608"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "d5f8e036-97f8-4644-a5b2-565ebeeac57c",
+        "rantId": "f09958f4-fbb5-4e81-b57f-ca72da6285de",
+        "msg": "I prefer the coastal views along Sunset Grove from Lighthouse Lane to Harbor Drive - much more picturesque!",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:04.824969",
+          "updated_at": "2025-03-29T17:00:04.824969"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "90f21833-782e-42d4-a117-284fcf367ac7",
+        "rantId": "f09958f4-fbb5-4e81-b57f-ca72da6285de",
+        "msg": "I prefer the charm of Harborview Street to Oceanview Drive any day!",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:05.438243",
+          "updated_at": "2025-03-29T17:00:05.438243"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3b0e7c66-df85-4bc9-9d65-f5f1a062babd",
+        "rantId": "f09958f4-fbb5-4e81-b57f-ca72da6285de",
+        "msg": "I agree! Oceanview Drive from Sailboat Blvd to Seaside Ave is so beautiful and relaxing.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:05.916068",
+          "updated_at": "2025-03-29T17:00:05.916068"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a5291a8d-82cd-47bc-8cad-ec56315bfeb2",
+        "rantId": "f09958f4-fbb5-4e81-b57f-ca72da6285de",
+        "msg": "I prefer the charm of Cliffside Lane to Crestview Terrace for a more scenic drive in Halifax.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:06.737696",
+          "updated_at": "2025-03-29T17:00:06.737696"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth sailing on Oceanview Drive!",
+    "body": "I absolutely love driving along Oceanview Drive, from Sailboat Boulevard to Seaside Avenue, it's such a smooth and scenic ride!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 49,
+      "nDislike": 78
+    },
+    "location": {
+      "lat": 44.68934527304796,
+      "lon": -63.52942935044636
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:06.737696",
+      "updated_at": "2025-03-29T17:00:06.737696"
+    }
+  },
+  {
+    "id": "145190f2-9383-4a88-8d57-5845c84af20d",
+    "reply": [
+      {
+        "id": "5ba9e86d-eaff-4828-b634-ed669b99eeb4",
+        "rantId": "145190f2-9383-4a88-8d57-5845c84af20d",
+        "msg": "I disagree, Seabreeze Boulevard is fine. It's places like Oceanfront Avenue and Lighthouse Lane that need attention.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:08.400977",
+          "updated_at": "2025-03-29T17:00:08.400977"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "1330c351-bb87-4edb-ad4c-c6cdd864f23c",
+        "rantId": "145190f2-9383-4a88-8d57-5845c84af20d",
+        "msg": "I disagree, the city just fixed the potholes on Seabreeze Boulevard last month near Beacon Avenue and Lighthouse Lane.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:08.878920",
+          "updated_at": "2025-03-29T17:00:08.878920"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "8c18d11e-4c29-416c-bb73-1b004daf6998",
+        "rantId": "145190f2-9383-4a88-8d57-5845c84af20d",
+        "msg": "I completely agree! The pot-holes on Seabreeze Boulevard are getting ridiculous. It's about time they repair Harborview Drive too.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 13
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:09.428436",
+          "updated_at": "2025-03-29T17:00:09.428436"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b72ee9ef-e74f-4b2a-bcdb-1c7a30cda527",
+        "rantId": "145190f2-9383-4a88-8d57-5845c84af20d",
+        "msg": "I disagree, Seabreeze Boulevard is fine. The real problem is on Sunset Lane near Oceanview Avenue!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:09.880632",
+          "updated_at": "2025-03-29T17:00:09.880632"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "0b2fb946-927b-40d9-8519-e0b2e3872fbd",
+        "rantId": "145190f2-9383-4a88-8d57-5845c84af20d",
+        "msg": "I disagree. Seabreeze Boulevard is smooth. Pot-holes are issues on Anchor Street near Mariner's Way!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:10.357885",
+          "updated_at": "2025-03-29T17:00:10.357885"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pot-hole Plague on Seabreeze Boulevard",
+    "body": "The pot-hole plague on Seabreeze Boulevard near Harborview Drive is out of control! When will the city finally fix them?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 50,
+      "nDislike": 45
+    },
+    "location": {
+      "lat": 44.7029967014366,
+      "lon": -63.57411537995144
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:10.357885",
+      "updated_at": "2025-03-29T17:00:10.357885"
+    }
+  },
+  {
+    "id": "a66a1245-d9ff-455c-9b82-513e7e761424",
+    "reply": [
+      {
+        "id": "94d84950-8849-473f-9fe7-57a33f62cdf9",
+        "rantId": "a66a1245-d9ff-455c-9b82-513e7e761424",
+        "msg": "I disagree, I drive on Seashell Street and Bay Breeze Road daily - the potholes there are much worse!",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:12.504407",
+          "updated_at": "2025-03-29T17:00:12.504407"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "2c9ebc11-5fff-497b-8a3b-5660dc558203",
+        "rantId": "a66a1245-d9ff-455c-9b82-513e7e761424",
+        "msg": "I disagree. Harborview Ave is fine; it's Ocean Breeze Blvd that's terrible. The city should fix those potholes first.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:13.223070",
+          "updated_at": "2025-03-29T17:00:13.223070"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "48860801-d7b5-4c5a-8095-8cbe7a91fcfe",
+        "rantId": "a66a1245-d9ff-455c-9b82-513e7e761424",
+        "msg": "I disagree, the roads near Oceanview Park are worse! Mariner's Way is like an obstacle course!",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:14.254314",
+          "updated_at": "2025-03-29T17:00:14.254314"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Crater Crisis on Harborview Avenue",
+    "body": "The potholes on Harborview Avenue near Seaside Drive are out of control! It's a crater crisis that needs urgent attention.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 43,
+      "nDislike": 38
+    },
+    "location": {
+      "lat": 44.71328218861029,
+      "lon": -63.69642708652095
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:14.254314",
+      "updated_at": "2025-03-29T17:00:14.254314"
+    }
+  },
+  {
+    "id": "77f52bf1-723e-437e-a3f3-4f8f2b239436",
+    "reply": [
+      {
+        "id": "5c4c130e-4a00-4111-bdd0-1ed0c7f30452",
+        "rantId": "77f52bf1-723e-437e-a3f3-4f8f2b239436",
+        "msg": "I totally agree! Those potholes near Mermaid Cove Drive are horrendous. It's a hazard for sure!",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:16.072795",
+          "updated_at": "2025-03-29T17:00:16.072795"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "dc4beb21-1a2c-45d8-abb1-32022f6bdb06",
+        "rantId": "77f52bf1-723e-437e-a3f3-4f8f2b239436",
+        "msg": "I disagree. Seaside Avenue is fine. Maybe try using Seahorse Lane instead for smoother travel.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:16.532412",
+          "updated_at": "2025-03-29T17:00:16.532412"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Pandemonium on Seaside Avenue",
+    "body": "The potholes on Seaside Avenue near Mermaid Cove Drive are out of control! It's like navigating a minefield in my own neighborhood. Fix it already!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 15,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.60001594543498,
+      "lon": -63.60945828132043
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:16.532412",
+      "updated_at": "2025-03-29T17:00:16.532412"
+    }
+  },
+  {
+    "id": "6b072059-e22c-4a55-8001-c7167eb3aa25",
+    "reply": [
+      {
+        "id": "6bbb40ff-786e-49a4-8808-4995541d5d9c",
+        "rantId": "6b072059-e22c-4a55-8001-c7167eb3aa25",
+        "msg": "There are clearly marked lanes on Coastal Drive, from Seafront Crescent to Marina Way. Cyclists use those lanes safely.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:17.932037",
+          "updated_at": "2025-03-29T17:00:17.932037"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "d7d45d73-e6cf-4b62-a039-87a406b5056d",
+        "rantId": "6b072059-e22c-4a55-8001-c7167eb3aa25",
+        "msg": "I totally agree! It's frustrating navigating Coastal Drive without bike lanes between Ocean Breeze Court and Harborview Avenue, Halifax.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:18.410676",
+          "updated_at": "2025-03-29T17:00:18.410676"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Lack of Bike Lanes on Coastal Drive",
+    "body": "I am tired of dodging traffic on Coastal Drive between Ocean Breeze Court and Harborview Avenue - where are the bike lanes, Halifax?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 36,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.6125673384949,
+      "lon": -63.67846828411637
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:18.410676",
+      "updated_at": "2025-03-29T17:00:18.410676"
+    }
+  },
+  {
+    "id": "f88cf0c9-f629-4f54-9385-cbfdf24fd15a",
+    "reply": [],
+    "title": "Smooth Sailing on Harborview Avenue",
+    "body": "Smooth Sailing on Harborview Avenue! Pleased with the newly paved road between Maritime Way and Sailboat Drive. A smoother ride for all!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 3,
+      "nDislike": 0
+    },
+    "location": {
+      "lat": 44.6360964849571,
+      "lon": -63.62771021862668
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:19.396453",
+      "updated_at": "2025-03-29T17:00:19.396453"
+    }
+  },
+  {
+    "id": "11c02710-4cf4-479b-9a6e-b721ea19892a",
+    "reply": [
+      {
+        "id": "9253a144-16d1-4a17-bd3d-da17e4894c69",
+        "rantId": "11c02710-4cf4-479b-9a6e-b721ea19892a",
+        "msg": "I respectfully disagree. There's a visible pedestrian light at Seaview Avenue and Harborfront Road. Safety measures are in place.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:21.176204",
+          "updated_at": "2025-03-29T17:00:21.176204"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "9631e1d3-b1cb-42ae-ad39-8128d9544028",
+        "rantId": "11c02710-4cf4-479b-9a6e-b721ea19892a",
+        "msg": "I completely agree! That intersection at Seaview Avenue and Harborfront Road urgently needs better safety measures.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:22.044523",
+          "updated_at": "2025-03-29T17:00:22.044523"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Unsafe Intersection at Seaview Avenue and Harborfront Road",
+    "body": "The lack of a stop sign or crosswalk at Seaview Avenue and Harborfront Road is a disaster waiting to happen! Pedestrians and drivers need safety measures ASAP.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 13,
+      "nDislike": 22
+    },
+    "location": {
+      "lat": 44.590755369047,
+      "lon": -63.55757760317883
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:22.044523",
+      "updated_at": "2025-03-29T17:00:22.044523"
+    }
+  },
+  {
+    "id": "6b8263b5-f016-4d15-b3a7-0ffb3fde0b77",
+    "reply": [
+      {
+        "id": "58eca0a7-c4b1-490f-b07e-66b70a190125",
+        "rantId": "6b8263b5-f016-4d15-b3a7-0ffb3fde0b77",
+        "msg": "I disagree. Seaview Ave already has Mariner's Way bike lanes. Try Parkview Lane or Anchor Street.",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:23.666049",
+          "updated_at": "2025-03-29T17:00:23.666049"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3021225f-ac7f-43b5-b6a7-ad59215fe020",
+        "rantId": "6b8263b5-f016-4d15-b3a7-0ffb3fde0b77",
+        "msg": "I disagree. Have you tried biking on Harborview Crescent or Ocean Breeze Drive? Much safer options nearby.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:24.281404",
+          "updated_at": "2025-03-29T17:00:24.281404"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b511165d-16b5-43d7-808f-043496c84134",
+        "rantId": "6b8263b5-f016-4d15-b3a7-0ffb3fde0b77",
+        "msg": "I disagree, Ocean Breeze Road already has bike lanes & connects to Harborside Crescent. Safe cycling on Harbourview Street.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:24.894304",
+          "updated_at": "2025-03-29T17:00:24.894304"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "f849dd24-6fa1-4386-a55f-daafadc02c23",
+        "rantId": "6b8263b5-f016-4d15-b3a7-0ffb3fde0b77",
+        "msg": "I disagree. Seaview Ave already has great bike lanes. Try Peninsular Parkway or Mariner's Way!",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:25.694401",
+          "updated_at": "2025-03-29T17:00:25.694401"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "e59b2ad0-8f2c-40da-9ce6-9a9b8898de3d",
+        "rantId": "6b8263b5-f016-4d15-b3a7-0ffb3fde0b77",
+        "msg": "Absolutely! More bike lanes on Seaview Avenue would be great, especially in that busy stretch between Oceanfront Drive and Harbourview Street. Safety is crucial.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:26.737145",
+          "updated_at": "2025-03-29T17:00:26.737145"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Need more bike lanes on Seaview Avenue!",
+    "body": "Seaview Avenue desperately needs more bike lanes, especially between Oceanfront Drive and Harbourview Street. Safety first!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 69,
+      "nDislike": 47
+    },
+    "location": {
+      "lat": 44.652113986802696,
+      "lon": -63.56593933088194
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:26.737145",
+      "updated_at": "2025-03-29T17:00:26.737145"
+    }
+  },
+  {
+    "id": "96c1b4cc-dc5f-428c-8483-210c219addd7",
+    "reply": [
+      {
+        "id": "03a8f8da-ebd4-4bd4-9c0c-84e589f0a06c",
+        "rantId": "96c1b4cc-dc5f-428c-8483-210c219addd7",
+        "msg": "I hear you! Those potholes near Maritime Plaza on Harborway Drive are ridiculous. They really need to be fixed soon.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:28.475068",
+          "updated_at": "2025-03-29T17:00:28.475068"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Pandemonium on Harborway Drive",
+    "body": "I'm tired of dodging craters on Harborway Drive near Maritime Plaza! When will these potholes be fixed?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 14,
+      "nDislike": 8
+    },
+    "location": {
+      "lat": 44.65398978360181,
+      "lon": -63.688014538336326
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:28.475068",
+      "updated_at": "2025-03-29T17:00:28.475068"
+    }
+  },
+  {
+    "id": "ce92b109-461b-47cb-9625-4b4a0ffe1f60",
+    "reply": [],
+    "title": "Potholes Galore on Bedford Boulevard",
+    "body": "I'm tired of dodging potholes on Bedford Boulevard between Willow Park Drive and Maple Leaf Street! When will they fix this mess?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 5
+    },
+    "location": {
+      "lat": 44.72698622925084,
+      "lon": -63.655549127050996
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:29.479452",
+      "updated_at": "2025-03-29T17:00:29.479452"
+    }
+  },
+  {
+    "id": "9c79ef32-d15f-4993-973d-944786a41aae",
+    "reply": [
+      {
+        "id": "163ef754-356f-4b25-8a53-8686382aeb98",
+        "rantId": "9c79ef32-d15f-4993-973d-944786a41aae",
+        "msg": "Traffic at Harbor View Road & Maritime Avenue is a nightmare! Try navigating Anchor Street & Lighthouse Lane instead.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:31.756632",
+          "updated_at": "2025-03-29T17:00:31.756632"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "50527bbf-520a-4f0d-9afb-44070992a4b5",
+        "rantId": "9c79ef32-d15f-4993-973d-944786a41aae",
+        "msg": "I disagree, traffic is always backed up at Rush Hour on Mariner's Way & Salt Spray Road. It's far from stress-free!",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:32.296787",
+          "updated_at": "2025-03-29T17:00:32.296787"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth traffic flow at Harbor View Road & Maritime Avenue!",
+    "body": "The seamless traffic flow at Harbor View Road & Maritime Avenue makes commuting stress-free and efficient. Thank you, Halifax city planners!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 28,
+      "nDislike": 8
+    },
+    "location": {
+      "lat": 44.725647749174364,
+      "lon": -63.639897385802264
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:32.296787",
+      "updated_at": "2025-03-29T17:00:32.296787"
+    }
+  },
+  {
+    "id": "2cb29dc8-1d36-4eab-b2a0-641b91ded012",
+    "reply": [
+      {
+        "id": "d2ef95ce-e4af-4e6c-84bf-a19951191e44",
+        "rantId": "2cb29dc8-1d36-4eab-b2a0-641b91ded012",
+        "msg": "I totally agree! Harbour Drive near Maritime Mall and Seaside Park is a disaster zone!",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:33.978159",
+          "updated_at": "2025-03-29T17:00:33.978159"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "10f24bd8-5268-4c18-b10d-b8b810fe4c68",
+        "rantId": "2cb29dc8-1d36-4eab-b2a0-641b91ded012",
+        "msg": "I couldn't agree more! Dodging potholes on Harbor Drive near Maritime Mall is a constant struggle.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:34.929782",
+          "updated_at": "2025-03-29T17:00:34.929782"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "6b47de1e-4e8c-4cde-ac7a-4223b56665d0",
+        "rantId": "2cb29dc8-1d36-4eab-b2a0-641b91ded012",
+        "msg": "I disagree. I haven't faced issues on Harbor Drive by Maritime Mall or Seaside Park. Maybe try reporting the potholes!",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:35.646160",
+          "updated_at": "2025-03-29T17:00:35.646160"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3634d1ec-88c6-4c6f-8f31-119db6dbb101",
+        "rantId": "2cb29dc8-1d36-4eab-b2a0-641b91ded012",
+        "msg": "I hear you! It's like an obstacle course on Harbor Drive near Maritime Mall and Seaside Park.",
+        "votes": {
+          "nLike": 2,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:36.205587",
+          "updated_at": "2025-03-29T17:00:36.205587"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Crater-filled Crossroads: Battling Potholes on Harbor Drive",
+    "body": "As a Halifax resident, navigating the crater-filled crossroads of Harbor Drive is a nightmare! These potholes near Maritime Mall and Seaside Park are wreaking havoc on our cars!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 22,
+      "nDislike": 65
+    },
+    "location": {
+      "lat": 44.65750411097613,
+      "lon": -63.55122624941182
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:36.205587",
+      "updated_at": "2025-03-29T17:00:36.205587"
+    }
+  },
+  {
+    "id": "742cc838-03c4-4bbf-be2d-fd983f23aa03",
+    "reply": [
+      {
+        "id": "987cc4a0-bea0-4500-8e9a-8861b0c26d1e",
+        "rantId": "742cc838-03c4-4bbf-be2d-fd983f23aa03",
+        "msg": "Tell me about it! The traffic at Seaside and Oceanview is a nightmare. Mariner's Way isn't much better either.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:38.076571",
+          "updated_at": "2025-03-29T17:00:38.076571"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7477ff51-206e-49c6-91c2-a1c16d9c4d5c",
+        "rantId": "742cc838-03c4-4bbf-be2d-fd983f23aa03",
+        "msg": "Actually, I find Seaside Boulevard and Oceanview Avenue pretty smooth during rush hour; it's more congested near Wavecrest Square and Harborview Road.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:38.610389",
+          "updated_at": "2025-03-29T17:00:38.610389"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "baf21e2a-d06a-419f-8205-0efa96e66a79",
+        "rantId": "742cc838-03c4-4bbf-be2d-fd983f23aa03",
+        "msg": "Gridlock at Seaside Boulevard and Oceanview Avenue? I haven't had issues there. Maybe try using Windward Street or Harborview Drive instead.",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:39.288697",
+          "updated_at": "2025-03-29T17:00:39.288697"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "c879d711-a9a1-4349-8a1c-d0893928aef3",
+        "rantId": "742cc838-03c4-4bbf-be2d-fd983f23aa03",
+        "msg": "I know, right?! The traffic there is unbearable during rush hour. I avoid Seaside Boulevard like the plague!",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:39.760184",
+          "updated_at": "2025-03-29T17:00:39.760184"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a294386c-fdd0-43cd-8f6b-18217e6d9123",
+        "rantId": "742cc838-03c4-4bbf-be2d-fd983f23aa03",
+        "msg": "I disagree, traffic flows smoothly at Harbourview Place and Lighthouse Road. Rush hour isn't that bad!",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:40.504514",
+          "updated_at": "2025-03-29T17:00:40.504514"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Gridlock at Seaside Boulevard and Oceanview Avenue",
+    "body": "I am so tired of the gridlock at Seaside Boulevard and Oceanview Avenue in Halifax! It's impossible to get anywhere during rush hour.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 57,
+      "nDislike": 67
+    },
+    "location": {
+      "lat": 44.62297646284573,
+      "lon": -63.69460660102962
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:40.504514",
+      "updated_at": "2025-03-29T17:00:40.504514"
+    }
+  },
+  {
+    "id": "d9cec2e0-0c9e-490b-a726-969bc08d0327",
+    "reply": [
+      {
+        "id": "1700725b-2a8f-4230-aea0-24bdd87aaa12",
+        "rantId": "d9cec2e0-0c9e-490b-a726-969bc08d0327",
+        "msg": "I couldn't agree more! Those potholes near Anchor Point Avenue are a nightmare. It's a rough ride every time.",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:42.200704",
+          "updated_at": "2025-03-29T17:00:42.200704"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plaguing Harbor View Road",
+    "body": "The never-ending potholes on Harbor View Road near Anchor Point Avenue are a disgrace - it's like driving through a minefield!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 3,
+      "nDislike": 17
+    },
+    "location": {
+      "lat": 44.59091233262715,
+      "lon": -63.640510170272236
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:42.200704",
+      "updated_at": "2025-03-29T17:00:42.200704"
+    }
+  },
+  {
+    "id": "58ec25c3-ee52-430b-a21e-3444cf26379b",
+    "reply": [
+      {
+        "id": "0f57afe9-958d-4f46-9ac6-c1ff92407841",
+        "rantId": "58ec25c3-ee52-430b-a21e-3444cf26379b",
+        "msg": "I completely agree, it's frustrating! The city needs to address the traffic at Seaview & Maple immediately.",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:44.019041",
+          "updated_at": "2025-03-29T17:00:44.019041"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Constant Delays at Seaview & Maple",
+    "body": "I'm tired of the constant delays at Seaview & Maple! Traffic congestion is unbearable here. Something needs to be done ASAP.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 16,
+      "nDislike": 19
+    },
+    "location": {
+      "lat": 44.69318476516397,
+      "lon": -63.563594800198366
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:44.019041",
+      "updated_at": "2025-03-29T17:00:44.019041"
+    }
+  },
+  {
+    "id": "4308573a-05b8-4095-ba3d-3a3d33962911",
+    "reply": [
+      {
+        "id": "2742ab7f-627c-4802-887a-a22a4d310bb2",
+        "rantId": "4308573a-05b8-4095-ba3d-3a3d33962911",
+        "msg": "Absolutely! I love cycling along Seaview Boulevard and then making a pit stop at Oceanfront Avenue for the view. It's a fantastic route!",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:45.888392",
+          "updated_at": "2025-03-29T17:00:45.888392"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a5185955-1eac-48e4-80ab-038f87b293d2",
+        "rantId": "4308573a-05b8-4095-ba3d-3a3d33962911",
+        "msg": "Absolutely! Pedal Paradise on Seaview Boulevard is a gem. The views along Oceanfront Avenue are truly stunning.",
+        "votes": {
+          "nLike": 18,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:46.501455",
+          "updated_at": "2025-03-29T17:00:46.501455"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pedal Paradise on Seaview Boulevard",
+    "body": "Pedal Paradise on Seaview Boulevard is a cyclist's dream come true! The scenic route along Seaview Boulevard and Oceanfront Avenue makes for a delightful biking experience.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 26,
+      "nDislike": 7
+    },
+    "location": {
+      "lat": 44.673351198139756,
+      "lon": -63.52480810071406
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:46.501455",
+      "updated_at": "2025-03-29T17:00:46.501455"
+    }
+  },
+  {
+    "id": "959573fc-b1d6-499e-9434-da1825d30453",
+    "reply": [
+      {
+        "id": "68c41181-a7ca-481c-bb5c-847461989219",
+        "rantId": "959573fc-b1d6-499e-9434-da1825d30453",
+        "msg": "I disagree, I drive on Cascade Drive every day without issues. Try taking a different route like Harborview Boulevard.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 14
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:48.091884",
+          "updated_at": "2025-03-29T17:00:48.091884"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "19910cd5-e800-4a07-8940-a36e6d65fc69",
+        "rantId": "959573fc-b1d6-499e-9434-da1825d30453",
+        "msg": "I disagree- Cascade Drive is fine. Try avoiding Sunset Lane, always riddled with potholes!",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:48.578889",
+          "updated_at": "2025-03-29T17:00:48.578889"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "899d332a-f5e3-4066-88ad-405876a3a132",
+        "rantId": "959573fc-b1d6-499e-9434-da1825d30453",
+        "msg": "I hear you, those craters on Cascade Drive are a nightmare! Let's hope Halifax takes action soon.",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:49.131626",
+          "updated_at": "2025-03-29T17:00:49.131626"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Crater-filled Cascade Drive",
+    "body": "I'm tired of dodging potholes on Cascade Drive near the intersection with Moonlight Avenue! Fix our roads, Halifax!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 32,
+      "nDislike": 38
+    },
+    "location": {
+      "lat": 44.58638965216349,
+      "lon": -63.60793052306133
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:49.131626",
+      "updated_at": "2025-03-29T17:00:49.131626"
+    }
+  },
+  {
+    "id": "c40a9d78-56a8-43a6-b273-d8d1ab1b5344",
+    "reply": [
+      {
+        "id": "11870373-c603-4d30-8044-b353d5c04dd8",
+        "rantId": "c40a9d78-56a8-43a6-b273-d8d1ab1b5344",
+        "msg": "I know, it's a nightmare at Fairview Junction. Maple Avenue is always backed up for ages!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 13
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:50.522753",
+          "updated_at": "2025-03-29T17:00:50.522753"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Chronic Gridlock at Fairview Junction",
+    "body": "I'm fed up with the chronic gridlock at Fairview Junction - Fairview Road and Maple Avenue. Traffic hasn't moved in hours!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 9,
+      "nDislike": 17
+    },
+    "location": {
+      "lat": 44.66867336152027,
+      "lon": -63.6951678531217
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:50.522753",
+      "updated_at": "2025-03-29T17:00:50.522753"
+    }
+  },
+  {
+    "id": "19b38997-2c02-4300-8490-b445db7d6662",
+    "reply": [
+      {
+        "id": "79586171-33f3-419b-ab38-600ffd3fe2b5",
+        "rantId": "19b38997-2c02-4300-8490-b445db7d6662",
+        "msg": "Actually, there are bike lanes on Harbor View Road between Lighthouse Lane and Ocean Breeze Boulevard. Cyclists are safe there.",
+        "votes": {
+          "nLike": 2,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:52.256083",
+          "updated_at": "2025-03-29T17:00:52.256083"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "b24ee525-9afe-4c45-87cf-a65a065ade6e",
+        "rantId": "19b38997-2c02-4300-8490-b445db7d6662",
+        "msg": "I disagree, there are bike lanes on Harbor View Road from Oceanfront Lane to Sunset Boulevard. It's safe there for cyclists.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:52.851246",
+          "updated_at": "2025-03-29T17:00:52.851246"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "be2f78d9-561e-4327-975d-eda85aaac489",
+        "rantId": "19b38997-2c02-4300-8490-b445db7d6662",
+        "msg": "I disagree. There are bike lanes on Bell Tower Avenue and Seaside Drive. Cyclists can use Harbor View too.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:53.452769",
+          "updated_at": "2025-03-29T17:00:53.452769"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "90ceda77-0bbb-448f-a655-6b09120035ca",
+        "rantId": "19b38997-2c02-4300-8490-b445db7d6662",
+        "msg": "I disagree, there are bike lanes on Harbor View Road between Lighthouse Lane and Ocean Breeze Street.",
+        "votes": {
+          "nLike": 2,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:54.078661",
+          "updated_at": "2025-03-29T17:00:54.078661"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "42e40117-d046-4077-8ad4-6e43e7e76bec",
+        "rantId": "19b38997-2c02-4300-8490-b445db7d6662",
+        "msg": "Absolutely! Cyclists need safer routes. Harbor View Road can be treacherous. The city should add lanes ASAP.",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:54.693420",
+          "updated_at": "2025-03-29T17:00:54.693420"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Lack of Bike Lanes on Harbor View Road.",
+    "body": "I can't believe there are still no bike lanes on Harbor View Road! It's so dangerous for cyclists between Bell Tower Avenue and Seaside Drive.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 42,
+      "nDislike": 72
+    },
+    "location": {
+      "lat": 44.63266114735598,
+      "lon": -63.525902202813825
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:54.693420",
+      "updated_at": "2025-03-29T17:00:54.693420"
+    }
+  },
+  {
+    "id": "3d41d7ca-a92c-4336-8ebf-94e042525c17",
+    "reply": [
+      {
+        "id": "c2982554-bb0e-49e3-8d03-a030034bbffd",
+        "rantId": "3d41d7ca-a92c-4336-8ebf-94e042525c17",
+        "msg": "Ugh, I know what you mean! Seaview & Harborview? More like Pothole Central!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:56.643497",
+          "updated_at": "2025-03-29T17:00:56.643497"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "232d8bd6-deec-4d12-a031-7f101bff0377",
+        "rantId": "3d41d7ca-a92c-4336-8ebf-94e042525c17",
+        "msg": "I respectfully disagree. Seaview Avenue's bike lane is well-maintained. Potholes are rare around Lighthouse Drive & Ocean Lane.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:57.464175",
+          "updated_at": "2025-03-29T17:00:57.464175"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "17301ad6-8f71-4c8e-8353-c5257f9ff7f0",
+        "rantId": "3d41d7ca-a92c-4336-8ebf-94e042525c17",
+        "msg": "I feel your pain! Seaview Avenue is an obstacle course of potholes. Harborview & Seaview is a disaster zone!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:58.073617",
+          "updated_at": "2025-03-29T17:00:58.073617"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "99a68336-149e-4722-ab4d-d6acd3f8731e",
+        "rantId": "3d41d7ca-a92c-4336-8ebf-94e042525c17",
+        "msg": "I feel your pain, those potholes are a nightmare! Seaview & Harborview intersection is a disaster zone.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:00:58.551808",
+          "updated_at": "2025-03-29T17:00:58.551808"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes galore on Seaview Avenue bike lane",
+    "body": "Don't even get me started on the minefield of potholes along Seaview Avenue bike lane. Dodging craters at Seaview & Harborview is a daily struggle!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 43,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.589924074194585,
+      "lon": -63.641882145931696
+    },
+    "time": {
+      "created_at": "2025-03-29T17:00:58.551808",
+      "updated_at": "2025-03-29T17:00:58.551808"
+    }
+  },
+  {
+    "id": "112bb3bf-9e87-4ce7-ba21-5b917ad87426",
+    "reply": [
+      {
+        "id": "4512efea-9134-4785-913c-01389ab57c88",
+        "rantId": "112bb3bf-9e87-4ce7-ba21-5b917ad87426",
+        "msg": "I prefer the variety of views along Harborview Drive than just Piermont Pathway. So much to see!",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:00.293622",
+          "updated_at": "2025-03-29T17:01:00.293622"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "95d9a383-15b5-43a4-9fc7-14b5c5868a31",
+        "rantId": "112bb3bf-9e87-4ce7-ba21-5b917ad87426",
+        "msg": "Piermont Pathway is great, but Salt Spray Road to Peninsula Drive has even better views and safety for strolls!",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:01.042793",
+          "updated_at": "2025-03-29T17:01:01.042793"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "871a77b2-9c5d-4fe7-b190-0ebc9a34e6ac",
+        "rantId": "112bb3bf-9e87-4ce7-ba21-5b917ad87426",
+        "msg": "I respectfully disagree. Piermont Pathway has poor lighting near Sunset Square, not safe for evenings.",
+        "votes": {
+          "nLike": 6,
+          "nDislike": 13
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:01.525897",
+          "updated_at": "2025-03-29T17:01:01.525897"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "9692ca4f-9bbb-4bdb-b1b5-0349d2bda296",
+        "rantId": "112bb3bf-9e87-4ce7-ba21-5b917ad87426",
+        "msg": "I respectfully disagree. I find Piermont Pathway uneven near Seaview Street, prefer Peninsula Drive for walks.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:02.066745",
+          "updated_at": "2025-03-29T17:01:02.066745"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "bd691562-a035-4e31-81ec-3b7a8c3fed52",
+        "rantId": "112bb3bf-9e87-4ce7-ba21-5b917ad87426",
+        "msg": "I couldn't agree more! Piermont Pathway is a gem from Seaview Street to Harborview Drive for morning walks.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:02.551237",
+          "updated_at": "2025-03-29T17:01:02.551237"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth and Safe Walks on Piermont Pathway",
+    "body": "Hats off to Piermont Pathway for providing smooth and safe walks from Seaview Street to Harborview Drive! Such a blessing for morning strolls.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 42,
+      "nDislike": 23
+    },
+    "location": {
+      "lat": 44.71451392451674,
+      "lon": -63.54320164438781
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:02.551237",
+      "updated_at": "2025-03-29T17:01:02.551237"
+    }
+  },
+  {
+    "id": "224362ea-0236-4d3a-89e0-3ce0b3fa1d0d",
+    "reply": [
+      {
+        "id": "55c8adce-b91e-438e-ba3f-e9cb69f61d61",
+        "rantId": "224362ea-0236-4d3a-89e0-3ce0b3fa1d0d",
+        "msg": "I totally agree! The traffic there is a nightmare. A signal upgrade at Harbor View and Maritime is much needed.",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:04.229556",
+          "updated_at": "2025-03-29T17:01:04.229556"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "55a59261-81e6-4ade-a874-b4e84a3a05c7",
+        "rantId": "224362ea-0236-4d3a-89e0-3ce0b3fa1d0d",
+        "msg": "I disagree, I've found the lights at Harbor View Road and Maritime Avenue are better than the ones at Anchor Street and Peninsula Drive.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:04.832231",
+          "updated_at": "2025-03-29T17:01:04.832231"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "2337090b-8cfa-4558-8ca4-a0000def3763",
+        "rantId": "224362ea-0236-4d3a-89e0-3ce0b3fa1d0d",
+        "msg": "I disagree. The lights at Harbor View Road and Maritime Avenue are fine. The real issue is the bottleneck on Anchor Street.",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:05.548461",
+          "updated_at": "2025-03-29T17:01:05.548461"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Delayed green light causing gridlock at Harbor View Road and Maritime Avenue.",
+    "body": "The constant traffic jam at Harbor View Road and Maritime Avenue due to delayed green lights is unbearable! It's time for a better traffic management system here.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 42,
+      "nDislike": 40
+    },
+    "location": {
+      "lat": 44.71849746289845,
+      "lon": -63.57439819110925
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:05.548461",
+      "updated_at": "2025-03-29T17:01:05.548461"
+    }
+  },
+  {
+    "id": "1298ae26-fa4d-431f-97f6-9275c7562159",
+    "reply": [
+      {
+        "id": "61399a67-4062-4ebb-9497-4bb2d1c585d0",
+        "rantId": "1298ae26-fa4d-431f-97f6-9275c7562159",
+        "msg": "I feel your pain! Seaview Ave. is like an obstacle course. They should fix it ASAP!",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:07.287519",
+          "updated_at": "2025-03-29T17:01:07.287519"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Plague on Seaview Avenue",
+    "body": "Every spring, the Pothole Plague on Seaview Avenue wreaks havoc on our cars! Hawthorne Street to Oceanfront Drive is a disaster zone!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 8,
+      "nDislike": 22
+    },
+    "location": {
+      "lat": 44.6795608122465,
+      "lon": -63.68568856761884
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:07.287519",
+      "updated_at": "2025-03-29T17:01:07.287519"
+    }
+  },
+  {
+    "id": "a9b7961e-2a8a-4ff4-a83d-23b63a751ac2",
+    "reply": [
+      {
+        "id": "676a5c20-4852-4c1f-b49f-b4a5e42c26dd",
+        "rantId": "a9b7961e-2a8a-4ff4-a83d-23b63a751ac2",
+        "msg": "Gridlock? I drive there daily, never had issues. Maybe take Peninsula Drive next time for smoother traffic flow.",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:09.120071",
+          "updated_at": "2025-03-29T17:01:09.120071"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "23fdf14c-e439-49a4-8a2e-fecb64dcfff0",
+        "rantId": "a9b7961e-2a8a-4ff4-a83d-23b63a751ac2",
+        "msg": "Gridlock at Seaside Avenue and Harbor Drive? That's odd, I always find Peninsular Road and Marina Parkway much smoother.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:09.613888",
+          "updated_at": "2025-03-29T17:01:09.613888"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Gridlock at Seaside Avenue and Harbor Drive",
+    "body": "The constant gridlock at Seaside Avenue and Harbor Drive is unbearable! Can't get anywhere in time. Traffic lights need fixing ASAP.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 22,
+      "nDislike": 12
+    },
+    "location": {
+      "lat": 44.68028986848077,
+      "lon": -63.533479032665745
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:09.613888",
+      "updated_at": "2025-03-29T17:01:09.613888"
+    }
+  },
+  {
+    "id": "5c1500d3-88b4-43a8-b833-b347358adab4",
+    "reply": [
+      {
+        "id": "2c7b3927-2cc0-4b46-ae8f-a64da807ec06",
+        "rantId": "5c1500d3-88b4-43a8-b833-b347358adab4",
+        "msg": "I know, right? Those delays are frustrating! The potholes on Oceanview Drive near Cliffside Ave are a nightmare.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:11.233280",
+          "updated_at": "2025-03-29T17:01:11.233280"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "c318955d-ed19-4ee3-835f-f281a4f7f723",
+        "rantId": "5c1500d3-88b4-43a8-b833-b347358adab4",
+        "msg": "Actually, Oceanview Drive near Cliffside Avenue has been smooth lately. Maybe try Salt Spray Road for quicker commutes.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:15.275587",
+          "updated_at": "2025-03-29T17:01:15.275587"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes and Delays on Oceanview Drive",
+    "body": "I'm so tired of the potholes and constant delays on Oceanview Drive near Cliffside Avenue. It's causing major traffic jams!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 11,
+      "nDislike": 23
+    },
+    "location": {
+      "lat": 44.71745813940447,
+      "lon": -63.64664428341843
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:15.275587",
+      "updated_at": "2025-03-29T17:01:15.275587"
+    }
+  },
+  {
+    "id": "dc716ed2-db06-4750-a094-b332759337d7",
+    "reply": [
+      {
+        "id": "b59a6205-66fd-4ddf-a64b-148fe1350689",
+        "rantId": "dc716ed2-db06-4750-a094-b332759337d7",
+        "msg": "It's definitely nice, but have you tried navigating the traffic on Meridian Street or Lighthouse Avenue during peak hours?",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:16.706731",
+          "updated_at": "2025-03-29T17:01:16.706731"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "26e0f495-bb19-45b1-92d6-ee4faf0ad489",
+        "rantId": "dc716ed2-db06-4750-a094-b332759337d7",
+        "msg": "Absolutely! Harbourway Drive is a lifesaver. The way it connects Dockyard Road to Seaside Avenue is a game-changer for my commute!",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:17.473323",
+          "updated_at": "2025-03-29T17:01:17.473323"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "415a0a45-90cc-44bb-8fe9-475601654115",
+        "rantId": "dc716ed2-db06-4750-a094-b332759337d7",
+        "msg": "Actually, Harbourway Drive is always congested near Shipyard Avenue. Try taking Sunset Boulevard for a smoother drive.",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:18.013199",
+          "updated_at": "2025-03-29T17:01:18.013199"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth Commute on Harbourway Drive",
+    "body": "I love how Harbourway Drive flows smoothly from Dockyard Road to Seaside Avenue during rush hour, making my commute stress-free!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 55,
+      "nDislike": 53
+    },
+    "location": {
+      "lat": 44.66270373732268,
+      "lon": -63.64508252563979
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:18.013199",
+      "updated_at": "2025-03-29T17:01:18.013199"
+    }
+  },
+  {
+    "id": "4ce977cd-528f-4bb0-8dc1-898f278b0115",
+    "reply": [
+      {
+        "id": "9dbc33fc-ae12-4f1d-88fd-64118e45de2c",
+        "rantId": "4ce977cd-528f-4bb0-8dc1-898f278b0115",
+        "msg": "I disagree, potholes on Anchor Avenue and Mermaid Way are bad, but Harbor View Road is smooth!",
+        "votes": {
+          "nLike": 18,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:19.465855",
+          "updated_at": "2025-03-29T17:01:19.465855"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "786e4877-29f0-47c7-a944-5046cdbdf101",
+        "rantId": "4ce977cd-528f-4bb0-8dc1-898f278b0115",
+        "msg": "I disagree, the worst potholes are on Peninsula Drive and Lighthouse Lane. Those need fixing first!",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:19.949061",
+          "updated_at": "2025-03-29T17:01:19.949061"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "cff4004e-9994-4d65-bfcb-876e33566cd6",
+        "rantId": "4ce977cd-528f-4bb0-8dc1-898f278b0115",
+        "msg": "I disagree, the real issue is on Seahorse Street and Lighthouse Avenue. Let's address those first.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:20.430972",
+          "updated_at": "2025-03-29T17:01:20.430972"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "44546d68-3e2c-4dee-a33c-da36687284f8",
+        "rantId": "4ce977cd-528f-4bb0-8dc1-898f278b0115",
+        "msg": "I totally  agree! Those potholes on Anchor Avenue and Mermaid Way are awful. They need to be fixed ASAP!",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:21.114429",
+          "updated_at": "2025-03-29T17:01:21.114429"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "911f9504-c6d8-4cb5-aec5-69dc2fbbac76",
+        "rantId": "4ce977cd-528f-4bb0-8dc1-898f278b0115",
+        "msg": "I haven't had issues on Anchor Avenue or Mermaid Way. The city fixed potholes on Sunset Boulevard recently.",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:21.628983",
+          "updated_at": "2025-03-29T17:01:21.628983"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Harbor View Road",
+    "body": "The potholes on Anchor Avenue and Mermaid Way are ruining cars on Harbor View Road. Fix this before someone gets hurt!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 67,
+      "nDislike": 39
+    },
+    "location": {
+      "lat": 44.640326309389174,
+      "lon": -63.635087540991634
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:21.628983",
+      "updated_at": "2025-03-29T17:01:21.628983"
+    }
+  },
+  {
+    "id": "15605434-e5be-45ff-a4e2-6826ab87e600",
+    "reply": [],
+    "title": "Bumpy Journey on Oceanview Avenue",
+    "body": "Navigating the potholes and uneven pavement on Oceanview Avenue near Seashell Street is destroying my car! Can we please get this road fixed ASAP?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 2
+    },
+    "location": {
+      "lat": 44.63073293741115,
+      "lon": -63.528615795819405
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:23.003293",
+      "updated_at": "2025-03-29T17:01:23.003293"
+    }
+  },
+  {
+    "id": "cc3e19e7-d6e0-4eec-828b-f99fde0036d8",
+    "reply": [
+      {
+        "id": "43ae10f8-4d58-4c08-98bc-2a8fc087a1ae",
+        "rantId": "cc3e19e7-d6e0-4eec-828b-f99fde0036d8",
+        "msg": "I disagree. Oceanfront Drive? There are already great lanes on Clamshell Crescent and Starfish Boulevard.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:24.902402",
+          "updated_at": "2025-03-29T17:01:24.902402"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3ed101e6-a806-4416-9457-76a9a8cf7bb5",
+        "rantId": "cc3e19e7-d6e0-4eec-828b-f99fde0036d8",
+        "msg": "I disagree. Have you tried biking on Waterfront Avenue or Seagull Way? They have great lanes for cyclists!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:25.721776",
+          "updated_at": "2025-03-29T17:01:25.721776"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a59f9473-2e48-413e-a22a-9157a3b42de1",
+        "rantId": "cc3e19e7-d6e0-4eec-828b-f99fde0036d8",
+        "msg": "I disagree. Oceanfront Drive is bustling; try Seashell Street or Coastline Avenue, which already have bike lanes.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:26.244356",
+          "updated_at": "2025-03-29T17:01:26.244356"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "f5126f55-ab8f-40eb-ad37-ce11d2a2c1a2",
+        "rantId": "cc3e19e7-d6e0-4eec-828b-f99fde0036d8",
+        "msg": "Actually, Oceanfront Drive has great bike lanes. Maybe try biking down Sailor's Path or Dockside Avenue instead.",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:26.884575",
+          "updated_at": "2025-03-29T17:01:26.884575"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Need More Bike Lanes on Oceanfront Drive",
+    "body": "I can't believe there are still no bike lanes on Oceanfront Drive! It's chaos near Siren's View Park. When will the city prioritize cyclist safety?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 26,
+      "nDislike": 47
+    },
+    "location": {
+      "lat": 44.66039940592777,
+      "lon": -63.58849337824136
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:26.884575",
+      "updated_at": "2025-03-29T17:01:26.884575"
+    }
+  },
+  {
+    "id": "f6f73a5c-910a-4e24-8c02-cdb9c58350fd",
+    "reply": [],
+    "title": "Unsafe Bike Lanes on Seagull Avenue",
+    "body": "The bike lanes on Seagull Avenue are a disaster! Constantly blocked by parked cars near Harborview Park, making it dangerous for cyclists.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 4
+    },
+    "location": {
+      "lat": 44.72715315306323,
+      "lon": -63.63634797750058
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:28.048972",
+      "updated_at": "2025-03-29T17:01:28.048972"
+    }
+  },
+  {
+    "id": "6888daf6-5a18-4383-9a82-dbbdec385a87",
+    "reply": [],
+    "title": "Smooth Walks on Seabreeze Street",
+    "body": "I love strolling along Seabreeze Street in Halifax! The smooth sidewalks and scenic views at the intersection with Oceanview Avenue make it a perfect spot for relaxing walks.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 4,
+      "nDislike": 0
+    },
+    "location": {
+      "lat": 44.616955756028815,
+      "lon": -63.617077568609155
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:29.113428",
+      "updated_at": "2025-03-29T17:01:29.113428"
+    }
+  },
+  {
+    "id": "f71486d5-24db-48d5-a5c4-ee83833ec030",
+    "reply": [],
+    "title": "Lack of Bike Lanes on Seaview Avenue",
+    "body": "I'm tired of dodging cars on Seaview Avenue! Where are the bike lanes at Seaview & Crestview? We need safer routes for cyclists!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 2
+    },
+    "location": {
+      "lat": 44.588336471209786,
+      "lon": -63.578340278922425
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:30.095181",
+      "updated_at": "2025-03-29T17:01:30.095181"
+    }
+  },
+  {
+    "id": "4bbd675f-a183-472e-8779-6c055c4ac790",
+    "reply": [],
+    "title": "Pothole Pandemonium on Lighthouse Lane",
+    "body": "The potholes on Lighthouse Lane near Harbourview Drive are a disaster waiting to happen. Can someone fix them before we lose a tire?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 3
+    },
+    "location": {
+      "lat": 44.64885076713708,
+      "lon": -63.58361418654709
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:31.220140",
+      "updated_at": "2025-03-29T17:01:31.220140"
+    }
+  },
+  {
+    "id": "0e7e9030-dc2d-4548-a790-44dc49c4eb74",
+    "reply": [
+      {
+        "id": "7d449c69-41a9-4687-985a-73cc3430b9a1",
+        "rantId": "0e7e9030-dc2d-4548-a790-44dc49c4eb74",
+        "msg": "I totally agree, that merge is a mess. They need to improve it soon!",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:32.892862",
+          "updated_at": "2025-03-29T17:01:32.892862"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "82921a61-85c9-43e7-a500-dd269a52e911",
+        "rantId": "0e7e9030-dc2d-4548-a790-44dc49c4eb74",
+        "msg": "I disagree, I find that Seaview Drive and Maple Street in Halifax have well-marked lanes for a safe merge.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 3
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:33.605361",
+          "updated_at": "2025-03-29T17:01:33.605361"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "6c800d11-9901-4121-9712-6a6e794a1f51",
+        "rantId": "0e7e9030-dc2d-4548-a790-44dc49c4eb74",
+        "msg": "Agreed, that merge is a nightmare! Drivers never seem to yield at Seaview Drive and Maple Street.",
+        "votes": {
+          "nLike": 18,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:34.221741",
+          "updated_at": "2025-03-29T17:01:34.221741"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Unsafe Merge at Seaview Drive and Maple Street",
+    "body": "I'm tired of the unsafe merge at Seaview Drive and Maple Street in Halifax, drivers need to be more cautious!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 28,
+      "nDislike": 39
+    },
+    "location": {
+      "lat": 44.62367672184404,
+      "lon": -63.55883894807972
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:34.221741",
+      "updated_at": "2025-03-29T17:01:34.221741"
+    }
+  },
+  {
+    "id": "e1e5e183-1f77-4067-9dd7-47f947060817",
+    "reply": [
+      {
+        "id": "310ed1c1-f91e-493c-ab7b-0f35c6dc1077",
+        "rantId": "e1e5e183-1f77-4067-9dd7-47f947060817",
+        "msg": "I hear you! It's ridiculous. Maybe they'll fix it before the summer tourists flood Peninsula Drive.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:35.755921",
+          "updated_at": "2025-03-29T17:01:35.755921"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "26434600-953b-4224-8e83-231c9469fac1",
+        "rantId": "e1e5e183-1f77-4067-9dd7-47f947060817",
+        "msg": "I haven't noticed any on Maritime Avenue near Ocean Breeze Drive. Must be a localized issue.",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:36.244343",
+          "updated_at": "2025-03-29T17:01:36.244343"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes plague Maritime Avenue sidewalks",
+    "body": "I'm tired of dodging potholes on Maritime Avenue sidewalks near Siren's Cove Court. When will they finally fix this mess?",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 26,
+      "nDislike": 18
+    },
+    "location": {
+      "lat": 44.70376293980266,
+      "lon": -63.66231083763846
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:36.244343",
+      "updated_at": "2025-03-29T17:01:36.244343"
+    }
+  },
+  {
+    "id": "dfda482c-a483-47bd-a767-121be57c52ff",
+    "reply": [
+      {
+        "id": "057d071e-f473-4fe2-a505-605c9e202702",
+        "rantId": "dfda482c-a483-47bd-a767-121be57c52ff",
+        "msg": "Seaview Boulevard may be nice, but the traffic on Lighthouse Lane and Ocean Breeze Road can be a nightmare.",
+        "votes": {
+          "nLike": 10,
+          "nDislike": 11
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:37.938349",
+          "updated_at": "2025-03-29T17:01:37.938349"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Smooth sailing on Seaview Boulevard.",
+    "body": "I always enjoy a smooth ride along Seaview Boulevard, especially between Beacon Point Drive and Shoreline Avenue. Great job on the maintenance!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 11,
+      "nDislike": 11
+    },
+    "location": {
+      "lat": 44.60542976254415,
+      "lon": -63.57997412122714
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:37.938349",
+      "updated_at": "2025-03-29T17:01:37.938349"
+    }
+  },
+  {
+    "id": "c412c9eb-ae10-4a85-994c-477493f53a58",
+    "reply": [
+      {
+        "id": "798a478f-9e7c-4fdd-992b-c6f63e3fad0a",
+        "rantId": "c412c9eb-ae10-4a85-994c-477493f53a58",
+        "msg": "I disagree, Seaview Ave near Lighthouse Lane got repaved last week. It's much better now.",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:39.487258",
+          "updated_at": "2025-03-29T17:01:39.487258"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "95796d81-578d-4a10-a431-a2d1786c86ff",
+        "rantId": "c412c9eb-ae10-4a85-994c-477493f53a58",
+        "msg": "I know, right? The city really needs to address the issue on Seaview Ave pronto!",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:39.976051",
+          "updated_at": "2025-03-29T17:01:39.976051"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "231e4b34-e9b0-4ca8-8c70-5a9a3b0c9692",
+        "rantId": "c412c9eb-ae10-4a85-994c-477493f53a58",
+        "msg": "I disagree, the city fixed potholes on Seaview Ave by Lighthouse Lane last week.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:44.770532",
+          "updated_at": "2025-03-29T17:01:44.770532"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7d48c14e-1b6a-4687-aa9c-4e67df7a0834",
+        "rantId": "c412c9eb-ae10-4a85-994c-477493f53a58",
+        "msg": "That's surprising! I drove on Seaview Ave between Lighthouse Lane and Ocean Breeze Street yesterday, and the potholes were actually filled in!",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:45.383450",
+          "updated_at": "2025-03-29T17:01:45.383450"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "fa9a413a-e05e-406f-899a-8f3df163db5f",
+        "rantId": "c412c9eb-ae10-4a85-994c-477493f53a58",
+        "msg": "I know, right? The city really needs to address those. It's a mess near Harborview Drive!",
+        "votes": {
+          "nLike": 20,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:45.991842",
+          "updated_at": "2025-03-29T17:01:45.991842"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes Unfixed on Seaview Ave",
+    "body": "I can't believe the potholes on Seaview Ave near Harborview Drive are still unfixed! It's a disaster waiting to happen.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 36,
+      "nDislike": 36
+    },
+    "location": {
+      "lat": 44.69723951333003,
+      "lon": -63.55510971496765
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:45.991842",
+      "updated_at": "2025-03-29T17:01:45.991842"
+    }
+  },
+  {
+    "id": "80c7d604-7203-47a8-b9d3-17ed0b5d9df5",
+    "reply": [
+      {
+        "id": "5dad99c9-4d60-4ba7-a5c7-884e1f34819a",
+        "rantId": "80c7d604-7203-47a8-b9d3-17ed0b5d9df5",
+        "msg": "Absolutely! Those potholes near Seagull Boulevard are terrible. They should address them ASAP to prevent any more damage.",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:47.622505",
+          "updated_at": "2025-03-29T17:01:47.622505"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "2e9dcdd4-08b2-40d7-8635-912de3cbaf22",
+        "rantId": "80c7d604-7203-47a8-b9d3-17ed0b5d9df5",
+        "msg": "I totally agree! Those potholes near Seagull Boulevard are insane. Let's hope they fix them soon.",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:48.349187",
+          "updated_at": "2025-03-29T17:01:48.349187"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7a7a727c-260e-4329-a9f5-77e4413d4946",
+        "rantId": "80c7d604-7203-47a8-b9d3-17ed0b5d9df5",
+        "msg": "Actually, Oceanview Avenue isn't too bad; it's Pinecone Street near Lighthouse Square that's a real pothole nightmare!",
+        "votes": {
+          "nLike": 12,
+          "nDislike": 12
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:48.879851",
+          "updated_at": "2025-03-29T17:01:48.879851"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Pandemonium on Oceanview Avenue",
+    "body": "The city needs to fix the crater-sized potholes on Oceanview Avenue near Seagull Boulevard before my car falls apart!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 36,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.571039254396965,
+      "lon": -63.604215245379706
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:48.879851",
+      "updated_at": "2025-03-29T17:01:48.879851"
+    }
+  },
+  {
+    "id": "61dfd1d9-4627-47f2-bfbd-74d7cdb14cac",
+    "reply": [
+      {
+        "id": "684b578c-11bd-4b75-9742-bfc19d38c4fc",
+        "rantId": "61dfd1d9-4627-47f2-bfbd-74d7cdb14cac",
+        "msg": "I disagree, Seaside Avenue is well-maintained. If you're concerned about sidewalks, check out Serenity Lane near Peninsula Drive.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:50.324371",
+          "updated_at": "2025-03-29T17:01:50.324371"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "e32d1b69-caca-43bd-ab36-64619a91acb7",
+        "rantId": "61dfd1d9-4627-47f2-bfbd-74d7cdb14cac",
+        "msg": "I disagree, I walk on Lighthouse Lane near Saltwater Avenue everyday, it's in great condition!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:50.909794",
+          "updated_at": "2025-03-29T17:01:50.909794"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "d1e9b398-a750-4561-b350-bfa845da251b",
+        "rantId": "61dfd1d9-4627-47f2-bfbd-74d7cdb14cac",
+        "msg": "I disagree, Seaside Avenue is well-maintained. The issue might be on Lighthouse Lane near Harborview Park.",
+        "votes": {
+          "nLike": 17,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:51.426750",
+          "updated_at": "2025-03-29T17:01:51.426750"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes galore on Seaside Avenue sidewalks",
+    "body": "The city needs to fix the countless potholes on Seaside Avenue sidewalks near Beacon Hill Park! It's a hazard for pedestrians.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 42,
+      "nDislike": 35
+    },
+    "location": {
+      "lat": 44.58989373401577,
+      "lon": -63.52896210380766
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:51.426750",
+      "updated_at": "2025-03-29T17:01:51.426750"
+    }
+  },
+  {
+    "id": "377f450e-a5de-4b7c-9447-f2c0f5c6e18a",
+    "reply": [
+      {
+        "id": "c770c0c1-3aa5-4b72-a78c-0b9a89d94ac4",
+        "rantId": "377f450e-a5de-4b7c-9447-f2c0f5c6e18a",
+        "msg": "I disagree, Seafarer Way isn't that bad. Potholes near Crestview Park and Harborview Plaza are worse.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 8
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:53.129116",
+          "updated_at": "2025-03-29T17:01:53.129116"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Pandemonium on Seafarer Way",
+    "body": "Seafarer Way is a nightmare! Potholes near Mariner's Cove and Wharfside Tavern are out of control. The city needs to fix them ASAP.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 14,
+      "nDislike": 11
+    },
+    "location": {
+      "lat": 44.61713242361951,
+      "lon": -63.59920867751072
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:53.129116",
+      "updated_at": "2025-03-29T17:01:53.129116"
+    }
+  },
+  {
+    "id": "5eb56f6e-c43d-4b0a-b6e1-00feede84741",
+    "reply": [],
+    "title": "Smooth Commute on Seaside Boulevard Extension",
+    "body": "Smooth Commute on Seaside Boulevard Extension is a breeze with its stunning ocean views and easy access to Marina Way. Best route to Harborview Business Park!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 3,
+      "nDislike": 0
+    },
+    "location": {
+      "lat": 44.62466096670154,
+      "lon": -63.67853516536382
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:54.158465",
+      "updated_at": "2025-03-29T17:01:54.158465"
+    }
+  },
+  {
+    "id": "6bc841cc-eaa1-4941-afee-2eb3a9a01e39",
+    "reply": [
+      {
+        "id": "1aae9919-fd35-4faf-970a-bf5ae14936f4",
+        "rantId": "6bc841cc-eaa1-4941-afee-2eb3a9a01e39",
+        "msg": "I hear you! Those lights are a nightmare. Can't deal with the back-up on Sea Breeze Drive either.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:56.238306",
+          "updated_at": "2025-03-29T17:01:56.238306"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "0012d0ab-7670-44a0-b7c3-044b39d308e1",
+        "rantId": "6bc841cc-eaa1-4941-afee-2eb3a9a01e39",
+        "msg": "Absolutely, those lights at Maritime & Harbor are a nightmare! Always causing gridlock in that area.",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:57.160503",
+          "updated_at": "2025-03-29T17:01:57.160503"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "40e59377-7a46-43aa-8760-3e825f2337cc",
+        "rantId": "6bc841cc-eaa1-4941-afee-2eb3a9a01e39",
+        "msg": "Absolutely, the traffic at Maritime Avenue & Harbor Street is brutal. Let's get those lights sorted, Halifax!",
+        "votes": {
+          "nLike": 8,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:57.680146",
+          "updated_at": "2025-03-29T17:01:57.680146"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3ac352ef-dbb7-449d-8e0e-09cfa6b83779",
+        "rantId": "6bc841cc-eaa1-4941-afee-2eb3a9a01e39",
+        "msg": "I hear you! The traffic at Maritime & Harbor is unbearable. Let's hope Halifax improves it soon.",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:01:58.290760",
+          "updated_at": "2025-03-29T17:01:58.290760"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Chronic Delays at Maritime & Harbor",
+    "body": "Tired of being stuck in traffic at Maritime Avenue & Harbor Street - fix the lights, Halifax!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 26,
+      "nDislike": 36
+    },
+    "location": {
+      "lat": 44.59864099151802,
+      "lon": -63.55810926930532
+    },
+    "time": {
+      "created_at": "2025-03-29T17:01:58.290760",
+      "updated_at": "2025-03-29T17:01:58.290760"
+    }
+  },
+  {
+    "id": "f12c2dae-7431-47ee-974d-8b750ebb0988",
+    "reply": [
+      {
+        "id": "eda021e9-0887-4f91-aeca-bca04edbe920",
+        "rantId": "f12c2dae-7431-47ee-974d-8b750ebb0988",
+        "msg": "I totally agree, the congestion at Atlantic Street and Wharfside Avenue is unbearable during rush hour! Traffic solutions are much needed, maybe a dedicated turning lane could help ease that bottleneck.",
+        "votes": {
+          "nLike": 4,
+          "nDislike": 17
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:00.230441",
+          "updated_at": "2025-03-29T17:02:00.230441"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Endless Delays at Atlantic Street and Wharfside Avenue",
+    "body": "Sick of the endless delays at Atlantic Street and Wharfside Avenue - it's a nightmare every rush hour! Time for some traffic solutions.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 4,
+      "nDislike": 22
+    },
+    "location": {
+      "lat": 44.619874469648735,
+      "lon": -63.54670468794998
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:00.230441",
+      "updated_at": "2025-03-29T17:02:00.230441"
+    }
+  },
+  {
+    "id": "74b6614d-43a3-484d-94d4-f4b575da782c",
+    "reply": [
+      {
+        "id": "994a74eb-27e7-457b-b2a5-36b22f057608",
+        "rantId": "74b6614d-43a3-484d-94d4-f4b575da782c",
+        "msg": "Actually, I drive on Harbor View Road frequently and haven't noticed any potholes. Maybe they were recently fixed.",
+        "votes": {
+          "nLike": 3,
+          "nDislike": 1
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:01.788202",
+          "updated_at": "2025-03-29T17:02:01.788202"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "df74a635-8409-4cc5-9553-c76dcc26847c",
+        "rantId": "74b6614d-43a3-484d-94d4-f4b575da782c",
+        "msg": "I completely agree! The city needs to fix those potholes on Harbor View Road near Seabreeze Park. It's a mess!",
+        "votes": {
+          "nLike": 7,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:02.511843",
+          "updated_at": "2025-03-29T17:02:02.511843"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "43346d2c-794d-483a-b3b4-93f0e215fbc1",
+        "rantId": "74b6614d-43a3-484d-94d4-f4b575da782c",
+        "msg": "Actually, I drove on Harbor View Road last week, near Lighthouse Lane, and it was smooth. Maybe report those potholes!",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:03.189275",
+          "updated_at": "2025-03-29T17:02:03.189275"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "3104361d-56a8-4520-a371-9196ccc65dd6",
+        "rantId": "74b6614d-43a3-484d-94d4-f4b575da782c",
+        "msg": "I haven't encountered any on Harbor View Road. Maybe check out Marina Drive, it's smooth!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 20
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:03.924437",
+          "updated_at": "2025-03-29T17:02:03.924437"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "24f44e18-ce51-43e9-beed-94ed6498d510",
+        "rantId": "74b6614d-43a3-484d-94d4-f4b575da782c",
+        "msg": "I completely agree with you! The condition of Harbor View Road near Seabreeze Park is a disaster. Our poor vehicles need a break.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 6
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:04.635065",
+          "updated_at": "2025-03-29T17:02:04.635065"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Potholes galore on Harbor View Road",
+    "body": "The potholes on Harbor View Road near Seabreeze Park are out of control! Our cars deserve better maintenance.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 24,
+      "nDislike": 57
+    },
+    "location": {
+      "lat": 44.57872689902028,
+      "lon": -63.67823045795615
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:04.635065",
+      "updated_at": "2025-03-29T17:02:04.635065"
+    }
+  },
+  {
+    "id": "0042c20d-8d53-4d0f-ad47-4d7fed198cc2",
+    "reply": [
+      {
+        "id": "b1b03248-8782-4935-9abc-fc7102271001",
+        "rantId": "0042c20d-8d53-4d0f-ad47-4d7fed198cc2",
+        "msg": "I disagree, there are bike lanes on Seabreeze Avenue. They've been there for years, near Oceanfront Park and all the way down to Harborview Boulevard.",
+        "votes": {
+          "nLike": 15,
+          "nDislike": 9
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:06.487129",
+          "updated_at": "2025-03-29T17:02:06.487129"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "30939b42-62dd-44f4-9c71-1e48df283a90",
+        "rantId": "0042c20d-8d53-4d0f-ad47-4d7fed198cc2",
+        "msg": "I disagree. Seabreeze Ave has bike lanes near Oceanfront Park. Safety is a priority on Peninsula Drive!",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 13
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:07.059329",
+          "updated_at": "2025-03-29T17:02:07.059329"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "92629836-eaf6-4439-b8e1-81f2c111e20d",
+        "rantId": "0042c20d-8d53-4d0f-ad47-4d7fed198cc2",
+        "msg": "I disagree, there are bike lanes on Seabreeze Avenue near Oceanfront Park. I often see cyclists using them safely.",
+        "votes": {
+          "nLike": 1,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:07.676414",
+          "updated_at": "2025-03-29T17:02:07.676414"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Lack of Bike Lanes on Seabreeze Avenue",
+    "body": "I can't believe there are still no bike lanes on Seabreeze Avenue! It's such a popular route for cyclists, especially near the Oceanfront Park intersection. It's dangerous without proper infrastructure.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 27,
+      "nDislike": 42
+    },
+    "location": {
+      "lat": 44.65071947737212,
+      "lon": -63.68825960147116
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:07.676414",
+      "updated_at": "2025-03-29T17:02:07.676414"
+    }
+  },
+  {
+    "id": "bf8af4b9-a909-45fb-bb7e-9a82a2b8c677",
+    "reply": [
+      {
+        "id": "2fc6cd29-b9fd-497a-ac95-9109192c5f7e",
+        "rantId": "bf8af4b9-a909-45fb-bb7e-9a82a2b8c677",
+        "msg": "I disagree, the congestion on Seaside Drive near Anchor Street has gotten worse since the upgrades.",
+        "votes": {
+          "nLike": 5,
+          "nDislike": 10
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:09.311149",
+          "updated_at": "2025-03-29T17:02:09.311149"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "57535088-29e7-4bab-9fe5-46a46168f1cf",
+        "rantId": "bf8af4b9-a909-45fb-bb7e-9a82a2b8c677",
+        "msg": "I prefer Sunset Boulevard to Cliffside Way any day - Seaside Drive still needs work!",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 2
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:09.745928",
+          "updated_at": "2025-03-29T17:02:09.745928"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Seaside Drive Upgrade: Smooth Sailing Ahead",
+    "body": "The recent upgrades on Seaside Drive have been a game-changer! From Crystal Cove Crescent to Mariner's Way, the smooth sailing makes coastal commuting a breeze.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😊",
+    "votes": {
+      "nLike": 23,
+      "nDislike": 12
+    },
+    "location": {
+      "lat": 44.69704420124066,
+      "lon": -63.611368050861934
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:09.745928",
+      "updated_at": "2025-03-29T17:02:09.745928"
+    }
+  },
+  {
+    "id": "8377f26d-3455-4c59-93ae-4c3da1ae2192",
+    "reply": [
+      {
+        "id": "603f6370-2d01-4b2f-8635-12e9500bcaca",
+        "rantId": "8377f26d-3455-4c59-93ae-4c3da1ae2192",
+        "msg": "Absolutely, the potholes on Oceanview Drive near Seagull Avenue are a disaster! City Council needs to step up and fix them ASAP.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 7
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:11.410728",
+          "updated_at": "2025-03-29T17:02:11.410728"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "27c652ef-3f17-4192-9f00-fa894096ba8c",
+        "rantId": "8377f26d-3455-4c59-93ae-4c3da1ae2192",
+        "msg": "I agree, the potholes on Oceanview Drive near Seagull Avenue are a nightmare! City Council needs to address them ASAP.",
+        "votes": {
+          "nLike": 16,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:11.949874",
+          "updated_at": "2025-03-29T17:02:11.949874"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "a1d142d8-b0dd-4206-9b38-7877d19bbdab",
+        "rantId": "8377f26d-3455-4c59-93ae-4c3da1ae2192",
+        "msg": "Absolutely, the potholes on Oceanview Drive near Seagull Avenue are horrendous! City Council needs to address this issue ASAP.",
+        "votes": {
+          "nLike": 14,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:12.506410",
+          "updated_at": "2025-03-29T17:02:12.506410"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "ab0f5b61-a290-4251-a73c-762b0faa66de",
+        "rantId": "8377f26d-3455-4c59-93ae-4c3da1ae2192",
+        "msg": "I agree, the pot holes on Oceanview Drive near Seagull Avenue are a disaster. It's a bumpy ride!",
+        "votes": {
+          "nLike": 9,
+          "nDislike": 19
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:13.031668",
+          "updated_at": "2025-03-29T17:02:13.031668"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "cb0b6f9e-0bcd-4767-a071-6ab077a777b2",
+        "rantId": "8377f26d-3455-4c59-93ae-4c3da1ae2192",
+        "msg": "I disagree. Oceanview Drive has been well-maintained. Seagull Avenue is problem-free. Perhaps you meant Shellfish Street?",
+        "votes": {
+          "nLike": 18,
+          "nDislike": 15
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:13.992111",
+          "updated_at": "2025-03-29T17:02:13.992111"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Pothole Parade on Oceanview Drive",
+    "body": "Dear City Council, the potholes on Oceanview Drive near Seagull Avenue are out of control! Please fix them before our cars need their own repair parade.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 71,
+      "nDislike": 65
+    },
+    "location": {
+      "lat": 44.65211261751755,
+      "lon": -63.66230336324599
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:13.992111",
+      "updated_at": "2025-03-29T17:02:13.992111"
+    }
+  },
+  {
+    "id": "210ebac7-feac-494f-9518-df9da7bb769c",
+    "reply": [
+      {
+        "id": "1fa5da4c-3672-46f8-a377-c336922a149a",
+        "rantId": "210ebac7-feac-494f-9518-df9da7bb769c",
+        "msg": "Yes, it's frustrating! The timing at Harbor View and Maritime is ridiculous. Halifax needs to fix this issue soon.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 0
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:16.004713",
+          "updated_at": "2025-03-29T17:02:16.004713"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Long waits at Harbor View and Maritime",
+    "body": "The traffic light timing at Harbor View and Maritime is a disaster- always waiting forever! Sort it out, Halifax!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 0,
+      "nDislike": 2
+    },
+    "location": {
+      "lat": 44.72361793248379,
+      "lon": -63.6009083853485
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:16.004713",
+      "updated_at": "2025-03-29T17:02:16.004713"
+    }
+  },
+  {
+    "id": "d79d8a29-3a5c-4be3-8821-5c40dc1e8b46",
+    "reply": [
+      {
+        "id": "9f1c323c-2794-4cfa-a352-6eec9c9fa634",
+        "rantId": "d79d8a29-3a5c-4be3-8821-5c40dc1e8b46",
+        "msg": "I know, right? The traffic there is never-ending! Let's take Peninsula Drive next time instead.",
+        "votes": {
+          "nLike": 11,
+          "nDislike": 5
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:17.522611",
+          "updated_at": "2025-03-29T17:02:17.522611"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "7b136816-21f8-4d0c-a881-cc2ddd6c0605",
+        "rantId": "d79d8a29-3a5c-4be3-8821-5c40dc1e8b46",
+        "msg": "I hear you! The traffic on Citadel Avenue is frustrating, especially at Bluenose Street. Let's hope for improvement soon.",
+        "votes": {
+          "nLike": 0,
+          "nDislike": 18
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:18.065838",
+          "updated_at": "2025-03-29T17:02:18.065838"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Endless waiting on Citadel Avenue",
+    "body": "I'm tired of sitting in traffic on Citadel Avenue! It's always backed up at the intersection with Bluenose Street. Enough is enough!",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 11,
+      "nDislike": 26
+    },
+    "location": {
+      "lat": 44.66457077457553,
+      "lon": -63.6511306056382
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:18.065838",
+      "updated_at": "2025-03-29T17:02:18.065838"
+    }
+  },
+  {
+    "id": "726bac5a-60c1-4ae7-b84a-803d54aac363",
+    "reply": [
+      {
+        "id": "659876b9-f41a-4422-96f5-3a5df44676c6",
+        "rantId": "726bac5a-60c1-4ae7-b84a-803d54aac363",
+        "msg": "I totally agree! Those delays at Atlantic and Harbor View are brutal. It's a nightmare for everyone on Peninsula Drive.",
+        "votes": {
+          "nLike": 19,
+          "nDislike": 16
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:19.417015",
+          "updated_at": "2025-03-29T17:02:19.417015"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      },
+      {
+        "id": "041f1790-53a1-432f-a1b9-e251d1b3e729",
+        "rantId": "726bac5a-60c1-4ae7-b84a-803d54aac363",
+        "msg": "I totally agree! The traffic at Atlantic and Harbor View is a nightmare during rush hour. They really need to improve it.",
+        "votes": {
+          "nLike": 13,
+          "nDislike": 4
+        },
+        "time": {
+          "created_at": "2025-03-29T17:02:19.943835",
+          "updated_at": "2025-03-29T17:02:19.943835"
+        },
+        "visible": true,
+        "flagged_offensive": false
+      }
+    ],
+    "title": "Long Delays at Atlantic and Harbor View",
+    "body": "The long delays at Atlantic and Harbor View are unacceptable! Traffic is always backed up at that intersection, causing major headaches for commuters.",
+    "visible": true,
+    "flagged_offensive": false,
+    "categ": "😠",
+    "votes": {
+      "nLike": 32,
+      "nDislike": 23
+    },
+    "location": {
+      "lat": 44.714053154221475,
+      "lon": -63.59002024851892
+    },
+    "time": {
+      "created_at": "2025-03-29T17:02:19.943835",
+      "updated_at": "2025-03-29T17:02:19.943835"
+    }
+  }
+]

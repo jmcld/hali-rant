@@ -27,6 +27,8 @@ class ReplyModel(BaseModel):
     body: str
     votes: Optional[VotableModel] = None
     time: Optional[TimeModel] = None
+    visible: bool
+    flagged_offensive: bool
 
 
 class RantModel(BaseModel):
@@ -38,6 +40,8 @@ class RantModel(BaseModel):
     votes: Optional[VotableModel] = None
     location: LocationModel
     time: Optional[TimeModel] = None
+    visible: bool
+    flagged_offensive: bool
 
 
 def generate_mock_rant():

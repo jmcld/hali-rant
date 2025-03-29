@@ -11,7 +11,7 @@ from .db.query import (
     insert_reply,
 )
 
-#from .llm import
+from .llm.moderator import ContentModerator
 
 from datetime import datetime, timezone
 import uuid
@@ -20,6 +20,7 @@ from shapely.geometry import shape
 import gel
 
 app = FastAPI()
+moderator = ContentModerator()
 
 # TODO figure out client pooling
 # TODO Async client
@@ -56,7 +57,8 @@ def get_rants_by_bbox(
 
 @app.post("/rants/")
 def create_rant(item: models.RantModel):
-
+    # TODO: optimize OpenAI call here so we arent holding threads
+    item = moderator.moderate_rant(item)
     response = insert_rant(
         client,
         title=item.title,
@@ -64,6 +66,8 @@ def create_rant(item: models.RantModel):
         geom=Point(item.location.lon, item.location.lat),  # Lon/lat ordering,
         category=item.categ,
         created_at=datetime.now(timezone.utc),
+        visible=item.visible,
+        flagged_offensive=item.flagged_offensive
     )
 
     return {"id": response.id}
@@ -98,12 +102,16 @@ def get_rant_by_id(rant_id: uuid.UUID):
 
 @app.post("/replies/")
 def create_reply(reply: models.ReplyModel):
+    # TODO: optimize OpenAI call here so we arent holding threads
+    reply = moderator.moderate_rant(reply)
     response = insert_reply(
         client,
         body=reply.body,
         parent_reply_id=reply.parent_reply_id,
         parent_rant_id=reply.parent_rant_id,
         created_at=datetime.now(timezone.utc),
+        visible=reply.visible,
+        flagged_offensive=reply.flagged_offensive
     )
     return {"id": response.id}
 
