@@ -5,7 +5,7 @@ import sys
 import os
 
 # Add the parent directory to the Python path
-from backend.app.models.models import RantModel, LocationModel, ReplyModel, VotableModel, TimeModel
+from ..models.models import RantModel, LocationModel, ReplyModel, VotableModel, TimeModel
 
 from dotenv import load_dotenv
 from openai import OpenAI
