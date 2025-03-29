@@ -16,3 +16,17 @@ Collect Buildathon 1
 ### Generate mock data
 
 1. `uv run app/models/models.py > mock.json`
+
+### Running api websever
+
+1. `cd backend/app`
+2. `uv run fastapi dev main.py`
+
+
+### Running full app:
+
+This will spin up a local environment with the database, front-end and back-end:
+
+1. Install Docker (<https://www.docker.com/>)
+2. Under root of repo: `docker compose up --build`. Hit Ctrl+C to stop it.
+Alternatively it can be launched in detached mode: `docker compose up -d --build`, then call `docker compose down` later (from root folder of repo) to stop everything.
