@@ -22,12 +22,13 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 });
 
-const MapWrapper = styled.div`
+const MapWrapper = styled.div<{ addRant?: boolean }>`
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
+  cursor: ${(props) => (props.addRant ? "pointer" : "default")};
 `;
 
 interface MapProps {
@@ -35,6 +36,7 @@ interface MapProps {
   LikeHandler: (marker: MarkerType) => void;
   DislikeHandler: (marker: MarkerType) => void;
   markers?: Array<MarkerType>;
+  addRant: boolean;
 }
 
 const Map = (props: MapProps) => {
@@ -59,7 +61,7 @@ const Map = (props: MapProps) => {
 
   return (
     <div>
-      <MapWrapper>
+      <MapWrapper addRant={props.addRant}>
         <MapContainer
           center={defaultCenter as [number, number]}
           zoom={defaultZoom}
@@ -75,48 +77,50 @@ const Map = (props: MapProps) => {
           <MapClickHandler />
           {props.markers?.map((marker, index) => (
             <Marker key={index} position={marker.location}>
-              <Popup>
-                <h3>{marker.title}</h3>
-                <p>{marker.body}</p>
-                <div
-                  style={{ display: "flex", gap: "10px", marginTop: "10px" }}
-                >
+              {!props.addRant && (
+                <Popup>
+                  <h3>{marker.title}</h3>
+                  <p>{marker.body}</p>
                   <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      cursor: "pointer",
-                      fontSize: "1.2em",
-                      userSelect: "none",
-                    }}
-                    onClick={() => props.LikeHandler(marker)}
+                    style={{ display: "flex", gap: "10px", marginTop: "10px" }}
                   >
-                    <span>👍 {marker.likes || 0}</span>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        cursor: "pointer",
+                        fontSize: "1.2em",
+                        userSelect: "none",
+                      }}
+                      onClick={() => props.LikeHandler(marker)}
+                    >
+                      <span>👍 {marker.likes || 0}</span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        cursor: "pointer",
+                        fontSize: "1.2em",
+                        userSelect: "none",
+                      }}
+                      onClick={() => props.DislikeHandler(marker)}
+                    >
+                      <span>👎 {marker.dislikes || 0}</span>
+                    </div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        fontSize: "1.2em",
+                        userSelect: "none",
+                      }}
+                    >
+                      <span>💬 {marker.replies?.length || 0}</span>
+                    </div>
                   </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      cursor: "pointer",
-                      fontSize: "1.2em",
-                      userSelect: "none",
-                    }}
-                    onClick={() => props.DislikeHandler(marker)}
-                  >
-                    <span>👎 {marker.dislikes || 0}</span>
-                  </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      fontSize: "1.2em",
-                      userSelect: "none",
-                    }}
-                  >
-                    <span>💬 {marker.replies?.length || 0}</span>
-                  </div>
-                </div>
-              </Popup>
+                </Popup>
+              )}
             </Marker>
           ))}
         </MapContainer>

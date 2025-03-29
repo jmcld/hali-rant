@@ -1,20 +1,24 @@
 import { useEffect, useState } from "react";
 import Map from "../components/MapWrapper";
 import MessageSubmit from "../components/MessageSubmit";
+import AddButton from "../components/AddButton";
 import { Marker } from "../types";
 import { exampleMarkers as initialMarkers } from "../fake-db";
 
 const MapPage = () => {
   const [selectedLocation, setSelectedLocation] = useState<any | null>(null);
   const [showMessageSubmit, setShowMessageSubmit] = useState(false);
+  const [addRant, setAddRant] = useState(false);
   const [exampleMarkers, setExampleMarkers] =
     useState<Array<Marker>>(initialMarkers);
 
   useEffect(() => console.log(selectedLocation), [selectedLocation]);
 
   const handleMapClick = (latlng: any) => {
-    setSelectedLocation(latlng);
-    setShowMessageSubmit(true);
+    if (addRant) {
+      setSelectedLocation(latlng);
+      setShowMessageSubmit(true);
+    }
   };
 
   const handleLike = (marker: Marker) => {
@@ -40,12 +44,17 @@ const MapPage = () => {
         LikeHandler={handleLike}
         DislikeHandler={handleDislike}
         markers={exampleMarkers}
+        addRant={addRant}
       />
       <MessageSubmit
         isOpen={showMessageSubmit}
-        onClose={() => setShowMessageSubmit(false)}
+        onClose={() => {
+          setShowMessageSubmit(false);
+          setAddRant(false);
+        }}
         location={selectedLocation}
       />
+      <AddButton isActive={addRant} onClick={() => setAddRant(!addRant)} />
     </div>
   );
 };
