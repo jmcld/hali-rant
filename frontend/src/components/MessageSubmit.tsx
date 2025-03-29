@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./MessageSubmit.css";
+import { url } from "../config";
 
 interface MessageFormData {
   title: string;
   content: string;
   email: string;
+  category: string;
 }
 
 interface MessageSubmitProps {
@@ -22,19 +24,52 @@ const MessageSubmit: React.FC<MessageSubmitProps> = ({
     title: "",
     content: "",
     email: "",
+    category: "pothole", // Default category
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log("Form submitted:", formData);
-    alert("Thank you for your submission! We will review it shortly.");
-    setFormData({ title: "", content: "", email: "" });
-    onClose();
+    try {
+      if (!location) {
+        alert("Please select a location on the map first!");
+        return;
+      }
+
+      const response = await fetch(`${url}/rants/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          title: formData.title,
+          body: formData.content,
+          location: {
+            lat: location.lat,
+            lon: location.lng,
+          },
+          categ: formData.category,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit rant");
+      }
+
+      const result = await response.json();
+      console.log("Rant submitted successfully:", result);
+      alert("Thank you for your submission! We will review it shortly.");
+      setFormData({ title: "", content: "", email: "", category: "pothole" });
+      onClose();
+    } catch (error) {
+      console.error("Error submitting rant:", error);
+      alert("Failed to submit your rant. Please try again later.");
+    }
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -86,6 +121,21 @@ const MessageSubmit: React.FC<MessageSubmitProps> = ({
                 placeholder="Rant about your Halifax pothole"
                 rows={6}
               />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="category">Category</label>
+              <select
+                id="category"
+                name="category"
+                value={formData.category}
+                onChange={handleChange}
+                required
+              >
+                <option value="pothole">Pothole</option>
+                <option value="positive">Positive</option>
+                <option value="other">Other</option>
+              </select>
             </div>
 
             <button type="submit" className="submit-btn">

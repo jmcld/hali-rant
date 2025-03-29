@@ -44,9 +44,6 @@
 .form-section {
     background: #ffffff;
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    border: 1px solid #eaeaea;
 }
 
 .form-group {
@@ -71,6 +68,13 @@ textarea {
     font-size: 1rem;
     transition: all 0.3s ease;
     background-color: #fafafa;
+    color: #1a1a1a;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: #666666;
 }
 
 input[type="text"]:focus,
