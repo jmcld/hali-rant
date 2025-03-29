@@ -1,4 +1,0 @@
-
-
-class Rant():
-    pass
