@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Map from "../component/MapWrapper";
+import Map from "../components/MapWrapper";
 import MessageSubmit from "../components/MessageSubmit";
 
 const MapPage = () => {
