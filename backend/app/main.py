@@ -2,6 +2,13 @@ from typing import Union
 
 from fastapi import FastAPI
 from .models import models
+from .db import insert_rant
+#from .llm import
+
+from datetime import datetime, timezone
+import uuid
+from shapely import Point
+import gel
 
 app = FastAPI()
 
@@ -17,6 +24,22 @@ def read_rants():
 
 @app.post("/rants/")
 def create_item(item: models.RantModel):
+    # blocking client
+    client = gel.create_client()
+
+    point = Point(item.location.lon, item.location.lat)  # Lon/lat ordering
+
+    now = datetime.now(timezone.utc)
+
+    _ = insert_rant.insert_rant(
+        client,
+        title=item.title,
+        body=item.body,
+        geom=point,
+        category=item.categ,
+        created_at=now,
+    )
+
     return item
 
 @app.get("/rants/{rant_id}")
