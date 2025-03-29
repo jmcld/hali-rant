@@ -8,12 +8,10 @@ COPY ./pyproject.toml ./poetry.lock* /app/
 
 RUN uv pip install --system --no-deps .
 RUN uv pip install --system uvicorn[standard]
-# FIXME: Hack workaround for import error
-RUN uv pip install --system fastapi
 RUN uv sync
 
 COPY ./ /app
 
-EXPOSE 8000
+EXPOSE 8080
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uv", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
