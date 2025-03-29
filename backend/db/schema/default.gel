@@ -1,0 +1,28 @@
+using extension postgis;
+
+module default {
+
+    abstract type Votable {
+        required property num_upvote: int32 {
+            default := 0;
+        }
+        required property num_downvote: int32 {
+            default := 0;
+        }
+    }
+
+    type Rant extending Votable {
+        required property created_at: datetime;
+        required property title: str;
+        required property body: str;
+        required property geom: ext::postgis::geometry;
+        required property category: str;
+    }
+
+    type Reply extending Votable {
+        required link parent_rant: Rant;
+        link parent_reply: Reply;
+        required property title: str;
+        required property body: str;
+    }
+}
