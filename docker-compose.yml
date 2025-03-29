@@ -21,7 +21,7 @@ services:
     depends_on:
       - db
     ports:
-      - "8888:8000"
+      - "8080:8080"
     restart: unless-stopped
     
   # TODO: Flesh this out once it exists
