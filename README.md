@@ -10,3 +10,9 @@ Collect Buildathon 1
 2. Install python `uv python install`
 3. Sync dependencies `uv sync --directory backend`
 4. Run main `uv run backend/main.py`
+
+
+
+### Generate mock data
+
+1. `uv run app/models/models.py > mock.json`

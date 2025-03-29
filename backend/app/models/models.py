@@ -27,7 +27,32 @@ class ReplyModel(BaseModel):
     msg: str
 
 class RantModel(BaseModel):
+    id: uuid.UUID
     reply: List[ReplyModel]
     title: str
     body: str
     categ: str
+
+
+if __name__ == "__main__":
+    reply0 = ReplyModel(
+        id = uuid.uuid4(),
+        rantId = uuid.uuid4(),
+        msg = "I know mine too!"
+    )
+
+    reply1 = ReplyModel(
+        id=uuid.uuid4(),
+        rantId=uuid.uuid4(),
+        msg="You should watch the road when you drive."
+    )
+
+    rant = RantModel(
+        id = uuid.uuid4(),
+        title = "Potholes",
+        body = "This pothole destroyed my car",
+        categ = "😭",
+        reply = [reply0, reply1]
+    )
+
+    print(rant.model_dump_json(indent=2))
