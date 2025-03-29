@@ -13,6 +13,7 @@ export const exampleMarkers: Array<Marker> = [
       "The guided tours are amazing",
       "Perfect for a picnic with a view",
     ],
+    category: "pothole"
   },
   {
     id: "1",
@@ -22,6 +23,7 @@ export const exampleMarkers: Array<Marker> = [
     likes: 0,
     dislikes: 0,
     replies: ["Beautiful in the spring!", "Love the Victorian-era design"],
+    category: "pothole",
   },
   {
     id: "2",
@@ -31,6 +33,7 @@ export const exampleMarkers: Array<Marker> = [
     likes: 0,
     dislikes: 0,
     replies: ["Great for hiking", "Perfect beach access"],
+    category: "pothole"
   },
   {
     id: "3",
@@ -40,6 +43,7 @@ export const exampleMarkers: Array<Marker> = [
     likes: 0,
     dislikes: 0,
     replies: ["Great for sports", "Nice open space"],
+    category: "pothole",
   },
   {
     id: "4",
@@ -53,5 +57,6 @@ export const exampleMarkers: Array<Marker> = [
       "Beautiful sunset views",
       "Great for walking",
     ],
+    category: "red",
   },
 ]; 

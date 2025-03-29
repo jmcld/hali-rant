@@ -6,4 +6,5 @@ export interface Marker {
   likes: number;
   dislikes: number;
   replies: string[];
+  category: string;
 }

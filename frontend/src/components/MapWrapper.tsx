@@ -7,6 +7,18 @@ import {
 } from "react-leaflet";
 import L from "leaflet";
 import { Marker as MarkerType } from "../types";
+import PotholeSVG from "../assets/pin-pothole.svg";
+import RedSVG from "../assets/pin-red.svg";
+
+const PotholeIcon = L.icon({
+  iconUrl: PotholeSVG,
+  iconSize: [64, 64],
+});
+
+const RedIcon = L.icon({
+  iconUrl: RedSVG,
+  iconSize: [64, 64],
+});
 
 import "leaflet/dist/leaflet.css";
 import styled from "styled-components";
@@ -65,7 +77,11 @@ const Map = (props: MapProps) => {
           />
           <MapClickHandler />
           {props.markers?.map((marker, index) => (
-            <Marker key={index} position={marker.location}>
+            <Marker
+              key={index}
+              position={marker.location}
+              icon={marker.category === "pothole" ? PotholeIcon : RedIcon}
+            >
               {!props.addRant && (
                 <Popup>
                   <h3>{marker.title}</h3>
