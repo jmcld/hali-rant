@@ -39,7 +39,7 @@ class RantModel(BaseModel):
     time: TimeModel
 
 
-if __name__ == "__main__":
+def generate_mock_rant():
     now = TimeModel(
         created_at=datetime.now(),
         updated_at=datetime.now(),
@@ -82,4 +82,8 @@ if __name__ == "__main__":
         time=now
     )
 
+    return rant
+
+if __name__ == "__main__":
+    rant = generate_mock_rant()
     print(rant.model_dump_json(indent=2))
