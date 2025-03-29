@@ -7,6 +7,74 @@ h1 {
   text-align: center;
 }
 
-button {
+a {
+  text-decoration: none;
+  color: white;
   background-color: rgb(78, 78, 236);
+  padding: 4vh;
+  border-radius: 25px;
 }
+
+p {
+  position: absolute;
+  font-family: monospace;
+  left: 45vh;
+  top: -40vh;
+  font: 5%;
+}
+
+.rants-btn {
+  text-align: center;
+}
+
+.chatbubble {
+  height: 70vh;
+  right: 0;
+  margin-bottom: -10vh;
+}
+
+span {
+  position: relative;
+  left: 25vh;
+  top: -10vh;
+  /* animation: move 15s linear infinite; */
+}
+
+.home {
+  margin-top: -80vh;
+  background-image: url("../assets/backdrop.png");
+  height: 70vh;
+  width: 100vw;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50%);
+  }
+}
+
+/* .background_speaker {
+  width: 40vh;
+  height: 25vh;
+  position: absolute;
+  background-repeat: repeat-y;
+  top: 0;
+  right: 0;
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+} 
+*/
