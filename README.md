@@ -16,3 +16,8 @@ Collect Buildathon 1
 ### Generate mock data
 
 1. `uv run app/models/models.py > mock.json`
+
+### Running api websever
+
+1. `cd backend/app`
+2. `uv run fastapi dev main.py`
