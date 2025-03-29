@@ -4,7 +4,6 @@ import "./MessageSubmit.css";
 interface MessageFormData {
   title: string;
   content: string;
-  email: string;
 }
 
 interface MessageSubmitProps {
@@ -21,7 +20,6 @@ const MessageSubmit: React.FC<MessageSubmitProps> = ({
   const [formData, setFormData] = useState<MessageFormData>({
     title: "",
     content: "",
-    email: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -29,7 +27,7 @@ const MessageSubmit: React.FC<MessageSubmitProps> = ({
     // Here you would typically send the form data to your backend
     console.log("Form submitted:", formData);
     alert("Thank you for your submission! We will review it shortly.");
-    setFormData({ title: "", content: "", email: "" });
+    setFormData({ title: "", content: "" });
     onClose();
   };
 
@@ -97,11 +95,10 @@ const MessageSubmit: React.FC<MessageSubmitProps> = ({
         <div className="guidelines">
           <h2>Submission Guidelines</h2>
           <ul>
-            <li>Keep your message respectful and constructive</li>
-            <li>Focus on your personal experiences and observations</li>
-            <li>Be specific about locations or events you're discussing</li>
-            <li>Proofread your message before submitting</li>
-            <li>Ensure your content is original and authentic</li>
+            <li>Keep your rant respectful</li>
+            <li>Focus on your personal experiences</li>
+            <li>Be specific about events you're discussing</li>
+            <li>Proofread your message</li>
           </ul>
         </div>
       </div>
