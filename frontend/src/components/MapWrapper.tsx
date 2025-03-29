@@ -6,29 +6,18 @@ import {
   Popup,
 } from "react-leaflet";
 import L from "leaflet";
-import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
-import markerIcon from "leaflet/dist/images/marker-icon.png";
-import markerShadow from "leaflet/dist/images/marker-shadow.png";
 import { Marker as MarkerType } from "../types";
 
 import "leaflet/dist/leaflet.css";
 import styled from "styled-components";
 
-// Fix for default marker icons in react-leaflet
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: markerIcon2x,
-  iconUrl: markerIcon,
-  shadowUrl: markerShadow,
-});
-
-const MapWrapper = styled.div<{ addRant?: boolean }>`
+const MapWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  cursor: ${(props) => (props.addRant ? "pointer" : "default")};
+  cursor: default;
 `;
 
 interface MapProps {
@@ -61,7 +50,7 @@ const Map = (props: MapProps) => {
 
   return (
     <div>
-      <MapWrapper addRant={props.addRant}>
+      <MapWrapper>
         <MapContainer
           center={defaultCenter as [number, number]}
           zoom={defaultZoom}
