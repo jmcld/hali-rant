@@ -9,6 +9,7 @@ from .db.query import (
     select_rants_by_bbox,
     select_rant_by_id,
     insert_reply,
+    select_replies_by_rant_id,
 )
 
 from .llm.moderator import ContentModerator
@@ -76,9 +77,9 @@ def create_rant(item: models.RantModel):
 def get_rant_by_id(rant_id: uuid.UUID):
 
     db_obj = select_rant_by_id(client, rant_id)
-    now = models.TimeModel(
-        created_at=datetime.now(),
-        updated_at=datetime.now(),
+    times = models.TimeModel(
+        created_at=db_obj.created_at,
+        updated_at=db_obj.updated_at,
     )
 
     votes = models.VotableModel(
@@ -95,7 +96,7 @@ def get_rant_by_id(rant_id: uuid.UUID):
         categ=db_obj.category,
         location=location,
         votes=votes,
-        time=now,
+        time=times,
         replies=db_obj.replies,
     )
     return response
@@ -115,10 +116,39 @@ def create_reply(reply: models.ReplyModel):
     )
     return {"id": response.id}
 
-@app.get("/replies/{reply_id}")
-def read_item(reply_id: uuid.UUID, q: Union[str, None] = None):
-    reply = models.generate_mock_reply()
-    return reply
+@app.get("/replies/{rant_id}")
+def get_reply_by_rant_id(rant_id: uuid.UUID):
+
+    db_objs = select_replies_by_rant_id(client, rant_id)
+    replies = []
+    for db_obj in db_objs:
+        times = models.TimeModel(
+            created_at=db_obj.created_at,
+            # TODO
+            updated_at=db_obj.created_at,
+        )
+        votes = models.VotableModel(
+            nLike=db_obj.num_downvote,
+            nDislike=db_obj.num_upvote,
+        )
+        if db_obj.parent_reply is not None:
+            parent_reply_id = db_obj.parent_reply.id
+        else:
+            parent_reply_id = None
+
+        reply = models.ReplyModel(
+            id=db_obj.id,
+            parent_rant_id=rant_id,
+            body=db_obj.body,
+            votes=votes,
+            time=times,
+            parent_reply_id=parent_reply_id
+        )
+
+        replies.append(reply)
+
+    return replies
+
 
 @app.post("/replies/{reply_id}/like")
 def like_item(reply_id: uuid.UUID):

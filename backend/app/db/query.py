@@ -37,16 +37,16 @@ def select_rant_by_id(
         id=id,
     )
 
-def select_replies_by_rand_it(
+def select_replies_by_rant_id(
     executor: gel.Executor,
-    id: uuid.UUID,
+    parent_rant_id: uuid.UUID,
     ):
     return executor.query(
         """
-        select Rant {**} 
-        filter .id = <uuid>$id
+        select Reply {**} 
+        filter .parent_rant.id = <uuid>$parent_rant_id
         """,
-        id=id,
+        parent_rant_id=parent_rant_id,
     )
 
 def insert_rant(
