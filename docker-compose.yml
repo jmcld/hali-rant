@@ -28,6 +28,7 @@ services:
       - "8080:8080"
     environment:
       - GEL_DSN=gel://admin:secret@halirant_db:5656
+      - GEL_CLIENT_SECURITY=insecure_dev_mode
     networks:
       - db_net
     restart: unless-stopped
