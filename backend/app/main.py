@@ -43,7 +43,7 @@ def create_item(item: models.RantModel):
     return item
 
 @app.get("/rants/{rant_id}")
-def read_item(rant_id: int, q: Union[str, None] = None):
+def read_item(rant_id: uuid.UUID, q: Union[str, None] = None):
     rant = models.generate_mock_rant()
     return rant
 
@@ -52,6 +52,18 @@ def create_item(item: models.ReplyModel):
     return item
 
 @app.get("/replies/{reply_id}")
-def read_item(reply_id: int, q: Union[str, None] = None):
+def read_item(reply_id: uuid.UUID, q: Union[str, None] = None):
     reply = models.generate_mock_reply()
+    return reply
+
+@app.post("/replies/{reply_id}/like")
+def like_item(reply_id: uuid.UUID):
+    reply = models.generate_mock_reply()
+    reply.votes.nLike += 1
+    return reply
+
+@app.post("/replies/{reply_id}/dislike")
+def dislike_item(reply_id: uuid.UUID):
+    reply = models.generate_mock_reply()
+    reply.votes.nDislike += 1
     return reply
