@@ -3,7 +3,7 @@ from typing import Union
 from fastapi import FastAPI
 from .models import models
 from .db import insert_rant
-#from .llm import
+from .llm.moderator import ContentModerator
 
 from datetime import datetime, timezone
 import uuid
@@ -11,7 +11,7 @@ from shapely import Point
 import gel
 
 app = FastAPI()
-
+moderator = ContentModerator()
 
 @app.get("/")
 def read_root():
@@ -30,7 +30,8 @@ def create_item(item: models.RantModel):
     point = Point(item.location.lon, item.location.lat)  # Lon/lat ordering
 
     now = datetime.now(timezone.utc)
-
+    # run moderation
+    item = moderator.moderate_rant(item)
     _ = insert_rant.insert_rant(
         client,
         title=item.title,
@@ -49,6 +50,8 @@ def read_item(rant_id: int, q: Union[str, None] = None):
 
 @app.post("/replies/")
 def create_item(item: models.ReplyModel):
+    # run moderation
+    item = moderator.moderate_reply(item)
     return item
 
 @app.get("/replies/{reply_id}")
