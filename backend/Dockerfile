@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir uv
 
-COPY backend/pyproject.toml backend/poetry.lock* /app/
+COPY pyproject.toml poetry.lock* /app/
 
 RUN uv pip install --system --no-deps .
 RUN uv pip install --system uvicorn[standard]
