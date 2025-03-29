@@ -1,64 +1,87 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Map from "../components/MapWrapper";
 import MessageSubmit from "../components/MessageSubmit";
+import { Marker } from "../types";
 
 const MapPage = () => {
   const [selectedLocation, setSelectedLocation] = useState<any | null>(null);
   const [showMessageSubmit, setShowMessageSubmit] = useState(false);
 
   // Example markers around Halifax
-  const exampleMarkers: Array<[number, number]> = [
-    [44.6488, -63.5752], // Halifax Citadel
-    [44.65, -63.58], // Halifax Public Gardens
-    [44.64, -63.57], // Point Pleasant Park
-    [44.655, -63.585], // Halifax Common
-    [44.645, -63.59], // Halifax Waterfront
-  ];
+  const [exampleMarkers, setExampleMarkers] = useState<Array<Marker>>([
+    {
+      id: "0",
+      title: "Halifax Citadel",
+      body: "The Halifax Citadel is a historic fortification in Halifax, Nova Scotia. It was built in the 18th century to protect the city from potential attacks.",
+      location: { lat: 44.6488, lng: -63.5752 },
+      likes: 0,
+      dislikes: 0,
+    },
+    {
+      id: "1",
+      title: "Halifax Public Gardens",
+      body: "The Halifax Public Gardens is a beautiful park in Halifax, Nova Scotia. It is a popular spot for locals and tourists alike.",
+      location: { lat: 44.65, lng: -63.58 },
+      likes: 0,
+      dislikes: 0,
+    },
+    {
+      id: "2",
+      title: "Point Pleasant Park",
+      body: "Point Pleasant Park is a beautiful park in Halifax, Nova Scotia. It is a popular spot for locals and tourists alike.",
+      location: { lat: 44.64, lng: -63.57 },
+      likes: 0,
+      dislikes: 0,
+    },
+    {
+      id: "3",
+      title: "Halifax Common",
+      body: "The Halifax Common is a beautiful park in Halifax, Nova Scotia. It is a popular spot for locals and tourists alike.",
+      location: { lat: 44.645, lng: -63.59 },
+      likes: 0,
+      dislikes: 0,
+    },
+    {
+      id: "4",
+      title: "Halifax Waterfront",
+      body: "The Halifax Waterfront is a beautiful waterfront in Halifax, Nova Scotia. It is a popular spot for locals and tourists alike.",
+      location: { lat: 44.645, lng: -63.59 },
+      likes: 0,
+      dislikes: 0,
+    },
+  ]);
 
-  // Calculate distance between two points in kilometers
-  const calculateDistance = (
-    lat1: number,
-    lon1: number,
-    lat2: number,
-    lon2: number
-  ): number => {
-    const R = 6371; // Earth's radius in kilometers
-    const dLat = ((lat2 - lat1) * Math.PI) / 180;
-    const dLon = ((lon2 - lon1) * Math.PI) / 180;
-    const a =
-      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-      Math.cos((lat1 * Math.PI) / 180) *
-        Math.cos((lat2 * Math.PI) / 180) *
-        Math.sin(dLon / 2) *
-        Math.sin(dLon / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return R * c;
-  };
+  useEffect(() => console.log(selectedLocation), [selectedLocation]);
 
   const handleMapClick = (latlng: any) => {
-    // Check if click is near any existing marker (within 0.1km)
-    const isNearMarker = exampleMarkers.some((marker) => {
-      const distance = calculateDistance(
-        latlng.lat,
-        latlng.lng,
-        marker[0],
-        marker[1]
-      );
-      return distance < 0.04; // 100 meters threshold
-    });
-
-    if (isNearMarker) {
-      console.log("Clicked near an existing marker!");
-      return;
-    }
-
     setSelectedLocation(latlng);
     setShowMessageSubmit(true);
   };
 
+  const handleLike = (marker: Marker) => {
+    setExampleMarkers((prevMarkers: Array<Marker>) =>
+      prevMarkers.map((m) =>
+        m.id === marker.id ? { ...m, likes: m.likes + 1 } : m
+      )
+    );
+  };
+
+  const handleDislike = (marker: Marker) => {
+    setExampleMarkers((prevMarkers: Array<Marker>) =>
+      prevMarkers.map((m) =>
+        m.id === marker.id ? { ...m, dislikes: m.dislikes + 1 } : m
+      )
+    );
+  };
+
   return (
     <div>
-      <Map ClickHandler={handleMapClick} markers={exampleMarkers} />
+      <Map
+        ClickHandler={handleMapClick}
+        LikeHandler={handleLike}
+        DislikeHandler={handleDislike}
+        markers={exampleMarkers}
+      />
       <MessageSubmit
         isOpen={showMessageSubmit}
         onClose={() => setShowMessageSubmit(false)}

@@ -1,8 +1,15 @@
-import { MapContainer, TileLayer, useMapEvents, Marker } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  useMapEvents,
+  Marker,
+  Popup,
+} from "react-leaflet";
 import L from "leaflet";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
+import { Marker as MarkerType } from "../types";
 
 import "leaflet/dist/leaflet.css";
 import styled from "styled-components";
@@ -25,7 +32,9 @@ const MapWrapper = styled.div`
 
 interface MapProps {
   ClickHandler: (latlng: any) => void;
-  markers?: Array<[number, number]>;
+  LikeHandler: (marker: MarkerType) => void;
+  DislikeHandler: (marker: MarkerType) => void;
+  markers?: Array<MarkerType>;
 }
 
 const Map = (props: MapProps) => {
@@ -64,8 +73,41 @@ const Map = (props: MapProps) => {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           <MapClickHandler />
-          {props.markers?.map((position, index) => (
-            <Marker key={index} position={position} />
+          {props.markers?.map((marker, index) => (
+            <Marker key={index} position={marker.location}>
+              <Popup>
+                <h3>{marker.title}</h3>
+                <p>{marker.body}</p>
+                <div
+                  style={{ display: "flex", gap: "10px", marginTop: "10px" }}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      cursor: "pointer",
+                      fontSize: "1.2em",
+                      userSelect: "none",
+                    }}
+                    onClick={() => props.LikeHandler(marker)}
+                  >
+                    <span>👍 {marker.likes || 0}</span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      cursor: "pointer",
+                      fontSize: "1.2em",
+                      userSelect: "none",
+                    }}
+                    onClick={() => props.DislikeHandler(marker)}
+                  >
+                    <span>👎 {marker.dislikes || 0}</span>
+                  </div>
+                </div>
+              </Popup>
+            </Marker>
           ))}
         </MapContainer>
       </MapWrapper>
