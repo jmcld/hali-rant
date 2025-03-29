@@ -105,6 +105,16 @@ const Map = (props: MapProps) => {
                   >
                     <span>👎 {marker.dislikes || 0}</span>
                   </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      fontSize: "1.2em",
+                      userSelect: "none",
+                    }}
+                  >
+                    <span>💬 {marker.replies?.length || 0}</span>
+                  </div>
                 </div>
               </Popup>
             </Marker>

@@ -1,4 +1,3 @@
-
 export interface Marker {
   id: string;
   title: string;
@@ -6,4 +5,5 @@ export interface Marker {
   location: { lat: number; lng: number };
   likes: number;
   dislikes: number;
+  replies: string[];
 }
