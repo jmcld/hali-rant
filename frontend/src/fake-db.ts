@@ -33,7 +33,7 @@ export const exampleMarkers: Array<Marker> = [
     likes: 0,
     dislikes: 0,
     replies: ["Great for hiking", "Perfect beach access"],
-    category: "pothole"
+    category: "out-of-order",
   },
   {
     id: "3",

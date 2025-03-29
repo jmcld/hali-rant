@@ -9,15 +9,23 @@ import L from "leaflet";
 import { Marker as MarkerType } from "../types";
 import PotholeSVG from "../assets/pin-pothole.svg";
 import RedSVG from "../assets/pin-red.svg";
+import OutOfOrderSVG from "../assets/pin-out-of-order.svg";
+
+const iconSize = [100, 100];
 
 const PotholeIcon = L.icon({
   iconUrl: PotholeSVG,
-  iconSize: [64, 64],
+  iconSize: iconSize as [number, number],
 });
 
 const RedIcon = L.icon({
   iconUrl: RedSVG,
-  iconSize: [64, 64],
+  iconSize: iconSize as [number, number],
+});
+
+const OutOfOrderIcon = L.icon({
+  iconUrl: OutOfOrderSVG,
+  iconSize: iconSize as [number, number],
 });
 
 import "leaflet/dist/leaflet.css";
@@ -61,6 +69,19 @@ const Map = (props: MapProps) => {
     [44.8, -63.3], // Northeast coordinates
   ];
 
+  const getIcon = (category: string) => {
+    switch (category) {
+      case "pothole":
+        return PotholeIcon;
+      case "red":
+        return RedIcon;
+      case "out-of-order":
+        return OutOfOrderIcon;
+      default:
+        return RedIcon;
+    }
+  };
+
   return (
     <div>
       <MapWrapper>
@@ -81,7 +102,7 @@ const Map = (props: MapProps) => {
             <Marker
               key={index}
               position={marker.location}
-              icon={marker.category === "pothole" ? PotholeIcon : RedIcon}
+              icon={getIcon(marker.category)}
             >
               {!props.addRant && (
                 <Popup>
