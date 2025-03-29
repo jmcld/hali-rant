@@ -1,6 +1,6 @@
 import uuid
 from datetime import datetime
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -30,7 +30,7 @@ class ReplyModel(BaseModel):
 
 class RantModel(BaseModel):
     id: uuid.UUID
-    reply: List[ReplyModel]
+    reply: Optional[List[ReplyModel]] = None,
     title: str
     body: str
     categ: str
