@@ -1,1 +1,259 @@
 <p>create-rant-dialog works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Message - Hali Rant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                         Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem 2rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #007bff, #00bcd4);
+            color: white;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .form-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        textarea {
+            min-height: 200px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #007bff, #00bcd4);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .guidelines {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+
+        .guidelines h2 {
+            color: #007bff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .guidelines ul {
+            list-style-position: inside;
+        }
+
+        .guidelines li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .social-links {
+            margin: 1rem 0;
+        }
+
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #007bff;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Hali Rant</a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Submit Your Rant</h1>
+        <p>Share your thoughts and experiences about Halifax with our community</p>
+    </section>
+
+    <main class="main-content">
+        <div class="form-section">
+            <form id="messageForm">
+                <div class="form-group">
+                    <label for="title">Rant Title</label>
+                    <input type="text" id="title" name="title" required 
+                           placeholder="Got a rant about a pothole in Halifax?">
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Message</label>
+                    <textarea id="content" name="content" required 
+                              placeholder="Rant about said pothole."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Rant</button>
+            </form>
+        </div>
+
+        <div class="guidelines">
+            <h2>Submission Guidelines</h2>
+            <ul>
+                <li>Keep your message respectful and constructive</li>
+                <li>Focus on your personal experiences and observations</li>
+                <li>Be specific about locations or events you're discussing</li>
+                <li>Proofread your message before submitting</li>
+                <li>Ensure your content is original and authentic</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Hali Rant. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('messageForm').addEventListener('submit', 
+            function(e) {
+                e.preventDefault();
+                // Here you would typically send the form data to your backend
+                alert('Thank you for your submission! We will review it shortly.');
+                this.reset();
+            });
+    </script>
+</body>
+</html>
