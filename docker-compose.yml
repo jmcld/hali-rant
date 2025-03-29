@@ -10,6 +10,7 @@ services:
     environment:
       - GEL_SERVER_PASSWORD=secret
       - GEL_SERVER_TLS_CERT_MODE=generate_self_signed
+      - GEL_SERVER_SECURITY=insecure_dev_mode
     volumes:
       - db_data:/var/lib/gel/data
     networks:
@@ -25,6 +26,8 @@ services:
       - db
     ports:
       - "8080:8080"
+    environment:
+      - GEL_DSN=gel://admin:secret@halirant_db:5656
     networks:
       - db_net
     restart: unless-stopped
