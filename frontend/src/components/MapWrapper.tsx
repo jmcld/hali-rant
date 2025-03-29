@@ -11,7 +11,7 @@ import PotholeSVG from "../assets/pin-pothole.svg";
 import RedSVG from "../assets/pin-red.svg";
 import OutOfOrderSVG from "../assets/pin-out-of-order.svg";
 
-const iconSize = [100, 100];
+const iconSize = [64, 64];
 
 const PotholeIcon = L.icon({
   iconUrl: PotholeSVG,
