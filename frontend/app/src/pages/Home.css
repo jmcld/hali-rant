@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(0, 128, 255);
+  font-size: 350%;
+}
+
+.Header h1 {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(78, 78, 236);
+}
