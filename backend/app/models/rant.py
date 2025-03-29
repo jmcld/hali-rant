@@ -1,0 +1,4 @@
+
+
+class Rant():
+    pass
