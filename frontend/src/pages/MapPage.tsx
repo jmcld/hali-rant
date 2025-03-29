@@ -11,7 +11,7 @@ const MapPage = () => {
   const [showMessageSubmit, setShowMessageSubmit] = useState(false);
   const [addRant, setAddRant] = useState(false);
   const [showRepliesModal, setShowRepliesModal] = useState(false);
-  const [selectedMarker, setSelectedMarker] = useState<Marker | null>(null);
+  const [selectedMarkerID, setSelectedMarkerID] = useState<string | null>(null);
   const [exampleMarkers, setExampleMarkers] =
     useState<Array<Marker>>(initialMarkers);
 
@@ -41,8 +41,16 @@ const MapPage = () => {
   };
 
   const handleShowReplies = (marker: Marker) => {
-    setSelectedMarker(marker);
+    setSelectedMarkerID(marker.id);
     setShowRepliesModal(true);
+  };
+
+  const handleAddReply = (markerId: string, reply: string) => {
+    setExampleMarkers((prevMarkers: Array<Marker>) =>
+      prevMarkers.map((m) =>
+        m.id === markerId ? { ...m, replies: [...(m.replies || []), reply] } : m
+      )
+    );
   };
 
   return (
@@ -67,9 +75,11 @@ const MapPage = () => {
         isOpen={showRepliesModal}
         onClose={() => {
           setShowRepliesModal(false);
-          setSelectedMarker(null);
+          setSelectedMarkerID(null);
         }}
-        marker={selectedMarker}
+        selectedMarkerID={selectedMarkerID}
+        markers={exampleMarkers}
+        onAddReply={handleAddReply}
       />
       <AddButton isActive={addRant} onClick={() => setAddRant(!addRant)} />
     </div>
