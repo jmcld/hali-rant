@@ -2,24 +2,25 @@
 import uuid
 from datetime import datetime
 import gel
-from shapely import Point, Polygon
+from shapely import Point, Polygon, box
 
 
-def select_rants_by_aoi(
+def select_rants_by_bbox(
     executor: gel.Executor,
-    aoi: Polygon,
+    bbox: list[float, float, float, float],
 ):
+
     return executor.query(
         """
-        select Rant {*} 
+        select Rant {**} 
         filter {
             ext::postgis::op_contains_2d(
-                <ext::postgis::box2d>$aoi,
+                <ext::postgis::box2d>$bbox,
                 .geom
             )
         }
         """,
-        aoi=aoi,
+        bbox=box(*bbox),
     )
 
 

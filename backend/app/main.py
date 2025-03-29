@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .models import models
 from .db.query import (
     insert_rant,
-    select_rants_by_aoi,
+    select_rants_by_bbox,
     select_rant_by_id
 )
 
@@ -14,7 +14,8 @@ from .db.query import (
 
 from datetime import datetime, timezone
 import uuid
-from shapely import Point, from_wkb
+from shapely import Point, from_wkb, box
+from shapely.geometry import shape
 import gel
 
 app = FastAPI()
@@ -39,8 +40,16 @@ app.add_middleware(
 def read_root():
     return {"Hello": "World"}
 
-@app.get("/rants")
-def read_rants():
+@app.get("/rants/")
+def read_rants(
+        xmin: float,
+        ymin: float,
+        xmax: float,
+        ymax: float,
+    ):
+
+    bbox = [xmin, ymin, xmax, ymax]
+    select_rants_by_bbox(client, bbox)
     rants = [models.generate_mock_rant(), models.generate_mock_rant()]
     return rants
 
