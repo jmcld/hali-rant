@@ -22,6 +22,13 @@ Collect Buildathon 1
 1. `cd backend/app`
 2. `uv run fastapi dev main.py`
 
+### Running database
+
+1. `uv run gel project init`
+2. `uv run gel extension install postgis`
+3. `uv run gel instance restart`
+4. `uv run gel migrate`
+
 
 ### Running full app:
 
