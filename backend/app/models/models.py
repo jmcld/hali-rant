@@ -30,7 +30,7 @@ class ReplyModel(BaseModel):
 
 class RantModel(BaseModel):
     id: uuid.UUID
-    reply: Optional[List[ReplyModel]] = None,
+    replies: Optional[List[ReplyModel]] = None
     title: str
     body: str
     categ: str
@@ -63,7 +63,7 @@ def generate_mock_rant():
         title="Potholes",
         body="This pothole destroyed my car",
         categ="😭",
-        reply=[reply0, reply1],
+        replies=[reply0, reply1],
         location=halifax,
         votes=empty_vote,
         time=now

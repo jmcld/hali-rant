@@ -29,13 +29,15 @@ services:
       - db_net
     restart: unless-stopped
     
-  # TODO: Flesh this out once it exists
-  # frontend:
-  #   build:
-  #     context: ./frontend
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "something:somethingElse"
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+    networks: # TODO: Rm if needed
+      - db_net
+    restart: unless-stopped
 
 
   

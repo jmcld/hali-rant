@@ -1,6 +1,8 @@
 from typing import Union
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from .models import models
 from .db.query import (
     insert_rant,
@@ -20,6 +22,20 @@ app = FastAPI()
 # TODO figure out client pooling
 # TODO Async client
 client = gel.create_client()
+
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:8000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def read_root():
@@ -77,6 +93,18 @@ def create_item(item: models.ReplyModel):
     return item
 
 @app.get("/replies/{reply_id}")
-def read_item(reply_id: int, q: Union[str, None] = None):
+def read_item(reply_id: uuid.UUID, q: Union[str, None] = None):
     reply = models.generate_mock_reply()
+    return reply
+
+@app.post("/replies/{reply_id}/like")
+def like_item(reply_id: uuid.UUID):
+    reply = models.generate_mock_reply()
+    reply.votes.nLike += 1
+    return reply
+
+@app.post("/replies/{reply_id}/dislike")
+def dislike_item(reply_id: uuid.UUID):
+    reply = models.generate_mock_reply()
+    reply.votes.nDislike += 1
     return reply

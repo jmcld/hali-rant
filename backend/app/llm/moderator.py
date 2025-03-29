@@ -19,11 +19,12 @@ client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 
 class ContentModerator:
-    def __init__(self):
+    def __init__(self, model: str = "omni-moderation-latest"):
         # Initialize any moderation-specific settings or models here
-        pass
+        self.model = model
 
-    def load_rant(self, rant_data: Dict) -> RantModel:
+    @staticmethod
+    def load_rant(rant_data: Dict) -> RantModel:
         """Convert raw rant data into a RantModel instance."""
         
         # Handle location data
@@ -49,8 +50,9 @@ class ContentModerator:
             time=time,
             **kwargs
         )
-    
-    def load_reply(self, reply_data: Dict) -> RantModel:
+
+    @staticmethod
+    def load_reply(reply_data: Dict) -> RantModel:
         kwargs = {k: v for k, v in reply_data.items() if k not in {"votes", "time"}}
         return ReplyModel(
             votes=VotableModel(**reply_data["votes"]),
@@ -69,11 +71,11 @@ class ContentModerator:
         rant = self.load_rant(rant_data)
         # moderate title
         title_moderation = client.moderations.create(
-            model="omni-moderation-latest",
+            model=self.model,
             input=rant.title,
         )
         body_moderation = client.moderations.create(
-            model="omni-moderation-latest",
+            model=self.model,
             input=rant.body,
         )
 
@@ -87,10 +89,11 @@ class ContentModerator:
         # load reply 
         reply = self.load_reply(reply_data)
         moderation = client.moderations.create(
-            model="omni-moderation-latest",
+            model=self.model,
             input=reply.msg,
         )
         return moderation.results[0].flagged
+
 
 # Example usage
 if __name__ == "__main__":
