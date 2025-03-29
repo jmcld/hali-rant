@@ -3,18 +3,21 @@ version: '3'
 services:
 
   db:
+    hostname: halirant_db
     image: geldata/gel:latest
     ports:
       - "5656:5656"
     environment:
       - GEL_SERVER_PASSWORD=secret
       - GEL_SERVER_TLS_CERT_MODE=generate_self_signed
-    # FIXME: Enable this later
-    # volumes:
-    #   - /my/data/directory:/var/lib/gel/data
+    volumes:
+      - db_data:/var/lib/gel/data
+    networks:
+      - db_net
     restart: unless-stopped
   
   backend:
+    hostname: halirant_back
     build:
       context: ./backend
       dockerfile: Dockerfile
@@ -22,6 +25,8 @@ services:
       - db
     ports:
       - "8080:8080"
+    networks:
+      - db_net
     restart: unless-stopped
     
   # TODO: Flesh this out once it exists
@@ -34,6 +39,9 @@ services:
 
 
   
-# FIXME: Enable this later
-# volumes:
-#   db_data:
+volumes:
+  db_data:
+
+networks:
+  db_net:
+    driver: bridge
