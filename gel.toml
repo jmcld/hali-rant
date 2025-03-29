@@ -1,0 +1,6 @@
+[instance]
+server-version = "6.0"
+
+[project]
+schema-dir = "backend/db/schema"
+
