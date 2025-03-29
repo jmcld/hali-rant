@@ -3,7 +3,7 @@ import { SharedModule } from '../../../shared/shared.module';
 
 @Component({
   selector: 'app-navbar',
-  imports: [SharedModule],
+  standalone: false,
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
