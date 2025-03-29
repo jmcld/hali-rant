@@ -5,7 +5,13 @@ import sys
 import os
 
 # Add the parent directory to the Python path
-from backend.app.models.models import RantModel, LocationModel, ReplyModel, VotableModel, TimeModel
+from backend.app.models.models import (
+    RantModel,
+    LocationModel,
+    ReplyModel,
+    VotableModel,
+    TimeModel,
+)
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -14,7 +20,7 @@ from openai import OpenAI
 load_dotenv()
 
 # Initialize OpenAI client with API key from environment variable
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 class ContentModerator:
@@ -25,42 +31,31 @@ class ContentModerator:
     @staticmethod
     def load_rant(rant_data: Dict) -> RantModel:
         """Convert raw rant data into a RantModel instance."""
-        
+
         # Handle location data
-        location = LocationModel(
-            **rant_data["location"]
-        )
-       
+        location = LocationModel(**rant_data["location"])
+
         # Handle votes data
-        votes = VotableModel(
-            **rant_data["votes"]
-        )
+        votes = VotableModel(**rant_data["votes"])
 
         # Handle time data
-        time = TimeModel(
-            **rant_data["time"]
-        )
+        time = TimeModel(**rant_data["time"])
 
         # Create RantModel instance
-        kwargs = {k: v for k, v in rant_data.items() if k not in {"location", "votes", "time"}}
-        return RantModel(
-            location=location,
-            votes=votes,
-            time=time,
-            **kwargs
-        )
+        kwargs = {
+            k: v for k, v in rant_data.items() if k not in {"location", "votes", "time"}
+        }
+        return RantModel(location=location, votes=votes, time=time, **kwargs)
 
     @staticmethod
     def load_reply(reply_data: Dict) -> RantModel:
         kwargs = {k: v for k, v in reply_data.items() if k not in {"votes", "time"}}
         return ReplyModel(
             votes=VotableModel(**reply_data["votes"]),
-            time=TimeModel(
-                **reply_data["time"]
-            ),
-            **kwargs
+            time=TimeModel(**reply_data["time"]),
+            **kwargs,
         )
-        
+
     def moderate_rant(self, rant: RantModel) -> RantModel:
         """
         Check if a rant is safe and appropriate.
@@ -77,16 +72,13 @@ class ContentModerator:
             input=rant.body,
         )
 
-        # update rant, if either offensive title or body, flag! 
-        print("flagged:", rant.flagged_offensive)
-        print("visible:", rant.visible)
-        is_flagged = body_moderation.results[0].flagged or title_moderation.results[0].flagged
+        # update rant, if either offensive title or body, flag!
+        is_flagged = (
+            body_moderation.results[0].flagged or title_moderation.results[0].flagged
+        )
         rant.flagged_offensive = is_flagged
         if is_flagged:
             rant.visible = False
-        print("flagged:", rant.flagged_offensive)
-        print("visible:", rant.visible)
-        import pdb;pdb.set_trace()
         return rant
 
     def moderate_reply(self, reply: ReplyModel) -> bool:
@@ -109,58 +101,45 @@ if __name__ == "__main__":
 
     # Example rant data using complete mock.json structure
     mock_data = {
-        "id": "e95616cf-fb01-46a5-8cf9-3643b58d9d1f",
-        "visible": True,
-        "flagged_offensive": False,
+        "id": "c2be3b8e-3147-4ca4-af15-b2c4125e708d",
         "reply": [
             {
-                "id": "2a88427c-f0e1-4b66-99fa-267745574f96",
-                "rantId": "5cf75dfb-b18d-46eb-8083-05166df75451",
-                "msg": "It is a bad pot hole!",
+                "id": "8f4d0ac7-94a3-4f06-bb66-d954c979e8a5",
+                "rantId": "c2be3b8e-3147-4ca4-af15-b2c4125e708d",
+                "msg": "I agree! The roads are terrible. Let's hope they fix them soon. #FrustratedDrivers",
+                "votes": {"nLike": 0, "nDislike": 0},
+                "time": {
+                    "created_at": "2025-03-29T16:02:00.315937",
+                    "updated_at": "2025-03-29T16:02:00.315937",
+                },
                 "visible": True,
                 "flagged_offensive": False,
-                "votes": {
-                    "nLike": 0,
-                    "nDislike": 0
-                },
-                "time": {
-                    "created_at": "2025-03-29T12:06:04.844408",
-                    "updated_at": "2025-03-29T12:06:04.844415"
-                }
             },
             {
-                "id": "310acf65-d646-49a2-9cdf-b47e8ed0c75b",
-                "rantId": "7f0d0cfa-0922-4cb6-bb83-5c517d3fb849",
-                "msg": "You should watch the road when you drive",
+                "id": "dadab7d2-f4e1-4e0f-9c50-7c8104a7f417",
+                "rantId": "c2be3b8e-3147-4ca4-af15-b2c4125e708d",
+                "msg": "I agree! Potholes are such a nuisance. Let's hold officials accountable for better roads.",
+                "votes": {"nLike": 0, "nDislike": 0},
+                "time": {
+                    "created_at": "2025-03-29T16:02:00.853818",
+                    "updated_at": "2025-03-29T16:02:00.853818",
+                },
                 "visible": True,
                 "flagged_offensive": False,
-                "votes": {
-                    "nLike": 0,
-                    "nDislike": 0
-                },
-                "time": {
-                    "created_at": "2025-03-29T12:06:04.844408",
-                    "updated_at": "2025-03-29T12:06:04.844415"
-                }
-            }
+            },
         ],
-        "title": "Potholes",
-        "body": "This pothole destroyed my car",
-        "categ": "😭",
-        "votes": {
-            "nLike": 0,
-            "nDislike": 0
-        },
-        "location": {
-            "lat": 44.0,
-            "lon": -63.0
-        },
+        "title": '"Potholes Everywhere: Fix the Roads Now!"',
+        "body": "Sick of dodging potholes every day! Fix the roads already - tired of wasting money on constant car repairs! #InfrastructureFail.",
+        "visible": True,
+        "flagged_offensive": False,
+        "categ": "\ud83d\ude2d",
+        "votes": {"nLike": 0, "nDislike": 0},
+        "location": {"lat": 44.66283067128525, "lon": -63.56144854342206},
         "time": {
-            "created_at": "2025-03-29T12:06:04.844408",
-            "updated_at": "2025-03-29T12:06:04.844415"
-        }
+            "created_at": "2025-03-29T16:02:00.853818",
+            "updated_at": "2025-03-29T16:02:00.853818",
+        },
     }
-
     # Process rant
     rant = moderator.load_rant(mock_data)
     rant_is_flagged = moderator.moderate_rant(rant)
