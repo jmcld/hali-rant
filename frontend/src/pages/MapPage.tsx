@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Map from "../components/MapWrapper";
 import MessageSubmit from "../components/MessageSubmit";
 import AddButton from "../components/AddButton";
+import RepliesModal from "../components/RepliesModal";
 import { Marker } from "../types";
 import { exampleMarkers as initialMarkers } from "../fake-db";
 
@@ -9,6 +10,8 @@ const MapPage = () => {
   const [selectedLocation, setSelectedLocation] = useState<any | null>(null);
   const [showMessageSubmit, setShowMessageSubmit] = useState(false);
   const [addRant, setAddRant] = useState(false);
+  const [showRepliesModal, setShowRepliesModal] = useState(false);
+  const [selectedMarker, setSelectedMarker] = useState<Marker | null>(null);
   const [exampleMarkers, setExampleMarkers] =
     useState<Array<Marker>>(initialMarkers);
 
@@ -37,12 +40,18 @@ const MapPage = () => {
     );
   };
 
+  const handleShowReplies = (marker: Marker) => {
+    setSelectedMarker(marker);
+    setShowRepliesModal(true);
+  };
+
   return (
     <div>
       <Map
         ClickHandler={handleMapClick}
         LikeHandler={handleLike}
         DislikeHandler={handleDislike}
+        ShowRepliesHandler={handleShowReplies}
         markers={exampleMarkers}
         addRant={addRant}
       />
@@ -53,6 +62,14 @@ const MapPage = () => {
           setAddRant(false);
         }}
         location={selectedLocation}
+      />
+      <RepliesModal
+        isOpen={showRepliesModal}
+        onClose={() => {
+          setShowRepliesModal(false);
+          setSelectedMarker(null);
+        }}
+        marker={selectedMarker}
       />
       <AddButton isActive={addRant} onClick={() => setAddRant(!addRant)} />
     </div>

@@ -36,6 +36,7 @@ interface MapProps {
   ClickHandler: (latlng: any) => void;
   LikeHandler: (marker: MarkerType) => void;
   DislikeHandler: (marker: MarkerType) => void;
+  ShowRepliesHandler: (marker: MarkerType) => void;
   markers?: Array<MarkerType>;
   addRant: boolean;
 }
@@ -119,7 +120,9 @@ const Map = (props: MapProps) => {
                         alignItems: "center",
                         fontSize: "1.2em",
                         userSelect: "none",
+                        cursor: "pointer",
                       }}
+                      onClick={() => props.ShowRepliesHandler(marker)}
                     >
                       <span>💬 {marker.replies?.length || 0}</span>
                     </div>
