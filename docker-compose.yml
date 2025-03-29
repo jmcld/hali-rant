@@ -34,7 +34,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "8000:80"
+      - "8420:80"
     networks: # TODO: Rm if needed
       - db_net
     restart: unless-stopped
