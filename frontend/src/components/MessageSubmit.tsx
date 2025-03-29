@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./MessageSubmit.css";
 import { url } from "../config";
 import Modal from "./Modal";
+import { Marker } from "../types";
 
 interface MessageFormData {
   title: string;
@@ -13,12 +14,19 @@ interface MessageSubmitProps {
   isOpen: boolean;
   onClose: () => void;
   location?: { lat: number; lng: number };
+  addMarker: (marker: {
+    title: string;
+    body: string;
+    location: { lat: number; lng: number };
+    category: string;
+  }) => void;
 }
 
 const MessageSubmit: React.FC<MessageSubmitProps> = ({
   isOpen,
   onClose,
   location,
+  addMarker,
 }) => {
   const [formData, setFormData] = useState<MessageFormData>({
     title: "",
@@ -34,29 +42,42 @@ const MessageSubmit: React.FC<MessageSubmitProps> = ({
         return;
       }
 
-      const response = await fetch(`${url}/rants/`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const body = {
+        title: formData.title,
+        body: formData.content,
+        location: {
+          lat: location.lat,
+          lng: location.lng,
         },
-        body: JSON.stringify({
-          title: formData.title,
-          body: formData.content,
-          location: {
-            lat: location.lat,
-            lon: location.lng,
-          },
-          categ: formData.category,
-        }),
-      });
+        category: formData.category,
+      };
 
-      if (!response.ok) {
-        throw new Error("Failed to submit rant");
-      }
+      //   const response = await fetch(`${url}/rants/`, {
+      //     method: "POST",
+      //     headers: {
+      //       "Content-Type": "application/json",
+      //     },
+      //     body: JSON.stringify({
+      //       title: formData.title,
+      //       body: formData.content,
+      //       location: {
+      //         lat: location.lat,
+      //         lon: location.lng,
+      //       },
+      //       categ: formData.category,
+      //     }),
+      //   });
 
-      const result = await response.json();
-      console.log("Rant submitted successfully:", result);
-      alert("Thank you for your submission! We will review it shortly.");
+      //   if (!response.ok) {
+      //     throw new Error("Failed to submit rant");
+      //   }
+
+      //   const result = await response.json();
+      //   console.log("Rant submitted successfully:", result);
+      //   alert("Thank you for your submission! We will review it shortly.");
+
+      addMarker(body);
+
       setFormData({ title: "", content: "", category: "pothole" });
       onClose();
     } catch (error) {

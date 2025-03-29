@@ -53,6 +53,26 @@ const MapPage = () => {
     );
   };
 
+  const handleAddMarker = (marker: {
+    title: string;
+    body: string;
+    location: { lat: number; lng: number };
+    category: string;
+  }) => {
+    const newMarker: Marker = {
+      ...marker,
+      id: Math.random().toString(),
+      likes: 0,
+      dislikes: 0,
+      replies: [],
+    };
+
+    setExampleMarkers((prevMarkers: Array<Marker>) => [
+      ...prevMarkers,
+      newMarker,
+    ]);
+  };
+
   return (
     <div>
       <Map
@@ -70,6 +90,7 @@ const MapPage = () => {
           setAddRant(false);
         }}
         location={selectedLocation}
+        addMarker={handleAddMarker}
       />
       <RepliesModal
         isOpen={showRepliesModal}
