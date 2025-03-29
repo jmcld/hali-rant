@@ -23,3 +23,12 @@ def create_item(item: models.RantModel):
 def read_item(rant_id: int, q: Union[str, None] = None):
     rant = models.generate_mock_rant()
     return rant
+
+@app.post("/replies/")
+def create_item(item: models.ReplyModel):
+    return item
+
+@app.get("/replies/{reply_id}")
+def read_item(reply_id: int, q: Union[str, None] = None):
+    reply = models.generate_mock_reply()
+    return reply
