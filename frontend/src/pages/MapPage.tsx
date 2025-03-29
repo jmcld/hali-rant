@@ -44,7 +44,7 @@ const MapPage = () => {
         marker[0],
         marker[1]
       );
-      return distance < 0.1; // 100 meters threshold
+      return distance < 0.04; // 100 meters threshold
     });
 
     if (isNearMarker) {
