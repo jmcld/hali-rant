@@ -1,18 +1,46 @@
 {
-  "id": "1d09aa81-40a1-4de0-a925-cd5f20a9e9e8",
+  "id": "e95616cf-fb01-46a5-8cf9-3643b58d9d1f",
   "reply": [
     {
-      "id": "b185728e-dc19-454b-a375-4d0408146c26",
-      "rantId": "a6f34810-e091-48cf-837a-56de232f6d1d",
-      "msg": "I know mine too!"
+      "id": "2a88427c-f0e1-4b66-99fa-267745574f96",
+      "rantId": "5cf75dfb-b18d-46eb-8083-05166df75451",
+      "msg": "I know mine too!",
+      "votes": {
+        "nLike": 0,
+        "nDislike": 0
+      },
+      "time": {
+        "created_at": "2025-03-29T12:06:04.844408",
+        "updated_at": "2025-03-29T12:06:04.844415"
+      }
     },
     {
-      "id": "6b61c64f-087c-4b81-9b6f-ba5846c0ce64",
-      "rantId": "97678fec-90dd-4ded-9e15-04747414fd92",
-      "msg": "You should watch the road when you drive."
+      "id": "310acf65-d646-49a2-9cdf-b47e8ed0c75b",
+      "rantId": "7f0d0cfa-0922-4cb6-bb83-5c517d3fb849",
+      "msg": "You should watch the road when you drive.",
+      "votes": {
+        "nLike": 0,
+        "nDislike": 0
+      },
+      "time": {
+        "created_at": "2025-03-29T12:06:04.844408",
+        "updated_at": "2025-03-29T12:06:04.844415"
+      }
     }
   ],
   "title": "Potholes",
   "body": "This pothole destroyed my car",
-  "categ": "😭"
+  "categ": "😭",
+  "votes": {
+    "nLike": 0,
+    "nDislike": 0
+  },
+  "location": {
+    "lat": 44.0,
+    "lon": -63.0
+  },
+  "time": {
+    "created_at": "2025-03-29T12:06:04.844408",
+    "updated_at": "2025-03-29T12:06:04.844415"
+  }
 }
