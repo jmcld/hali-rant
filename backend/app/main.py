@@ -7,7 +7,8 @@ from .models import models
 from .db.query import (
     insert_rant,
     select_rants_by_bbox,
-    select_rant_by_id
+    select_rant_by_id,
+    insert_reply,
 )
 
 #from .llm import
@@ -41,7 +42,7 @@ def read_root():
     return {"Hello": "World"}
 
 @app.get("/rants/")
-def read_rants(
+def get_rants_by_bbox(
         xmin: float,
         ymin: float,
         xmax: float,
@@ -54,7 +55,7 @@ def read_rants(
     return rants
 
 @app.post("/rants/")
-def create_item(item: models.RantModel):
+def create_rant(item: models.RantModel):
 
     response = insert_rant(
         client,
@@ -68,7 +69,7 @@ def create_item(item: models.RantModel):
     return {"id": response.id}
 
 @app.get("/rants/{rant_id}")
-def read_item(rant_id: uuid.UUID):
+def get_rant_by_id(rant_id: uuid.UUID):
 
     db_obj = select_rant_by_id(client, rant_id)
     now = models.TimeModel(
@@ -96,8 +97,15 @@ def read_item(rant_id: uuid.UUID):
     return response
 
 @app.post("/replies/")
-def create_item(item: models.ReplyModel):
-    return item
+def create_reply(reply: models.ReplyModel):
+    response = insert_reply(
+        client,
+        body=reply.body,
+        parent_reply_id=reply.parent_reply_id,
+        parent_rant_id=reply.parent_rant_id,
+        created_at=datetime.now(timezone.utc),
+    )
+    return {"id": response.id}
 
 @app.get("/replies/{reply_id}")
 def read_item(reply_id: uuid.UUID, q: Union[str, None] = None):

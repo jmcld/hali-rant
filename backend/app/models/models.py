@@ -21,11 +21,12 @@ class VotableModel(BaseModel):
 
 
 class ReplyModel(BaseModel):
-    id: uuid.UUID
-    rantId: uuid.UUID
-    msg: str
-    votes: VotableModel
-    time: TimeModel
+    id: Optional[uuid.UUID] = None
+    parent_rant_id: uuid.UUID
+    parent_reply_id: Optional[uuid.UUID] = None
+    body: str
+    votes: Optional[VotableModel] = None
+    time: Optional[TimeModel] = None
 
 
 class RantModel(BaseModel):

@@ -32,7 +32,7 @@ module default {
     type Reply extending Votable, Moderatable {
         required link parent_rant: Rant;
         link parent_reply: Reply;
-        required property title: str;
         required property body: str;
+        required property created_at: datetime;
     }
 }
