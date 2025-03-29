@@ -29,7 +29,7 @@ def select_rant_by_id(
 ):
     return executor.query_single(
         """
-        select Rant {*} 
+        select Rant {**} 
         filter .id = <uuid>$id
         """,
         id=id,
@@ -41,7 +41,7 @@ def select_replies_by_rand_it(
     ):
     return executor.query(
         """
-        select Rant {*} 
+        select Rant {**} 
         filter .id = <uuid>$id
         """,
         id=id,

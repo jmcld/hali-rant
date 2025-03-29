@@ -26,6 +26,7 @@ module default {
         required property body: str;
         required property geom: ext::postgis::geometry;
         required property category: str;
+        replies := .<parent_rant[is Reply]
     }
 
     type Reply extending Votable, Moderatable {

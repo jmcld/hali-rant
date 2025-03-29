@@ -76,7 +76,6 @@ def read_item(rant_id: uuid.UUID):
 
     points = from_wkb(db_obj.geom)
     location = models.LocationModel(lon=points[0].x, lat=points[0].y)
-
     response = models.RantModel(
         id=db_obj.id,
         title=db_obj.title,
@@ -84,7 +83,8 @@ def read_item(rant_id: uuid.UUID):
         categ=db_obj.category,
         location=location,
         votes=votes,
-        time=now
+        time=now,
+        replies=db_obj.replies,
     )
     return response
 
