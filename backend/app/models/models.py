@@ -50,21 +50,8 @@ def generate_mock_rant():
         nDislike=0
     )
 
-    reply0 = ReplyModel(
-        id=uuid.uuid4(),
-        rantId=uuid.uuid4(),
-        msg="I know mine too!",
-        votes=empty_vote,
-        time=now
-    )
-
-    reply1 = ReplyModel(
-        id=uuid.uuid4(),
-        rantId=uuid.uuid4(),
-        msg="You should watch the road when you drive.",
-        votes=empty_vote,
-        time=now
-    )
+    reply0 = generate_mock_reply("I know mine too!")
+    reply1 = generate_mock_reply("You should watch the road when you drive.")
 
     halifax = LocationModel(
         lat=44,
@@ -83,6 +70,27 @@ def generate_mock_rant():
     )
 
     return rant
+
+def generate_mock_reply(msg="Hello world!"):
+    now = TimeModel(
+        created_at=datetime.now(),
+        updated_at=datetime.now(),
+    )
+
+    empty_vote = VotableModel(
+        nLike=0,
+        nDislike=0
+    )
+
+    reply = ReplyModel(
+        id=uuid.uuid4(),
+        rantId=uuid.uuid4(),
+        msg=msg,
+        votes=empty_vote,
+        time=now
+    )
+
+    return reply
 
 if __name__ == "__main__":
     rant = generate_mock_rant()
