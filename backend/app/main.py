@@ -1,35 +1,22 @@
-from typing import Union
+import uuid
 
+import gel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .models import models
-from .db.query import (
-    insert_rant,
-    select_rants_by_bbox,
-    select_rant_by_id,
-    insert_reply,
-    select_replies_by_rant_id,
-)
+from .models.models import BoundingBoxModel, RantModel, ReplyModel
 
-from .llm.moderator import ContentModerator
+# from .llm.moderator import ContentModerator
 
-from datetime import datetime, timezone
-import uuid
-from shapely import Point, from_wkb, box
-from shapely.geometry import shape
-import gel
 
 app = FastAPI()
-moderator = ContentModerator()
+# moderator = ContentModerator()
 
 # TODO figure out client pooling
 # TODO Async client
 client = gel.create_client()
 
-origins = [
-    "*"
-]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
@@ -39,125 +26,61 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
 
+
 @app.get("/rants/")
 def get_rants_by_bbox(
-        xmin: float,
-        ymin: float,
-        xmax: float,
-        ymax: float,
-    ):
+    xmin: float,
+    ymin: float,
+    xmax: float,
+    ymax: float,
+) -> list[RantModel]:
+    bbox = BoundingBoxModel(xmin=xmin, ymin=ymin, xmax=xmax, ymax=ymax)
+    rants = RantModel.select_rants_by_bbox(client, bbox)
 
-    bbox = [xmin, ymin, xmax, ymax]
-    select_rants_by_bbox(client, bbox)
-    rants = [models.generate_mock_rant(), models.generate_mock_rant()]
     return rants
 
-@app.post("/rants/")
-def create_rant(item: models.RantModel):
-    # TODO: optimize OpenAI call here so we arent holding threads
-    item = moderator.moderate_rant(item)
-    response = insert_rant(
-        client,
-        title=item.title,
-        body=item.body,
-        geom=Point(item.location.lon, item.location.lat),  # Lon/lat ordering,
-        category=item.categ,
-        created_at=datetime.now(timezone.utc),
-        visible=item.visible,
-        flagged_offensive=item.flagged_offensive
-    )
 
+@app.post("/rants/")
+def insert_rant(rant: RantModel):
+    # TODO: optimize OpenAI call here so we arent holding threads
+    # item = moderator.moderate_rant(item)
+    response = rant.insert_rant(client)
     return {"id": response.id}
+
 
 @app.get("/rants/{rant_id}")
-def get_rant_by_id(rant_id: uuid.UUID):
+def select_rant_by_id(rant_id: uuid.UUID):
+    return RantModel.select_rant_by_id(client, rant_id)
 
-    db_obj = select_rant_by_id(client, rant_id)
-    times = models.TimeModel(
-        created_at=db_obj.created_at,
-        updated_at=db_obj.updated_at,
-    )
-
-    votes = models.VotableModel(
-        nLike=db_obj.num_downvote,
-        nDislike=db_obj.num_upvote,
-    )
-
-    points = from_wkb(db_obj.geom)
-    location = models.LocationModel(lon=points[0].x, lat=points[0].y)
-    response = models.RantModel(
-        id=db_obj.id,
-        title=db_obj.title,
-        body=db_obj.body,
-        categ=db_obj.category,
-        location=location,
-        votes=votes,
-        time=times,
-        replies=db_obj.replies,
-    )
-    return response
 
 @app.post("/replies/")
-def create_reply(reply: models.ReplyModel):
+def create_reply(reply: ReplyModel):
     # TODO: optimize OpenAI call here so we arent holding threads
-    reply = moderator.moderate_rant(reply)
-    response = insert_reply(
-        client,
-        body=reply.body,
-        parent_reply_id=reply.parent_reply_id,
-        parent_rant_id=reply.parent_rant_id,
-        created_at=datetime.now(timezone.utc),
-        visible=reply.visible,
-        flagged_offensive=reply.flagged_offensive
-    )
+    # reply = moderator.moderate_rant(reply)
+    response = reply.insert_reply(client)
     return {"id": response.id}
 
+
 @app.get("/replies/{rant_id}")
-def get_reply_by_rant_id(rant_id: uuid.UUID):
-
-    db_objs = select_replies_by_rant_id(client, rant_id)
-    replies = []
-    for db_obj in db_objs:
-        times = models.TimeModel(
-            created_at=db_obj.created_at,
-            # TODO
-            updated_at=db_obj.created_at,
-        )
-        votes = models.VotableModel(
-            nLike=db_obj.num_downvote,
-            nDislike=db_obj.num_upvote,
-        )
-        if db_obj.parent_reply is not None:
-            parent_reply_id = db_obj.parent_reply.id
-        else:
-            parent_reply_id = None
-
-        reply = models.ReplyModel(
-            id=db_obj.id,
-            parent_rant_id=rant_id,
-            body=db_obj.body,
-            votes=votes,
-            time=times,
-            parent_reply_id=parent_reply_id
-        )
-
-        replies.append(reply)
-
-    return replies
+def get_replies_by_rant_id(rant_id: uuid.UUID):
+    return ReplyModel.select_replies_by_rant_id(client, rant_id)
 
 
-@app.post("/replies/{reply_id}/like")
-def like_item(reply_id: uuid.UUID):
-    reply = models.generate_mock_reply()
-    reply.votes.nLike += 1
-    return reply
-
-@app.post("/replies/{reply_id}/dislike")
-def dislike_item(reply_id: uuid.UUID):
-    reply = models.generate_mock_reply()
-    reply.votes.nDislike += 1
-    return reply
+#
+# @app.post("/replies/{rant_id}/like")
+# def like_item(reply_id: uuid.UUID):
+#     reply = generate_mock_reply()
+#     reply.votes.num_likes += 1
+#     return reply
+#
+#
+# @app.post("/replies/{reply_id}/dislike")
+# def dislike_item(reply_id: uuid.UUID):
+#     reply = generate_mock_reply()
+#     reply.votes.num_dislike += 1
+#     return reply

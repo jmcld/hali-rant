@@ -7,10 +7,10 @@ import os
 # Add the parent directory to the Python path
 from ..models.models import (
     RantModel,
-    LocationModel,
+    PointMixin,
     ReplyModel,
-    VotableModel,
-    TimeModel,
+    VotableMixin,
+    TimestampMixin
 )
 
 from dotenv import load_dotenv
@@ -33,7 +33,7 @@ class ContentModerator:
         """Convert raw rant data into a RantModel instance."""
 
         # Handle location data
-        location = LocationModel(**rant_data["location"])
+        location = PointMixin(**rant_data["location"])
 
         # Handle votes data
         votes = VotableModel(**rant_data["votes"])
